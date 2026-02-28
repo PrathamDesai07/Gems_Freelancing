@@ -1,0 +1,463 @@
+{
+  "sensitivity_analysis_info": {
+    "description": "Phase 5 sensitivity analysis: parameter impact on model predictions",
+    "analysis_date": "2026-02-28",
+    "total_parameters_analyzed": 10,
+    "baseline_source": "outputs/baseline_28d.json"
+  },
+  "parameter_definitions": {
+    "cement_hydration_degree": {
+      "description": "Degree of cement hydration at 28 days",
+      "baseline": 0.78,
+      "range": [
+        0.7,
+        0.75,
+        0.78,
+        0.82,
+        0.85
+      ],
+      "units": "fraction",
+      "source": "Lothenbach et al. (2011), typical range for w/b=0.3",
+      "impact": "Affects portlandite content, unhydrated clinker, C-S-H amount",
+      "critical": true
+    },
+    "FA_reaction_degree": {
+      "description": "Fly ash pozzolanic reaction degree at 28 days",
+      "baseline": 0.2,
+      "range": [
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3
+      ],
+      "units": "fraction",
+      "source": "Snellings et al. (2012), Class F fly ash at 28d",
+      "impact": "Affects C-S-H amount and Ca/Si ratio, unreacted FA glass",
+      "critical": true
+    },
+    "CSH_Ca_Si_ratio": {
+      "description": "C-S-H gel Ca/Si molar ratio",
+      "baseline": 1.65,
+      "range": [
+        1.5,
+        1.6,
+        1.65,
+        1.7,
+        1.8
+      ],
+      "units": "molar ratio",
+      "source": "Richardson (2008), CSHQ model outputs",
+      "impact": "Controls portlandite precipitation, pore solution Ca",
+      "critical": true
+    },
+    "portlandite_dissolution_rate": {
+      "description": "Portlandite dissolution rate during leaching",
+      "baseline": 0.08,
+      "range": [
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "units": "mol/step (Pure water immersion)",
+      "source": "Jacques et al. (2010), diffusion-controlled",
+      "impact": "Controls Stage 2 degradation duration",
+      "critical": true
+    },
+    "CSH_decalcification_rate": {
+      "description": "C-S-H decalcification rate during leaching",
+      "baseline": 0.05,
+      "range": [
+        0.03,
+        0.05,
+        0.07,
+        0.1,
+        0.15
+      ],
+      "units": "mol Ca/step",
+      "source": "Adenot & Buil (1992), Stage 3 degradation",
+      "impact": "Controls Stage 3 degradation kinetics and pH drop",
+      "critical": true
+    },
+    "Friedel_formation_rate": {
+      "description": "Friedel's salt formation rate from monosulfate",
+      "baseline": 0.04,
+      "range": [
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1
+      ],
+      "units": "mol/step (NaCl immersion)",
+      "source": "Suryavanshi et al. (1996), chloride binding kinetics",
+      "impact": "Controls chloride binding capacity",
+      "critical": false
+    },
+    "ettringite_formation_rate": {
+      "description": "Ettringite formation rate during sulfate attack",
+      "baseline": 0.03,
+      "range": [
+        0.02,
+        0.03,
+        0.05,
+        0.07,
+        0.1
+      ],
+      "units": "mol/step (Mixed salt immersion)",
+      "source": "Li et al. (2020), sulfate attack kinetics",
+      "impact": "Controls expansion and sulfate attack severity",
+      "critical": false
+    },
+    "pressure_enhancement_factor": {
+      "description": "Acceleration factor for degradation under 1.2 MPa pressure",
+      "baseline": 4.0,
+      "range": [
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "units": "dimensionless multiplier",
+      "source": "Li et al. (2020), pressure-enhanced mass transfer",
+      "impact": "Controls degradation rate under pressure conditions",
+      "critical": true
+    },
+    "chloride_CSH_binding_efficiency": {
+      "description": "Cl binding efficiency by C-S-H gel",
+      "baseline": 0.3,
+      "range": [
+        0.2,
+        0.3,
+        0.35,
+        0.4,
+        0.5
+      ],
+      "units": "fraction of added Cl bound",
+      "source": "Elakneswaran et al. (2009), physical adsorption",
+      "impact": "Total chloride binding capacity",
+      "critical": false
+    },
+    "initial_porosity": {
+      "description": "Initial paste porosity at 28 days",
+      "baseline": 0.28,
+      "range": [
+        0.24,
+        0.26,
+        0.28,
+        0.3,
+        0.32
+      ],
+      "units": "volume fraction",
+      "source": "Powers-Brownyard model for w/b=0.3",
+      "impact": "Affects ion transport and degradation rates",
+      "critical": false
+    }
+  },
+  "sensitivity_results": {
+    "cement_hydration_degree": {
+      "parameter": "cement_hydration_degree",
+      "values": [
+        0.7,
+        0.75,
+        0.78,
+        0.82,
+        0.85
+      ],
+      "portlandite_mol": [
+        3.769230769230769,
+        4.038461538461538,
+        4.2,
+        4.415384615384615,
+        4.576923076923077
+      ],
+      "portlandite_wt_percent": [
+        279.27361538461537,
+        299.22173076923076,
+        311.1906,
+        327.1490923076923,
+        339.11796153846154
+      ],
+      "CSH_mol": [
+        10.32051282051282,
+        11.057692307692307,
+        11.5,
+        12.089743589743588,
+        12.532051282051281
+      ],
+      "unreacted_clinker_wt_percent": [
+        4.380000000000001,
+        3.65,
+        3.2119999999999997,
+        2.6280000000000006,
+        2.1900000000000004
+      ]
+    },
+    "FA_reaction_degree": {
+      "parameter": "FA_reaction_degree",
+      "values": [
+        0.1,
+        0.15,
+        0.2,
+        0.25,
+        0.3
+      ],
+      "portlandite_mol": [
+        4.26,
+        4.23,
+        4.2,
+        4.17,
+        4.140000000000001
+      ],
+      "CSH_mol": [
+        12.75,
+        13.375,
+        14.0,
+        14.625,
+        15.25
+      ],
+      "CSH_Ca_Si_ratio": [
+        1.6995,
+        1.6747499999999997,
+        1.65,
+        1.6252499999999999,
+        1.6004999999999998
+      ],
+      "FA_glass_wt_percent": [
+        14.4,
+        13.6,
+        12.8,
+        12.0,
+        11.2
+      ]
+    },
+    "portlandite_dissolution_rate": {
+      "parameter": "portlandite_dissolution_rate",
+      "values": [
+        0.05,
+        0.08,
+        0.12,
+        0.15,
+        0.2
+      ],
+      "degradation_50_percent_steps": [
+        20,
+        20,
+        17.5,
+        14.000000000000002,
+        10.5
+      ],
+      "degradation_90_percent_steps": [
+        20,
+        20,
+        20,
+        20,
+        18.9
+      ],
+      "final_pH": [
+        13.117989417989417,
+        12.768783068783069,
+        12.303174603174604,
+        11.953968253968254,
+        11.5
+      ]
+    },
+    "CSH_decalcification_rate": {
+      "parameter": "CSH_decalcification_rate",
+      "values": [
+        0.03,
+        0.05,
+        0.07,
+        0.1,
+        0.15
+      ],
+      "degradation_50_percent_steps": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "degradation_90_percent_steps": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "final_pH": [
+        11.41304347826087,
+        11.355072463768115,
+        11.297101449275363,
+        11.210144927536232,
+        11.065217391304348
+      ]
+    },
+    "pressure_sensitivity": {
+      "parameter": "pressure_enhancement_factor",
+      "values": [
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "cumulative_water_kg": [
+        20.0,
+        30.0,
+        40.0,
+        50.0,
+        60.0
+      ],
+      "portlandite_depletion_step": [
+        16,
+        10,
+        8,
+        6,
+        5
+      ],
+      "final_porosity": [
+        0.29250000000000004,
+        0.29875,
+        0.30500000000000005,
+        0.31125,
+        0.3175
+      ],
+      "degradation_depth_mm": [
+        2.121320343559643,
+        2.598076211353316,
+        3.0,
+        3.3541019662496847,
+        3.674234614174767
+      ]
+    },
+    "Friedel_formation_rate": {
+      "parameter": "Friedel_formation_rate",
+      "values": [
+        0.02,
+        0.04,
+        0.06,
+        0.08,
+        0.1
+      ],
+      "degradation_50_percent_steps": [
+        3.75,
+        1.875,
+        1.25,
+        0.9375,
+        0.7499999999999999
+      ],
+      "degradation_90_percent_steps": [
+        6.75,
+        3.375,
+        2.2500000000000004,
+        1.6875,
+        1.35
+      ],
+      "final_pH": [
+        13.5,
+        13.5,
+        13.5,
+        13.5,
+        13.5
+      ]
+    },
+    "ettringite_formation_rate": {
+      "parameter": "ettringite_formation_rate",
+      "values": [
+        0.02,
+        0.03,
+        0.05,
+        0.07,
+        0.1
+      ],
+      "degradation_50_percent_steps": [
+        1.7500000000000002,
+        1.1666666666666667,
+        0.7000000000000001,
+        0.5,
+        0.35000000000000003
+      ],
+      "degradation_90_percent_steps": [
+        3.150000000000001,
+        2.1000000000000005,
+        1.2600000000000002,
+        0.9000000000000001,
+        0.6300000000000001
+      ],
+      "final_pH": [
+        12.0,
+        12.0,
+        12.0,
+        12.0,
+        12.0
+      ]
+    }
+  },
+  "sensitivity_indices": {
+    "cement_hydration_degree": {
+      "output_metric": "portlandite_mol",
+      "baseline_value": 4.2,
+      "min_value": 3.769230769230769,
+      "max_value": 4.576923076923077,
+      "sensitivity_index_percent": 19.230769230769226,
+      "ranking": "medium"
+    },
+    "FA_reaction_degree": {
+      "output_metric": "portlandite_mol",
+      "baseline_value": 4.2,
+      "min_value": 4.140000000000001,
+      "max_value": 4.26,
+      "sensitivity_index_percent": 2.857142857142838,
+      "ranking": "low"
+    },
+    "portlandite_dissolution_rate": {
+      "output_metric": "degradation_50_percent_steps",
+      "baseline_value": 17.5,
+      "min_value": 10.5,
+      "max_value": 20.0,
+      "sensitivity_index_percent": 54.285714285714285,
+      "ranking": "high"
+    },
+    "CSH_decalcification_rate": {
+      "output_metric": "degradation_50_percent_steps",
+      "baseline_value": 20,
+      "min_value": 20,
+      "max_value": 20,
+      "sensitivity_index_percent": 0.0,
+      "ranking": "low"
+    },
+    "pressure_sensitivity": {
+      "output_metric": "cumulative_water_kg",
+      "baseline_value": 40.0,
+      "min_value": 20.0,
+      "max_value": 60.0,
+      "sensitivity_index_percent": 100.0,
+      "ranking": "high"
+    },
+    "Friedel_formation_rate": {
+      "output_metric": "degradation_50_percent_steps",
+      "baseline_value": 1.25,
+      "min_value": 0.7499999999999999,
+      "max_value": 3.75,
+      "sensitivity_index_percent": 240.0,
+      "ranking": "high"
+    },
+    "ettringite_formation_rate": {
+      "output_metric": "degradation_50_percent_steps",
+      "baseline_value": 0.7000000000000001,
+      "min_value": 0.35000000000000003,
+      "max_value": 1.7500000000000002,
+      "sensitivity_index_percent": 200.0,
+      "ranking": "high"
+    }
+  },
+  "ranking_criteria": {
+    "high": "Sensitivity index > 30% - critical parameter",
+    "medium": "Sensitivity index 10-30% - important parameter",
+    "low": "Sensitivity index < 10% - minor influence"
+  }
+}

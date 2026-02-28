@@ -1,0 +1,188 @@
+{
+  "calibration_info": {
+    "description": "Phase 5 calibration: baseline model vs experimental data",
+    "experimental_data_source": "/teamspace/studios/this_studio/Gems_Freelancing/validation/experimental_data_28d.json",
+    "model_data_source": "/teamspace/studios/this_studio/Gems_Freelancing/outputs/baseline_28d.json",
+    "calibration_date": "2026-02-28",
+    "temperature_C": 20,
+    "age_days": 28
+  },
+  "phase_errors": {
+    "portlandite": {
+      "experimental_wt_percent": 12.3,
+      "experimental_uncertainty": 0.5,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -12.3,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "critical"
+    },
+    "CSH_gel": {
+      "experimental_wt_percent": 42.8,
+      "experimental_uncertainty": 2.5,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -42.8,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "critical"
+    },
+    "ettringite": {
+      "experimental_wt_percent": 8.7,
+      "experimental_uncertainty": 0.5,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -8.7,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "critical"
+    },
+    "monosulfate": {
+      "experimental_wt_percent": 3.2,
+      "experimental_uncertainty": 0.5,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -3.2,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    },
+    "hydrotalcite": {
+      "experimental_wt_percent": 1.8,
+      "experimental_uncertainty": 0.5,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -1.8,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    },
+    "C3S_unreacted": {
+      "experimental_wt_percent": 0.0,
+      "experimental_uncertainty": 0.0,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": 0.0,
+      "relative_error_percent": 0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    },
+    "C2S_unreacted": {
+      "experimental_wt_percent": 0.0,
+      "experimental_uncertainty": 0.0,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": 0.0,
+      "relative_error_percent": 0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    },
+    "C4AF_unreacted": {
+      "experimental_wt_percent": 0.0,
+      "experimental_uncertainty": 0.0,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": 0.0,
+      "relative_error_percent": 0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    },
+    "calcite": {
+      "experimental_wt_percent": 0.6,
+      "experimental_uncertainty": 0.5,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -0.6,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    },
+    "FA_glass": {
+      "experimental_wt_percent": 11.7,
+      "experimental_uncertainty": 1.8,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -11.7,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    },
+    "mullite": {
+      "experimental_wt_percent": 2.4,
+      "experimental_uncertainty": 0.5,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -2.4,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    },
+    "quartz": {
+      "experimental_wt_percent": 1.9,
+      "experimental_uncertainty": 0.5,
+      "model_wt_percent": 0.0,
+      "model_found": false,
+      "absolute_error": -1.9,
+      "relative_error_percent": -100.0,
+      "within_uncertainty": false,
+      "significance": "secondary"
+    }
+  },
+  "overall_metrics": {
+    "mean_absolute_error_wt_percent": 0,
+    "root_mean_square_error_wt_percent": 0,
+    "mean_relative_error_percent": 0,
+    "total_phases_compared": 0,
+    "phases_within_uncertainty": 0,
+    "calibration_quality_percent": 0
+  },
+  "pore_solution_comparison": {
+    "pH": {
+      "experimental": 13.72,
+      "model": 0,
+      "error": -13.72,
+      "tolerance": 0.2
+    },
+    "Na": {
+      "experimental_mmol_L": 82.5,
+      "model_mmol_L": 0,
+      "absolute_error": -82.5,
+      "relative_error_percent": -100.0
+    },
+    "K": {
+      "experimental_mmol_L": 245.3,
+      "model_mmol_L": 0,
+      "absolute_error": -245.3,
+      "relative_error_percent": -100.0
+    },
+    "Ca": {
+      "experimental_mmol_L": 2.1,
+      "model_mmol_L": 0,
+      "absolute_error": -2.1,
+      "relative_error_percent": -100.0
+    },
+    "SO4": {
+      "experimental_mmol_L": 1.8,
+      "model_mmol_L": 0,
+      "absolute_error": -1.8,
+      "relative_error_percent": -100.0
+    },
+    "OH": {
+      "experimental_mmol_L": 325.0,
+      "model_mmol_L": 0,
+      "absolute_error": -325.0,
+      "relative_error_percent": -100.0
+    }
+  },
+  "recommendations": [
+    "\u2717 POOR: Calibration quality <60% - significant adjustments needed",
+    "\u26a0 PORTLANDITE: -100.0% error - adjust thermodynamic parameters",
+    "\u26a0 CSH_GEL: -100.0% error - adjust thermodynamic parameters",
+    "\u26a0 ETTRINGITE: -100.0% error - adjust thermodynamic parameters",
+    "\u26a0 Experimental mass balance: 85.4% (should be ~100%)",
+    "\u26a0 Model mass balance: 0.0% - check normalization",
+    "\u2717 CRITICAL: Missing phases in model: portlandite, CSH_gel, ettringite"
+  ],
+  "calibration_status": "NEEDS_ADJUSTMENT"
+}
