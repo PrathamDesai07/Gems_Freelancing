@@ -1,0 +1,226 @@
+{
+  "solution_set_name": "Salt Attack Degradation Solutions",
+  "description": "Three external solutions for 60-day degradation study of cement paste",
+  "data_source": "Experimental specifications from degradation study (相关参数)",
+  "date": "2026-02-28",
+  "temperature_C": 20,
+  "pressure_bar": 1.0,
+  
+  "pure_water": {
+    "solution_id": 1,
+    "solution_name": "Pure Water",
+    "description": "Deionized water for leaching baseline study",
+    "type": "leaching",
+    
+    "composition_mol_L": {
+      "H2O": 55.51,
+      "dissolved_CO2_ppm": 0.0,
+      "notes": "CO2-free to prevent carbonation, de-aerated if needed"
+    },
+    
+    "initial_pH": 7.0,
+    "expected_pH_after_equilibration": 12.5,
+    "pH_evolution_note": "Will increase due to alkali leaching from paste",
+    
+    "ionic_strength_mol_L": 0.0,
+    "total_dissolved_solids_mg_L": 0,
+    
+    "preparation": {
+      "method": "Deionized water",
+      "degassing": "Optional purging with N2 to remove dissolved CO2",
+      "storage": "Sealed container to prevent CO2 absorption",
+      "quality": "Type I deionized water (conductivity < 0.1 μS/cm)"
+    },
+    
+    "degradation_mechanisms_expected": [
+      "Alkali (Na, K) leaching from pore solution",
+      "Portlandite dissolution and Ca²⁺ leaching",
+      "C-S-H decalcification",
+      "AFm/AFt phase destabilization",
+      "pH gradient development"
+    ],
+    
+    "literature_reference": "Jacques et al. (2010) - Four-stage leaching model"
+  },
+  
+  "NaCl_solution": {
+    "solution_id": 2,
+    "solution_name": "70 g/L NaCl Solution",
+    "description": "Sodium chloride solution for chloride attack study",
+    "type": "chloride_attack",
+    
+    "preparation_concentration": {
+      "NaCl_g_L": 70.0,
+      "NaCl_mol_L": 1.198,
+      "rounded_mol_L": 1.2
+    },
+    
+    "composition_mol_L": {
+      "Na+": 1.2,
+      "Cl-": 1.2,
+      "H2O": 55.51,
+      "dissolved_CO2_ppm": 0.0
+    },
+    
+    "ionic_composition_mg_L": {
+      "Na+": 27600,
+      "Cl-": 42540,
+      "total_dissolved_solids": 70000
+    },
+    
+    "initial_pH": 7.0,
+    "expected_pH_after_equilibration": 12.8,
+    "pH_evolution_note": "Slight increase from paste alkali release",
+    
+    "ionic_strength_mol_L": 1.2,
+    "osmotic_pressure_bar": 58.7,
+    
+    "preparation": {
+      "reagent": "NaCl analytical grade (≥99.5% purity)",
+      "dissolving_method": "Dissolve 70.0 g NaCl in 1 L deionized water",
+      "mixing": "Stir until completely dissolved",
+      "pH_adjustment": "None - neutral solution",
+      "storage": "Sealed PE or glass container"
+    },
+    
+    "degradation_mechanisms_expected": [
+      "Chloride binding by C-S-H (physical adsorption)",
+      "Friedel's salt formation (Cl-AFm: 3CaO·Al2O3·CaCl2·10H2O)",
+      "AFm phase conversion (monosulfate → Friedel's salt)",
+      "Chloride penetration into paste",
+      "Potential C-S-H destabilization at high Cl/OH ratio",
+      "Competitive binding with hydroxyl groups"
+    ],
+    
+    "characteristic_phases": {
+      "Friedels_salt": "3CaO·Al2O3·CaCl2·10H2O",
+      "Kuzel_salt": "3CaO·Al2O3·0.5CaSO4·0.5CaCl2·10H2O (if SO4 present)",
+      "formation_kinetics": "Rapid within 7-14 days"
+    },
+    
+    "chloride_binding_capacity_expected": {
+      "total_binding_mg_Cl_per_g_paste": 10,
+      "chemical_binding_percent": 70,
+      "physical_binding_percent": 30,
+      "note": "Based on typical OPC paste at w/b=0.3"
+    },
+    
+    "literature_reference": "Li et al. (2020) - NaCl attack mechanisms"
+  },
+  
+  "mixed_salt_solution": {
+    "solution_id": 3,
+    "solution_name": "10 g/L Na₂SO₄ + 70 g/L NaCl Mixed Solution",
+    "description": "Combined sulfate and chloride attack solution",
+    "type": "combined_attack",
+    
+    "preparation_concentrations": {
+      "Na2SO4_g_L": 10.0,
+      "NaCl_g_L": 70.0,
+      "Na2SO4_mol_L": 0.0704,
+      "NaCl_mol_L": 1.198,
+      "Na2SO4_rounded_mol_L": 0.07,
+      "NaCl_rounded_mol_L": 1.2
+    },
+    
+    "composition_mol_L": {
+      "Na+": 1.34,
+      "Cl-": 1.2,
+      "SO4-2": 0.07,
+      "H2O": 55.51,
+      "dissolved_CO2_ppm": 0.0
+    },
+    
+    "ionic_composition_mg_L": {
+      "Na+": 30820,
+      "Cl-": 42540,
+      "SO4-2": 6720,
+      "total_dissolved_solids": 80000
+    },
+    
+    "molar_ratios": {
+      "Cl_to_SO4": 17.14,
+      "Na_to_Cl": 1.12,
+      "Na_to_SO4": 19.14
+    },
+    
+    "initial_pH": 7.0,
+    "expected_pH_after_equilibration": 12.7,
+    "pH_evolution_note": "Buffered by paste alkalinity",
+    
+    "ionic_strength_mol_L": 1.48,
+    "osmotic_pressure_bar": 72.5,
+    
+    "preparation": {
+      "reagent_1": "Na2SO4 anhydrous analytical grade (≥99.0% purity)",
+      "reagent_2": "NaCl analytical grade (≥99.5% purity)",
+      "dissolving_method": "Dissolve 10.0 g Na2SO4 and 70.0 g NaCl in 1 L deionized water",
+      "mixing_order": "Add Na2SO4 first, dissolve, then add NaCl",
+      "mixing": "Stir until completely dissolved",
+      "pH_adjustment": "None - neutral solution",
+      "storage": "Sealed PE or glass container",
+      "stability": "Stable at room temperature, no precipitation expected"
+    },
+    
+    "degradation_mechanisms_expected": [
+      "Concurrent chloride and sulfate attack",
+      "Ettringite formation from sulfate (3CaO·Al2O3·3CaSO4·32H2O)",
+      "Friedel's salt formation from chloride",
+      "Competition for AFm phases",
+      "Potential formation of Kuzel's salt (mixed Cl/SO4 AFm)",
+      "Gypsum formation at later stages (CaSO4·2H2O)",
+      "Enhanced C-S-H decalcification",
+      "Synergistic degradation effects"
+    ],
+    
+    "characteristic_phases": {
+      "ettringite": "3CaO·Al2O3·3CaSO4·32H2O",
+      "Friedels_salt": "3CaO·Al2O3·CaCl2·10H2O",
+      "Kuzel_salt": "3CaO·Al2O3·0.5CaSO4·0.5CaCl2·10H2O",
+      "gypsum": "CaSO4·2H2O",
+      "monosulfate": "3CaO·Al2O3·CaSO4·12H2O",
+      "phase_evolution": "AFm → ettringite + Friedel → gypsum (late stage)"
+    },
+    
+    "coupled_effects": {
+      "chloride_sulfate_interaction": "Competition for aluminate phases",
+      "volume_changes": "Ettringite expansion + Friedel formation",
+      "decalcification_rate": "Enhanced compared to single-salt attack",
+      "pore_structure_change": "Coarsening due to phase transformations",
+      "strength_loss": "Accelerated degradation"
+    },
+    
+    "literature_reference": "Zuo et al. (2023) - Combined NaCl + sulfate attack on alkali-activated materials"
+  },
+  
+  "analytical_methods": {
+    "pH_measurement": "pH meter calibrated at pH 4, 7, 10",
+    "conductivity": "Conductivity meter for ionic strength verification",
+    "ion_chromatography": "For Cl⁻ and SO₄²⁻ quantification",
+    "ICP_OES": "For Na⁺, Ca²⁺, K⁺ analysis in equilibrated solutions",
+    "titration": "Mohr method for Cl⁻, complexometric for Ca²⁺"
+  },
+  
+  "solution_replacement_schedule": {
+    "immersion_condition": "Low renewal rate - solution replaced every 3 days",
+    "pressure_condition": "High renewal rate - enhanced flow simulation",
+    "total_duration_days": 60,
+    "sampling_points": [0, 3, 7, 14, 21, 28, 42, 60],
+    "notes": "Detailed schedule in process_parameters.json"
+  },
+  
+  "connection_to_phase2": {
+    "baseline_state": "28-day hydrated paste from Phase 2",
+    "initial_pore_solution_pH": 13.72,
+    "initial_phases": "Portlandite, C-S-H, ettringite, monosulfate, hydrotalcite",
+    "degradation_start": "After 28-day sealed curing"
+  },
+  
+  "validation_notes": {
+    "experimental_basis": "Concentrations from 相关参数 (1).txt",
+    "temperature": "20°C matches Phase 1 and Phase 2 conditions",
+    "no_carbonation": "CO2 excluded to isolate salt attack effects",
+    "realistic_concentrations": "Representative of marine/saline environments",
+    "literature_validated": "Concentrations consistent with cement degradation studies"
+  }
+}
