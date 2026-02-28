@@ -1,0 +1,50 @@
+以下是客户发的信息：
+掺粉煤灰的净浆试件，放入纯水溶液，氯化钠，硫酸钠，硫酸钠+氯化钠的复盐溶液中（两种工况，纯浸泡和施加水压），其产物含量变化。
+
+这几个工况，都是掺入粉煤灰的试件
+1.纯水环境下（纯浸泡与施加水压的情况）下产物的含量变化
+2.氯化钠环境下（纯浸泡与施加水压的情况）下所有产物的含量变化
+3.氯化钠+硫酸钠溶液环境下（纯浸泡与施加水压的情况）下所有产物的含量变化
+产物主要包括氢氧化钙，凝胶，钙矾石，F盐，石膏，Ms，未水化熟料等
+最后就是对建模过程有个详细的描述报告，用到的模型参数以及怎么建立的，完整的分析最好。
+
+具体需要我这边提供哪些参数？
+
+您做这个模型的时候，水压力打算怎么去实现呢？
+
+我和客户核对的询问客户的信息：我理解的你这个属于水泥基材料水化产物变化的数值模拟建模任务，具体来说，掺粉煤灰的试件在3种侵蚀环境（纯水、氯化钠、氯化钠+硫酸钠）× 2种工况（纯浸泡、加水压）下，模拟各类水化产物（氢氧化钙、凝胶、钙矾石、F盐、石膏等）含量的变化规律，最后出一份完整的建模说明报告（模型原理➕参数➕分析）。6个工况的反应，传输耦合数值模拟 + 分析报告，你看我理解的对不？
+
+客户回复信息：对的，因为我也看了下文献，水压在这怎么实现我有个大概的方向，我怕你的方式和我看到的不太一样，所以想和您确定一下您做这个模型的时候，水压力打算怎么去实现呢？
+——————
+Below is the message from the client:
+For neat paste specimens mixed with fly ash, place them in pure water solution, sodium chloride, sodium sulfate, and a mixed salt solution of sodium sulfate + sodium chloride (two conditions: immersion only and with applied water pressure), and observe the changes in the contents of the products.
+All of these cases are specimens mixed with fly ash:
+1. Changes in product contents in a pure water environment (immersion only and with applied water pressure)
+2. Changes in the contents of all products in a sodium chloride environment (immersion only and with applied water pressure)
+3. Changes in the contents of all products in a sodium chloride + sodium sulfate solution environment (immersion only and with applied water pressure)
+The products mainly include calcium hydroxide, gel, ettringite, F salt, gypsum, Ms, unhydrated clinker, etc.
+Finally, provide a detailed report describing the modeling process, including the model parameters used and how it was built; a complete analysis is preferred.
+Specifically, which parameters do you need me to provide?
+When you build this model, how do you plan to implement the water pressure?
+My message to the client to confirm the information:
+My understanding is that this is a numerical simulation/modeling task for changes in hydration products of cement-based materials. Specifically, under 3 erosive environments (pure water, sodium chloride, sodium chloride + sodium sulfate) × 2 conditions (immersion only, with applied water pressure), you want to simulate the content evolution of various hydration products (calcium hydroxide, gel, ettringite, F salt, gypsum, etc.), and finally produce a complete modeling description report (model principles + parameters + analysis). A coupled reaction–transport numerical simulation for 6 cases + an analysis report—am I understanding this correctly?
+Client’s reply:
+Yes. Because I also looked at the literature, I have a general idea of how to implement the water pressure here. I’m concerned that your approach might not be the same as what I saw, so I want to confirm with you: when you build this model, how do you plan to implement the water pressure?
+
+________________Newly added information↓
+1. Fly ash glass-phase content. (Chemical composition alone is not enough; the pozzolanic reaction kinetics need the mineral phases. If not available, we can only use literature-based values.)
+Client’s reply: No, use literature-based values.
+2. How long is the simulation duration (28 days? 90 days? 180 days?)
+Client’s reply: 60 days of erosion.
+3. Erosion temperature (room temperature or constant-temperature chamber, and what temperature?)
+Client’s reply: Room temperature, 20°C.
+4. Do you have measured XRD/TGA data? If yes, the model can be calibrated; if not, it can still be done.
+Client’s reply: Yes—XRD and TG data after 28 days of hydration, i.e., at erosion 0 day.
+Client’s reply: Ignore the trace phases.
+Glass phase 73%, mullite 15%, quartz 12%.
+Client’s reply: Basically, under static soaking it’s a leaching model, gradually replacing the pore solution with the external solution.
+Under pressure, the pore-solution renewal rate increases; the pore-solution renewal rate increases; more solution is replaced per unit time, and more ions enter as well.
+https://apgysi.github.io/gems-mines-tutorial/module4.html
+I’m not sure whether this will work. If there are other approaches that can achieve it, that’s also fine.
+
+The file sent by the client：

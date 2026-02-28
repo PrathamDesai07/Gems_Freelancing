@@ -1,0 +1,26 @@
+======================================================================
+GEMS PROJECT INITIALIZATION LOG
+======================================================================
+Date: 2026-02-28
+Project: CementFlyAsh_SaltAttack
+
+CONFIGURATION:
+  Database: CEMDATA18 vcemdata18.1
+  Temperature: 20°C
+  Pressure: 1.0 bar
+  C-S-H Model: CSHQ
+
+INITIALIZATION STATUS:
+  Database files check: PASSED
+  GEMS engine check: NOT INSTALLED
+
+PHASE MODELS:
+  Solid solutions: AFm_ss, AFt_ss, CSH_ss, hydrotalcite_ss
+  Suppressed phases: C3AS0.8H4.4, thaumasite
+
+TRACKING:
+  Key phases: 12
+  Aqueous species: 10
+
+STATUS: Database ready for thermodynamic calculations
+======================================================================

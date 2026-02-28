@@ -1,0 +1,19 @@
+表1水泥化学组成(%)
+Table 1.2 Chemical composition of cement (%)
+表2水泥矿物相组成(%)
+表3 粉煤灰化学组成 (%)
+试件：水灰比0.3，掺入30%粉煤灰的水泥净浆，标准养护28d后放入溶液中侵蚀
+试件大小：直径5mm，厚3mm的圆片，5g左右
+侵蚀溶液（溶液体积1L）：
+水
+70g/L的NaCl溶液
+10 g/L的Na2SO4+70 g/L的NaCl复盐溶液
+环境：
+纯浸泡
+1.2Mpa水压
+氧化物	Al2O3	CaO	Fe2O3	K2O	MgO	Na2O	SO3	SiO2	TiO2
+P·I 52.5	4.20	63.63	3.89	0.38	2.15	0.34	2.05	17.37	0.26
+矿物相	C3S	C2S	C3A	C4AF	K2SO4	CaSO4·2H2O	CaSO4·1/2H2O	CaSO4	CaCO3
+P·I 52.5	61.8	8.6	1.7	16.2	0.2	3.3	0	0	0.5
+氧化物	Al2O3	CaO	Fe2O3	K2O	MgO	Na2O	SO3	SiO2	TiO2
+粉煤灰	41.56	4.16	4.93	0.67	0.42	0.012	0.78	43.45	1.85

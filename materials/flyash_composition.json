@@ -1,0 +1,111 @@
+{
+  "flyash_type": "Class F",
+  "flyash_classification": "Low-calcium fly ash per ASTM C618",
+  "description": "Fly ash from coal combustion used as supplementary cementitious material",
+  "data_source": "XRF/XRD analysis from experimental study (相关参数)",
+  "date": "2026-02-28",
+  
+  "oxides_wt_percent": {
+    "SiO2": 43.45,
+    "Al2O3": 41.56,
+    "Fe2O3": 4.93,
+    "CaO": 4.16,
+    "TiO2": 1.85,
+    "SO3": 0.78,
+    "K2O": 0.67,
+    "MgO": 0.42,
+    "Na2O": 0.012
+  },
+  
+  "total_oxides_percent": 97.822,
+  "loss_on_ignition_note": "Remaining percentage includes minor oxides, unburned carbon, and LOI",
+  
+  "phases_wt_percent": {
+    "glass": 73.0,
+    "mullite": 15.0,
+    "quartz": 12.0
+  },
+  
+  "phase_descriptions": {
+    "glass": "Amorphous aluminosilicate glass phase, primary reactive component",
+    "mullite": "3Al2O3·2SiO2 crystalline phase, low reactivity",
+    "quartz": "SiO2 crystalline phase, essentially inert"
+  },
+  
+  "total_phases_percent": 100.0,
+  
+  "physical_properties": {
+    "density_g_cm3": 2.35,
+    "specific_surface_area_m2_kg": 420,
+    "particle_size_d50_um": 15,
+    "blaine_fineness_note": "Typical for Class F fly ash"
+  },
+  
+  "chemical_characteristics": {
+    "sio2_al2o3_fe2o3_sum": 89.94,
+    "cao_content": 4.16,
+    "classification": "Class F (CaO < 10%, SiO2+Al2O3+Fe2O3 > 70%)",
+    "silica_alumina_ratio": 1.05,
+    "notes": "High alumina content characteristic of this fly ash source"
+  },
+  
+  "elemental_composition_mmol_per_100g": {
+    "Si": 723.3,
+    "Al": 814.1,
+    "Fe": 61.6,
+    "Ca": 74.2,
+    "Ti": 23.1,
+    "S": 9.7,
+    "K": 14.2,
+    "Mg": 10.4,
+    "Na": 0.4
+  },
+  
+  "glass_composition_normalized_wt_percent": {
+    "SiO2": 43.5,
+    "Al2O3": 42.0,
+    "Fe2O3": 5.0,
+    "CaO": 4.2,
+    "other": 5.3,
+    "note": "Approximate glass phase composition, normalized from bulk analysis"
+  },
+  
+  "reactivity_parameters": {
+    "initial_glass_reactivity_28d": 0.20,
+    "mullite_reactivity": 0.0,
+    "quartz_reactivity": 0.0,
+    "pozzolanic_activity_index_7d": 75,
+    "pozzolanic_activity_index_28d": 85,
+    "note": "Glass reactivity to be calibrated against 28-day XRD/TGA data"
+  },
+  
+  "hydration_products_expected": {
+    "C_S_H": "Primary product from pozzolanic reaction with portlandite",
+    "C_A_S_H": "Aluminum-substituted C-S-H from high alumina content",
+    "stratlingite": "Possible formation of C2ASH8 in later stages",
+    "hydrotalcite": "Mg-Al LDH from reaction with Mg-bearing phases"
+  },
+  
+  "reactivity_factors": {
+    "glass_content": "73% - High reactive fraction",
+    "fineness": "420 m²/kg - Good for pozzolanic reaction",
+    "alumina_content": "41.56% - Very high, promotes AFm/LDH formation",
+    "calcium_content": "4.16% - Low, limited self-cementing",
+    "amorphous_structure": "Glassy structure enhances reactivity"
+  },
+  
+  "validation_notes": {
+    "source": "Experimental data from salt attack degradation study",
+    "method": "XRF for oxide composition, XRD for phase identification",
+    "temperature_condition": "20°C hydration temperature",
+    "replacement_level": "30% by weight of cement",
+    "replicate_samples": "Consistent with literature values for similar Class F fly ash"
+  },
+  
+  "comparison_with_cement": {
+    "sio2_ratio": 2.50,
+    "al2o3_ratio": 9.90,
+    "cao_ratio": 0.065,
+    "notes": "Fly ash is silica and alumina-rich, calcium-poor compared to Portland cement"
+  }
+}

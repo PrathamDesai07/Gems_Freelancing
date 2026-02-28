@@ -1,0 +1,31 @@
+{
+  "phases": {
+    "portlandite": 4.2,
+    "CSH": 11.5,
+    "ettringite": 0.55,
+    "monosulfate": 0.35,
+    "hydrotalcite": 0.18,
+    "calcite": 0.05,
+    "C3S_unreacted": 0.35,
+    "C2S_unreacted": 0.65,
+    "C3A_unreacted": 0.0,
+    "C4AF_unreacted": 0.58,
+    "FA_glass_unreacted": 3.2,
+    "mullite": 0.72,
+    "quartz": 1.0
+  },
+  "pore_solution": {
+    "Ca+2": 0.022,
+    "Na+": 0.185,
+    "K+": 0.42,
+    "OH-": 0.625,
+    "SO4-2": 0.002,
+    "AlO2-": 0.001,
+    "SiO3-2": 0.0005,
+    "Cl-": 0.0
+  },
+  "pH": 13.72,
+  "porosity": 0.15,
+  "ionic_strength": 0.65,
+  "note": "Placeholder values - will be replaced by GEMS calculation"
+}

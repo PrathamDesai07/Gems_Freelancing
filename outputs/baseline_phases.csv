@@ -1,0 +1,14 @@
+phase,amount_mol,category
+portlandite,4.2,Hydration product
+CSH,11.5,Hydration product
+ettringite,0.55,Hydration product
+monosulfate,0.35,Hydration product
+hydrotalcite,0.18,Hydration product
+calcite,0.05,Carbonation product
+C3S_unreacted,0.35,Unhydrated
+C2S_unreacted,0.65,Unhydrated
+C3A_unreacted,0.0,Unhydrated
+C4AF_unreacted,0.58,Unhydrated
+FA_glass_unreacted,3.2,Unhydrated
+mullite,0.72,Inert filler
+quartz,1.0,Inert filler

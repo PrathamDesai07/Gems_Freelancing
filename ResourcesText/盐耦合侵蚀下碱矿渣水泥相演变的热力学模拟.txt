@@ -1,0 +1,556 @@
+=== Page 1 ===
+  
+Delft University of Technology
+盐耦合侵蚀下碱矿渣水泥相演变的热力学模拟
+Zuo, Yibing; Liao, Yishun; Ye, Guang
+DOI
+10.3969/j.issn.1007-9629.2023.01.002
+Publication date
+2023
+Document Version
+Final published version
+Published in
+Jianzhu Cailiao Xuebao/Journal of Building Materials
+Citation (APA)
+Zuo, Y., Liao, Y., & Ye, G. (2023). 盐耦合侵蚀下碱矿渣水泥相演变的热力学模拟. Jianzhu Cailiao 
+Xuebao/Journal of Building Materials , 26(1), 7-13. https://doi.org/10.3969/j.issn.1007-9629.2023.01.002 
+Important note
+To cite this publication, please use the final published version (if applicable).
+Please check the document version above.
+Copyright
+Other than for strictly personal use, it is not permitted to download, forward or distribute the text or part of it, without the consent
+of the author(s) and/or copyright holder(s), unless the work is under an open content license such as Creative Commons.
+Takedown policy
+Please contact us and provide details if you believe this document breaches copyrights.
+We will remove access to the work immediately and investigate your claim.
+This work is downloaded from Delft University of Technology. 
+For technical reasons the number of authors shown on this cover page is limited to a maximum of 10. 
+
+=== Page 2 ===
+Green Open Access added to TU Delft Institutional Repository 'You share, we take care!' - Taverne project   https://www.openaccess.nl/en/you-share-we-take-care Otherwise as indicated in the copyright section: the publisher is the copyright holder of this work and the author uses the Dutch legislation to make this work public.   
+
+=== Page 3 ===
+第 26 卷第  1 期
+2023  年 1 月建 筑 材 料 学 报
+JOURNAL OF BUILDING MATERIALSVol. 26，No. 1
+Jan. ， 2023
+盐耦合侵蚀下碱矿渣水泥相演变的热力学模拟
+左义兵1，*， 廖宜顺2， 叶 光3
+（1.华中科技大学  土木与水利工程学院 ，湖北  武汉   430074 ； 2.武汉科技大学  城市建设学院 ，湖北  武
+汉  430065 ； 3.代尔夫特理工大学  土木与地球科学学院 ，代尔夫特   2628  CN）
+摘要：推导了分别含氯离子和硫酸根的水滑石热力学参数 ，并采用热力学模拟研究了单一氯化钠或
+单一硫酸镁侵蚀 ，以及二者耦合侵蚀下碱矿渣水泥的相演变过程 .结果表明 ：碱矿渣水泥在单一氯化
+钠侵蚀下生成 Friedel盐，在单一硫酸镁侵蚀下生成单硫型水化硫铝酸钙 （AFm ） 、钙矾石 （AFt） 、石
+膏、水化硅酸镁和含硫酸根水滑石 ；氯化钠与硫酸镁耦合侵蚀不仅具有单一氯化钠或单一硫酸镁侵
+蚀的特点 ，还显示出耦合效应 ，促使含氯离子水滑石生成 ，抑制 Friedel盐和水化硅酸镁的生成 ；提高
+硫酸镁耦合比例会降低碱矿渣水泥固化氯离子的能力 .
+关键词：碱矿渣水泥 ；氯化钠 ；硫酸镁 ；耦合侵蚀 ；相演变 ；热力学模拟
+中图分类号 ：TQ172　　　文献标志码 ：A doi：10.3969 /j.issn.1007 -9629 .2023 .01.002
+Thermodynamic Modelling of Phase Evolution in Alkali-Activated Slag 
+Cement upon Combined Attack of Salts
+ZUO Yibing1，*，　LIAO Yishun2，　YE Guang3
+（1. School of Civil and Hydraulic Engineering ， Huazhong University of Science and Technology ， Wuhan  430074 ， 
+China ； 2. School of Urban Construction ， Wuhan University of Science and Technology ， Wuhan  430065 ， China ；
+3. Faculty of Civil Engineering and Geosciences ， Delft University of Technology ， Delft  2628  CN， Netherlands ）
+Abstract  : Thermodynamic parameters of chloride and sulfate intercalated hydrotalcites were deduced . The phase 
+evolutions in alkali -activated slag cement upon only sodium chloride or only magnesium sulfate attack and combined 
+attack of those two salts were investigated via thermodynamic modelling . Friedel's salt was predicted to form under 
+sodium chloride attack ， while monosulfate ， ettringite ， gypsum ， magnesium silicate hydrate and sulfate intercalated 
+hydrotalcite were predicted to form upon magnesium sulfate attack . The combined attack of sodium chloride and 
+magnesium sulfate exhibited not only characteristics by single attack of those two salts but also coupling effects which 
+promoted the formation of chloride intercalated hydrotalcite and inhibited the formation of Friedel's salt and 
+magnesium silicate hydrate . An increase of the magnesium sulfate proportion led to lower capacity of chemically 
+binding chloride .
+Key words  : alkali -activated slag cement ； sodium chloride ； magnesium sulfate ； combined attack ； phase 
+evolution ； thermodynamic modelling
+碱矿渣水泥作为一种新型低能耗 、高环保胶凝
+材料 ，对于促进中国实现 “碳中和 、碳达峰 ”目标具有
+明显优势 .然而 ，碱矿渣水泥仍面临诸多挑战 ，如收
+缩大［1］及易化学腐蚀［2］等，其在氯盐和硫酸盐环境下的耐腐蚀性能引起广泛关注［3-5］.
+Zhang 等［6］在 氯 化 钠 侵 蚀 的 碱 矿 渣 水 泥 净 浆 和
+砂浆中均发现了 Friedel 盐.通过生成 Friedel 盐而被
+固化的氯离子含量占碱矿渣水泥固化氯离子总含量文章编号 ：1007 -9629（2023 ）01-0007 -07
+收稿日期 ：2021 -10-11； 修订日期 ：2021 -12-22
+基金项目 ：中央高校基本科研业务费专项资金资助项目 （HUST ：2020 kfyXJJS 038） ；国家自然科学基金资助项目 （51608402 ）
+第一作者 （通讯作者 ） ：左义兵 （1986 —） ，男，湖北孝感人 ，华中科技大学讲师 ，硕士生导师 ，博士 .E-mail ： zuoyibing@hust .edu.cn
+
+=== Page 4 ===
+建 筑 材 料 学 报 第26卷
+的24%~ 62%［7］.除Friedel 盐外 ，氯离子还可能与水
+化产物水滑石的层间 OH-进行离子交换 ，生成含氯
+离子水滑石［8］.虽然碱矿渣水泥具有较好的抗硫酸钠
+侵蚀能力［9］，但是研究发现硫酸镁侵蚀会改变碱矿渣
+水 泥 相 组 成 ，导 致 水 化 硅 铝 酸 钙 （钠） （C-（N-）
+A-S-H）凝胶脱钙和脱铝 ，甚至分解［10］.因此 ，研究者
+们一致认为碱矿渣水泥抗硫酸镁的侵蚀能力弱于抗
+硫酸钠的侵蚀能力［10-11］.
+虽然已有研究对单一氯化钠或单一硫酸镁侵蚀
+碱矿渣水泥进行过报道 ，但不同含量下氯化钠与硫
+酸镁耦合侵蚀碱矿渣水泥的相演变规律尚不明确 ，
+特别是耦合侵蚀下是否存在耦合效应尚不清楚 .热
+力学模拟能够通过计算给定温度和压强下系统处于
+平衡状态时各相的组成 ，研究化学反应引起的相变 .
+因此 ，本文将对氯化钠与硫酸镁耦合侵蚀碱矿渣水
+泥所引起的相演变过程进行热力学模拟研究 ，以探
+讨单一氯化钠或单一硫酸镁侵蚀 ，以及氯化钠与硫
+酸镁耦合侵蚀对碱矿渣水泥相演变的影响规律 .
+1　热力学模型与模拟方法
+1.1　模型软件和数据库
+热 力 学 模 拟 软 件 为 GEM -Selektor v .3 （http：//
+gems .web.psi.ch/），数 据 库 为 2018 年 发 布 的
+Cemdata 18［12］.该数据库采用热力学模型 CNASH_ss
+和MgAl -OH-LDH_ss 分别描述碱矿渣水泥水化产物
+C-（N-）A-S-H凝胶和含氢氧根水滑石 .CNASH_ss 和
+MgAl -OH-LDH_ss 模型的热力学参数见文献 ［13-14］.
+其中 ，MgAl -OH-LDH_ss 模型由 3个固相组成 ，分别
+为Mg 4Al 2（OH）14（H2O）3、Mg 6Al 2（OH）18（H2O）3和
+Mg 8Al 2（OH）22（H2O）3.
+在氯盐和硫酸盐侵蚀下 ，含氢氧根水滑石的层
+间OH-可能与 Cl-和SO2-
+4进行交换 ，生成含氯离子
+水 滑 石 和 含 硫 酸 根 水 滑 石［8］.然 而 ，Cemdata 18数 据
+库中还没有描述这 2种水滑石的热力学模型 .因此 ，
+本研究将建立含氯离子水滑石和含硫酸根水滑石的
+热力学模型 .
+1.2　含氯离子水滑石的热力学模型
+基于 MgAl -OH-LDH_ss 模型 ，经过阴离子交换
+所形成的含氯离子水滑石的化学式可表示为 Mg 4Al 2
+（OH）12Cl 2（H2O）3、Mg 6Al 2（OH）16Cl 2（H2O）3和Mg 8Al 2
+（OH）20Cl 2（H2O）3.由此构成含氯离子水滑石的热力
+学模型 ，记为 MgAl -Cl-LDH_ss 模型 .下面将依次确
+定MgAl -Cl-LDH_ss 模型中固相的热力学参数 ，包括
+溶度积常数 （Ks） 、热容量 （C⊝
+p） 、熵（S⊝） 、吉布斯自由
+能变（ΔfG⊝
+m） 、焓变（ΔfH⊝）和摩尔体积 （V⊝
+m）.1.2.1　MgAl -Cl-LDH_ss 模型中固相的 Ks
+Rozov 等［15］研究发现含氯离子水滑石 Mg 3Al（OH）8Cl
+的ΔfG⊝
+m为-3 619.04 kJ/mol .将 此 化 学 式 转 换 为
+Mg 6Al 2（OH）16Cl 2，其ΔfG⊝
+m为-7 238.08 kJ/mol .通
+过 基 团 加 和 法［16］，得 到 MgAl -Cl-LDH_ss 模 型 中 第
+二 固 相 的 ΔfG⊝
+m为-7 949.63 kJ/mol ，其 溶 解 反 应
+式为 ：
+Mg6Al2(OH)16Cl2(H2O)3—→——6Mg2++2AlO-
+2+
+8OH-+2Cl-+7H2O （1）
+由式（1）计算得到 ΔfG⊝
+m=389.65 kJ/mol .
+式（2）为反应吉布斯自由能变 （ΔrG⊝
+m）与Ks的关
+系式 ，由式（2）得到 MgAl -Cl-LDH_ss 模型中第二固
+相的 lg Ks=-68.26.
+ΔrG⊝
+m = -RT ln Ks = -2.303RT lg Ks（2）
+式中 ：R为理想气体常数 ，8.314 J/（mol·K） ；T为热力
+学温度 ，K.
+研究发现 ：对于结构相似的水滑石 ，其lg Ks 之差相
+同，如MgAl -OH-LDH_ss 模型中 Mg 4Al 2（OH）14（H2O）3 
+（lg Ks=-49.70）与Mg 6Al 2（OH）18（H2O）3 （lg Ks=
+-72.02） 、 Mg 6Al 2（OH） 18（H2O） 3（lg Ks=
+-72.02）与Mg 8Al 2（OH）22（H2O）3（lg Ks=-94.34）
+的lg Ks之 差 均 为 -22.32［14］；含 碳 酸 根 水 滑 石 ，如
+Mg 4Al 2（OH）12（CO 3） （H2O）4（lg Ks=-44.19）［17］和
+Mg 6Al 2（OH）16（CO 3） （H2O）5（lg Ks=-66.58）［18］的
+lg Ks之 差 也 近 似 为 -22.32.据 此 ，可 计 算 得 到
+MgAl -Cl-LDH_ss 模 型 中 第 一 和 第 三 固 相 的 lg Ks 
+分别为 -45.94、-90.58.
+1.2.2　MgAl -Cl-LDH_ss 模 型 中 固 相 的 C⊝
+p、S⊝、
+ΔfG⊝
+m和ΔfH⊝
+在基团加和法计算 C⊝
+p和S⊝的过程中 ，若各成
+分选择合适 ，则计算结果具有较高的准确度［19］.利用
+基团加和法［16］（式（3） ） ， 得到 MgAl -Cl-LDH_ss 模型
+中固相的 C⊝
+p和S⊝.
+Φ⊝
+Mg2xAl2()OH4+4xCl2() H2O3= Φ⊝
+Mg2xAl2()OH4+4x()OH2() H2O3-
+    2Φ⊝
+OH-
+(aq)+2Φ⊝
+Cl-
+(aq)                        （3）
+式中 ：Φ⊝表示 C⊝
+p或S⊝；x表示水滑石中 Mg与Al的
+摩尔比 .
+MgAl -Cl-LDH_ss 模 型 中 固 相 的 溶 解 反 应 式
+如下 ：
+Mg2xAl2(OH)4+4xCl2(H2O)3—→——Ks2xMg2++
+2AlO-
+2+(4x-4)OH-+2Cl-+7H2O （4）
+利用 GEM -Selektor v .3中的 ReacDC 模块 ，设置
+式（4）中的 Ks、C⊝
+p和S⊝，通过模块计算 ，可得到固相
+的ΔfG⊝
+m和ΔfH⊝.8
+
+=== Page 5 ===
+第1期 左义兵 ，等：盐耦合侵蚀下碱矿渣水泥相演变的热力学模拟
+MgAl -Cl-LDH_ss 模型中固相的热力学参数见
+表1.其 中 ，MgAl -Cl-LDH_ss 模 型 中 固 相 的 V⊝
+m与
+MgAl -OH-LDH_ss 模 型 中 对 应 固 相 的 V⊝
+m相 同 ，是
+因为 Cl-与水滑石层间的 OH-交换不会对水滑石体
+积产生较大影响 .
+1.3　含硫酸根水滑石的热力学模型
+基于 MgAl -OH-LDH_ss 模型 ，经过阴离子交换所 生 成 的 含 硫 酸 根 水 滑 石 的 化 学 式 可 表 示 为
+Mg 4Al 2（OH）12SO 4（H2O）3、Mg 6Al 2（OH）16SO 4（H2O）3
+和Mg 8Al 2（OH）20SO 4（H2O）3.由此构成含硫酸根水滑
+石的热力学模型记为 MgAl -SO 4-LDH_ss 模型 .该模
+型中固相的 Ks 可根据 SO2-
+4与OH-之间的交换常数
+（Kex[OH-SO4]）计算得到 ，Kex[OH-SO4]计算表达式如式 （5）
+所示［20］.
+lg Kex[OH-SO4] = lg({ } Mg0.7Al0.3()OH2()OH0.3·nH2O{} OH-0.3
+{ } Mg0.7Al0.3()OH2() SO40.15·nH2O{} SO2-
+40.15)= 0.03 （5）
+式 中 ，每0.15 mol SO2-
+4置 换 0.30 mol OH-，因 此
+lg Kex[OH-SO4]=0.2.结合 MgAl -OH-LDH_ss 模型中 3
+个固相的 Ks，可得到 MgAl -SO 4-LDH_ss 模型中对应
+固相的 lg Ks，分别为 -49.50、-71.82和-94.14.按 照 确 定 MgAl -Cl-LDH_ss 模 型 中 固 相 的 热
+力学参数的方法 （见1.2.2） ，同理可得到 MgAl -SO 4-
+LDH_ss 模 型 中 固 相 的 热 力 学 参 数 ，其 值 也 列
+入表 1.
+1.4　热力学模拟方法
+设矿渣质量为 100 g，其化学组成 （质量分数 ，文中
+涉及的组成 、掺量等除特别注明外均为质量分数 ）为
+40.6% CaO 、35.4% SiO 2、12.1% Al 2O3、7.3% MgO 、
+0.2% Na 2O、0.5% K 2O和1.7% SO 3，密 度 为 2.9 g/
+cm3［21］.采用硅酸钠来激发矿渣 ，其中的 Na 2O和SiO 2相
+对矿渣的质量分数分别为 4.0%、5.4%，水与矿渣的质
+量比为 0.4，温度为 25 °C.根据碱矿渣水泥 28 d反应度
+57%~ 68%［22］，本试验将矿渣的反应度选为 60%.
+利用 GEM -Selektor v .3模拟氯化钠和硫酸镁侵蚀
+下碱矿渣水泥的相演变过程 .根据实际侵蚀过程中可能
+参入反应的盐量 ，结合盐侵蚀下相的变化特点 ，选取氯
+化钠和硫酸镁相对矿渣质量分数为 0%~ 30%.为验证
+热力学模拟的准确性 ，先模拟单一氯化钠或单一硫酸
+镁侵蚀下碱矿渣水泥的相演变过程 ，并与文献中的试
+验结果进行对比分析 ；再模拟氯化钠与硫酸镁以 3种质
+量比（3∶1、1∶1和1∶3）进行耦合侵蚀时的相演变过程 .
+2　结果与讨论
+2.1　单一氯化钠侵蚀的热力学模拟及其试验对比
+分析
+图1为单一氯化钠侵蚀下碱矿渣水泥相演变及氯 离 子 固 化 过 程 .其 中 ，氯 离 子 固 化 是 指 由 于 生 成
+Friedel 盐、Kuzel 盐或含氯离子水滑石而引起的化学
+固化 .由图 1可见 ：当氯化钠掺量为 0%时，水化产物
+为C-（N-）A-S-H凝 胶 （CNASH_ss ） 、含 氢 氧 根 水 滑
+石（MgAl -OH-LDH_ss ） 、钠沸石 （natrolite ）和水化钙
+铝黄长石 （strätlingite ） ，与已有研究结果一致［14］；当氯
+化钠掺量高于 0.6%且逐渐增加时 ，Friedel 盐开始生
+成且逐渐增多 ，与试验结果吻合［6］；随着 Friedel 盐的
+生 成 ，strätlingite 逐 渐 分 解 ，说 明 氯 化 钠 侵 蚀 导 致
+strätlingite 转变为 Friedel 盐，与已有文献报道一致［23］；
+当氯化钠掺量超过 5.2%时，MgAl -OH-LDH_ss 开始
+分 解 ，分 解 出 来 的 Mg2+在 碱 性 环 境 下 生 成 水 镁 石
+（brucite ） ，而 分 解 出 来 的 Al3+促 进 Friedel 盐 的 生
+成；当氯化钠掺量超过 8.7%时，过量的氯化钠不再
+参与反应 ，而在溶液中析出 .由图 1还可见 ：氯离子
+固 化 量 随 着 Friedel 盐 的 生 成 而 逐 渐 增 加 ，直 至 氯
+化 钠 析 出 而 达 到 最 大 值 .在 整 个 相 演 变 过 程 中 ，未
+生 成 含 氯 离 子 水 滑 石 ，与 已 有 文 献 报 道 一 致 .说 明
+在 氯 化 钠 侵 蚀 下 ，Cl-与 含 氢 氧 根 水 滑 石 的 相 互 作
+用 主 要 是 表 面 物 理 吸 附 ，阴 离 子 交 换 较 弱［24］，因 为
+水 滑 石 对 Cl-的 吸 附 能 力 小 于 对 OH-的 吸 附
+能力［25］.表1　MgAl-Cl-LDH_ss 模型和 MgAl-SO4-LDH_ss 模型中固相的热力学参数
+Table 1　Thermodynamic parameters of solid solution members in MgAl -Cl-LDH_ss and MgAl -SO4-LDH_ss
+Model
+Mg4Al2(OH)12Cl2(H2O)3
+Mg6Al2(OH)16Cl2(H2O)3
+Mg8Al2(OH)20Cl2(H2O)3
+Mg4Al2(OH)12SO4(H2O)3
+Mg6Al2(OH)16SO4(H2O)3
+Mg8Al2(OH)20SO4(H2O)3V⊝
+m  /(cm3·mol-1)
+219
+305
+392
+219
+305
+392ΔfH⊝ /(kJ·mol-1)
+-7 012.89
+-8 859.49
+-10 706.10
+-7 608.68
+-9 455.29
+-11 301.90ΔfG⊝
+m /(kJ·mol-1)
+-6 285.07
+-7 949.63
+-9 613.97
+-6 787.27
+-8 451.72
+-10 116.20S⊝/(J·mol-1·K-1)
+683.90
+809.90
+935.90
+589.22
+715.22
+841.22C⊝
+p/(J·mol-1·K-1)
+675.70
+830.70
+985.70
+654.58
+809.58
+964.589
+
+=== Page 6 ===
+建 筑 材 料 学 报 第26卷
+2.2　单一硫酸镁侵蚀的热力学模拟及其试验对比
+分析
+单一硫酸镁侵蚀下碱矿渣水泥相演变过程如图
+2所示 .由图 2可见 ：随着硫酸镁的掺入 ，strätlingite 开
+始分解 ，生成少量 AFm ；当硫酸镁掺量超过 0.6%时，
+AFt 开始生成且逐渐增多 ，说明硫酸镁侵蚀导致 AFt
+生成 ，与已有试验结果一致［10， 26］；当硫酸镁掺量超过
+4.6 %时，MgAl -OH-LDH_ss 开 始 转 化 为 含 硫 酸 根
+水 滑 石 （MgAl -SO 4-LDH_ss ），然 而 X射 线 衍 射
+（XRD ）图 谱 显 示 ，并 无 MgAl -SO 4-LDH_ss 生 成［27］，
+可能是 MgAl -SO 4-LDH_ss 的XRD 特征峰与 AFt 重
+叠所致［28］.Ye等［10］基于热重 /微商热重 （TG/DTG ）分析指出 ，MgAl -SO 4-LDH_ss 可能在硫酸镁侵蚀的碱
+矿渣水泥中生成 . 由图 2还可见 ：当硫酸镁掺量超过
+13.0%时，水化硅酸镁 （M-S-H）开始生成 ，与试验结
+果一致［10， 26］；当硫酸镁掺量超过 14.2%时，AFt 开始
+逐 渐 分 解 ，转 化 为 石 膏 ，与XRD 测 试 结 果 相
+吻合［11， 27］.
+通过热力学计算得到 CNASH_ss 模型中 8个固
+相的生成量 ，同时计算这些固相中总的 Ca、Al和Si
+的物质的量 ，进而得到 C-（N-）A-S-H凝胶的 n（Ca）/
+n（Si）和n（Al）/n（Si） ，结 果 也 绘 于 图 2.图2显 示 ：
+C-（N-）A-S-H凝胶中 n（Ca）/n（Si）和n（Al）/n（Si）均
+随着硫酸镁掺量的增加而逐渐降低 ，表明硫酸镁侵
+蚀导致 C-（N-）A-S-H凝胶脱钙和脱铝 ，与试验研究
+结果相符［10， 26］；当硫酸镁掺量超过 14.2%时，n（Ca）/
+n（Si）和n（Al）/n（Si）不再降低 ，这是因为此时 AFt 开
+始分解 ，提供了 Ca2+和Al3+，避免 C-（N-）A-S-H凝胶
+进一步脱钙和脱铝 .
+2.3　氯化钠与硫酸镁耦合侵蚀的热力学模拟
+图3为氯化钠与硫酸镁耦合侵蚀下碱矿渣水泥
+浆体的相演变及氯离子固化过程 .
+由图 3（a）可见 ： （1）当氯化钠与硫酸镁以质量比
+3∶1进行耦合侵蚀时 ，首先生成 Kuzel 盐，而非 Friedel
+盐，是因为耦合侵蚀同时引入了 Cl-和SO2-
+4.（2）当氯
+化钠和硫酸镁总掺量达到 1.6%和2.4%时，Friedel
+盐和 AFt 开始生成并逐渐增多 ，而Kuzel 盐在氯化钠
+与硫酸镁总掺量为 2.2%时最多 ，随后逐渐分解直至
+消 失 ；当 氯 化 钠 与 硫 酸 镁 掺 量 超 过 5.8%时，
+MgAl -OH-LDH_ss 开始逐渐分解 ，生成水镁石 ，促进
+Friedel 盐和 AFt 的生成 ，Friedel 盐的生成量在氯化
+钠与硫酸镁总掺量为 9.8%时达到最大值 ，此时氯化
+钠开始析出 ；当氯化钠与硫酸镁总掺量达到 11.0%
+时，含氯离子水滑石 （MgAl -Cl-LDH_ss ）开始逐渐生
+成，而 水 镁 石 开 始 逐 渐 分 解 .（3）随 着 Kuzel 盐 和
+Friedel 盐的生成 ，氯离子固化量逐渐增多 ，在Friedel
+盐生成最多时达到最大值 ；随后 ，氯离子固化量随着
+Friedel 盐的分解而逐渐降低 ，在Friedel 盐完全分解
+时达到最小值 ；最后 ，由于 MgAl -Cl-LDH_ss 的进一
+步生成 ，氯离子固化量有所增加 .
+由图 3（b）可见 ： （1）当氯化钠与硫酸镁以质量比 1∶1
+进 行 耦 合 侵 蚀 时 ，在 生 成 Kuzel 盐 之 前 ，就 有 少 量
+AFm 生成 ，是因为硫酸镁的耦合比例由 25%提高到
+50%后，较高浓度的 SO2-
+4促使 AFm 的生成 .（2）随着
+氯化钠与硫酸镁总掺量的增大 ，AFt 和Friedel 盐开始
+逐渐生成 ，当总掺量超过 16%时，MgAl -SO 4-LDH_ss
+开始生成 ，且其中一部分由 MgAl -Cl-LDH_ss 通过阴
+图2　单一硫酸镁侵蚀下碱矿渣水泥浆体相演变过程和
+C-（N-）A-S-H凝胶中 n（Ca）/n（Si） 、n（Al）/n（Si）
+Fig.2　Phase evolution of alkali -activated slag paste upon 
+magnesium sulfate attack and n（Ca）/n（Si） ，
+n（Al）/n（Si） in C -（N-）A-S-H
+图1　单一氯化钠侵蚀下碱矿渣水泥浆体相演变及氯
+离子固化过程
+Fig.1　Phase evolution and chemically binding amount 
+of Cl- of alkali -activated slag paste upon sodium 
+chloride attack10
+
+=== Page 7 ===
+第1期 左义兵 ，等：盐耦合侵蚀下碱矿渣水泥相演变的热力学模拟
+离子交换转化而来 ，这是因为水滑石对 SO 42-的吸附
+能 力 大 于 对 Cl-的 吸 附 能 力［25］；相 比 于
+MgAl -SO 4-LDH_ss ，MgAl -Cl-LDH_ss 优先生成 ，这
+是因为当氯化钠与硫酸镁总掺量小于 16%时，AFt
+消耗了大量 SO2-
+4，降低了溶液中 SO2-
+4的含量 ，从而
+减弱了生成 MgAl -SO 4-LDH_ss 的热力学基础 ；当氯
+化钠与硫酸镁总掺量超过 19.4%时，AFt 开始逐渐
+分 解 ，生 成 石 膏 .（3）随 着 Kuzel 盐、Friedel 盐 和
+MgAl -Cl-LDH_ss 的生成 ，氯离子固化量逐渐增多 ，
+在MgAl -Cl-LDH_ss 生 成 量 最 多 时 达 到 最 大 值 ；随
+后，氯离子固化量随着 MgAl -Cl-LDH_ss 部分转化为
+MgAl -SO 4-LDH_ss 而逐渐降低 ，在转化停止时达到
+最小值 ；最后 ，由于 MgAl -Cl-LDH_ss 的进一步生成 ，
+氯离子固化量略有增加 .
+由图 3（c）可见 ： （1）当氯化钠与硫酸镁以质量比1∶3进行耦合侵蚀时 ，有少量 AFm 生成 ，而Kuzel 盐
+和Friedel 盐均未生成 .（2）随着氯化钠与硫酸镁总掺
+量的增加 ，AFm 开始分解 ，AFt 开始逐渐生成且快速
+增长 ，在氯化钠与硫酸镁总掺量为 14.2%时达到最
+大值 ，随后开始逐渐分解 ，生成石膏 ；由于硫酸镁耦
+合比例远高于氯化钠耦合比例 ，MgAl -SO 4-LDH_ss
+比MgAl -Cl-LDH_ss 先生成 ，且前者生成量远多于后
+者生成量 ；当氯化钠与硫酸镁总掺量达到 26.0%时，
+MgAl -Cl-LDH_ss 生成量达到最大值 ，随后逐渐转化
+为MgAl -SO 4-LDH_ss .MgAl -Cl-LDH_ss 转 化 为
+MgAl -SO 4-LDH_ss 时会释放出 Cl-，使溶液中 Cl-含
+量 升 高 ，最 终 导 致 氯 化 钠 析 出 .（3）由 于 Kuzel 盐 和
+Friedel 盐均未生成 ，在氯化钠与硫酸镁总掺量小于
+7.4%时，氯离子固化量为 0；随后 ，氯离子固化量随
+着MgAl -Cl-LDH_ss 的 生 成 而 逐 渐 增 大 ，随 着
+图3　氯化钠与硫酸镁耦合侵蚀下碱矿渣水泥的相演变及固化氯离子过程
+Fig.3　Phase evolution and chemically binding amount of Cl- of alkali -activated slag paste upon combined attack of sodium 
+chloride and magnesium sulfate11
+
+=== Page 8 ===
+建 筑 材 料 学 报 第26卷
+MgAl -Cl-LDH_ss 转化为 MgAl -SO 4-LDH_ss 而逐渐
+减小 .
+与单一氯化钠侵蚀相比 ，氯化钠与硫酸镁耦合侵
+蚀下生成了 MgAl -Cl-LDH_ss .这说明在耦合侵蚀下 ，
+硫酸镁对氯化钠侵蚀存在影响 ，一方面硫酸镁侵蚀降
+低了孔溶液碱度［26］，有利于 Cl-与水滑石层间 OH-进
+行 交 换 ，另 一 方 面 为 生 成 MgAl -Cl-LDH_ss 提 供 了
+Mg2+.此外 ，Friedel 盐随着硫酸镁耦合比例的增大而
+逐渐减少 ，当氯化钠与硫酸镁质量比 为1∶3时不再生
+成Friedel 盐，说明硫酸镁对氯化钠侵蚀下 Friedel 盐
+的生成存在抑制作用 .与单一硫酸镁侵蚀相比 ，氯化
+钠与硫酸镁耦合侵蚀时没有生成水化硅酸镁 ，表明氯
+化钠对硫酸镁侵蚀也存在影响 ，抑制了水化硅酸镁的
+生成 .
+在实际侵蚀过程中 ，由于碱矿渣水泥对盐侵入
+材料内部的抵抗作用 ，参与反应的盐量由表及里逐
+渐降低 .越靠近表面 ，参与反应的盐越多 ，对应热力
+学模拟中侵蚀盐的掺量就越高 .从热力学模拟结果
+可预测出 ，在实际侵蚀过程中 ，盐侵蚀程度随侵蚀深
+度而变化 ，越靠近表面 ，盐侵蚀导致相改变越明显 ，
+侵蚀破坏也越严重 .
+3　结论
+（1）建立了含氯离子水滑石和含硫酸根水滑石
+的热力学模型 ，较好地描述了氯化钠与硫酸镁耦合
+侵蚀下碱矿渣水泥中含氯离子水滑石和含硫酸根水
+滑石的生成与演变规律 .
+（2）单一氯化钠或单一硫酸镁侵蚀均会影响碱
+矿 渣 水 泥 的 相 组 成 及 其 演 变 .氯 化 钠 侵 蚀 下 生 成
+Friedel 盐，硫酸镁侵蚀下生成 AFm 、AFt、石膏 、水化
+硅酸镁和含硫酸根水滑石 .
+（3）氯化钠与硫酸镁耦合侵蚀不仅具有单一氯
+化钠或单一硫酸镁侵蚀的特点 ，还显示出耦合效应 ，
+促使含氯离子水滑石的生成 ，抑制 Friedel 盐和水化
+硅酸镁的生成 .
+（4）增大硫酸镁耦合比例会降低碱矿渣水泥固
+化氯离子的能力 .
+参考文献 ：
+［1］　YE H L ， CARTWRIGHT C ， RAJABIPOUR F ， et al . 
+Understanding the drying shrinkage performance of alkali -activated 
+slag mortars ［J］. Cement and Concrete Composites ， 2017 ， 76：
+13-24.
+［2］　SHI J J ， MING J ， SUN W . Electrochemical performance of reinforcing steel in alkali -activated slag extract in the presence of 
+chlorides ［J］. Corrosion Science ， 2018 ， 133：288-299.
+［3］　万小梅 ， 韩笑 ， 于琦 ， 等. 碱激发矿渣净浆对氯离子的固化作
+用 ［J］. 建筑材料学报 ， 2021 ， 24（5） ：952-960.
+WAN Xiaomei ， HAN Xiao ， YU Qi ， et al . Solidification of 
+chloirde ions in alkali -activated slag paste ［J］. Journal of Building 
+Materials ， 2021 ， 24（5） ：952-960. （in Chinese ）
+［4］　ARBI K ， NEDELJKOVIĆ M ， ZUO Y B ， et al . A review on the 
+durability of alkali -activated fly ash/slag systems ：Advances ， 
+issues ， and perspectives ［J］. Industrial & Engineering Chemistry 
+Research ， 2016 ， 55（19） ：5439 -5453 .
+［5］　杨长辉 ， 刘本万 ， 向晓斌 ， 等. 碱矿渣水泥石抗碳硫硅钙石型
+硫酸盐腐蚀性能 ［J］. 建筑材料学报 ， 2015 ， 18（1） ：44-48.
+YANG Changhui ， LIU Benwan ， XIANG Xiaobin ， et al . 
+Resistance of alkali -activated slag cement to thaumasite sulfate 
+attack ［J］. Journal of Building Materials ， 2015 ， 18（1） ：44-48. （in 
+Chinese ）
+［6］　ZHANG J ， SHI C J ， ZHANG Z H . Chloride binding of 
+alkali -activated slag/fly ash cements ［J］. Constrction and Building 
+Materials ， 2019 ， 226：21-31.
+［7］　YE H L ， HUANG L ， CHEN Z J . Influence of activator 
+composition on the chloride binding capacity of alkali -activated 
+slag ［J］. Cement and Concrete Composites ， 2019 ， 104：103368 .
+［8］　LI G L ， ZHANG X B ， SUN J Q ， et al . Effective removal of 
+bisphenols from aqueous solution with magnetic hierarchical 
+rattle -like Co/Ni -based LDH ［J］. Journal of Hazardous 
+Materials ， 2020 ， 381：120985 .
+［9］　LIU L P ， XIE M J ， HE Y ， et al . Expansion behavior and 
+microstructure change of alkali -activated slag grouting material in 
+sulfate environment ［J］. Constrction and Building Materials ， 
+2020 ， 260：119909 .
+［10］　YE H L ， CHEN Z J ， HUANG L . Mechanism of sulfate attack 
+on alkali -activated slag ：The role of activator composition ［J］. 
+Cement and Concrete Research ， 2019 ， 125：105868 .
+［11］　ISMAIL I ， BERNAL S A ， PROVIS J L ， et al . Microstructural 
+changes in alkali activated fly ash/slag geopolymers with sulfate 
+exposure ［J］. Materials and Structures ， 2013 ， 46（3） ：361-373.
+［12］　LOTHENBACH B ， KULIK D A ， MATSCHEI T ， et al . 
+Cemdata 18：A chemical thermodynamic database for hydrated 
+Portland cements and alkali -activated materials ［J］. Cement and 
+Concrete Research ， 2019 ， 115：472-506.
+［13］　MYERS R J ， BERNAL S A ， PROVIS J L . A thermodynamic 
+model for C -（N-）A-S-H gel ：CNASH_ss . Derivation and 
+validation ［J］. Cement and Concrete Research ， 2014 ， 66：27-47.
+［14］　MYERS R J ， LOTHENBACH B ， BERNAL S A ， et al . 
+Thermodynamic modelling of alkali -activated slag cements ［J］. 
+Appled Geochemistry ， 2015 ， 61：233-247.
+［15］　ROZOV K ， CURTIUS H ， NEUMANN A ， et al . Synthesis ， 
+characterization and stability properties of Cl -bearing 
+hydrotalcite -pyroaurite solids ［J］. Radiochimica Acta ， 2013 ， 101
+（2） ：101-109.
+［16］　MOSTAFA A G ， EAKMAN J M ， YARBRO S L . Prediction 
+of standard heats and Gibbs free energies of formation of solid 12
+
+=== Page 9 ===
+第1期 左义兵 ，等：盐耦合侵蚀下碱矿渣水泥相演变的热力学模拟
+inorganic salts from group contributions ［J］. Industrial & 
+Engineering Chemistry Research ， 1995 ， 34（12） ：4577 -4582 .
+［17］　ROZOV K B ， BERNER U ， KULIK D A ， et al . Solubility and 
+thermodynamic properties of carbonate -bearing hydrotalcite —
+Pyroaurite solid solutions with a 3∶1 Mg/ （Al+Fe ） mole ratio 
+［J］. Clays and Clay Minerials ， 2011 ， 59（3） ：215-232.
+［18］　ROZOV K . Stability and solubility of hydrotalcite -pyroaurite solid 
+solutions ：Synthesis ， characterization and thermodynamic 
+modelling ［D］. Bern ：University of Bern ， 2010 .
+［19］　ANDERSON G M ， CRERAR D A . Thermodynamics in 
+geochemistry ：The equilibrium model ［M］. Oxford ：Oxford 
+University Press ， 1993 ：125-138.
+［20］　MIYATA S . Anion -exchange properties of hydrotalcite -like 
+compounds ［J］. Clays and Clay Minerials ， 1983 ， 31（4） ：305-311.
+［21］　ZUO Y B . Effect of chloride salt on the phase evolution in 
+alkali -activated slag cements through thermodynamic modelling 
+［J］. Applied Geochemistry ， 2021 ， 136：105169 .
+［22］　ZUO Y B . Experimental study and numerical simulation of the 
+reaction process and microstructure formation of alkali -activated 
+materials ［D］. Delft ：Delft University of Technology ， 2019 ：
+64-69.
+［23］　BIRNIN -YAURI U A ， GLASSER F P . Friedel's salt ， Ca2Al
+（OH）6（Cl，OH） ·2H2O：Its solid solutions and their role in chloride binding ［J］. Cement and Concrete Research ， 1998 ， 28
+（12） ：1713 -1723 .
+［24］　KE X Y ， BERNAL S A ， PROVIS J L . Uptake of chloride and 
+carbonate by Mg -Al and Ca -Al layered double hydroxides in 
+simulated pore solutions of alkali -activated slag cement ［J］. 
+Cement and Concrete Research ， 2017 ， 100：1-13.
+［25］　段平 ， 严春杰 ， 陈伟 ， 等. 层状双氢氧化物对混凝土抗碳化性
+能的影响  ［J］. 硅酸盐学报 ， 2014 ， 42（8） ：1037 -1041 .
+DUAN Ping ， YAN Chunjie ， CHEN Wei ， et al . Influence of 
+layered double hydroxides on carbonation resistance of concrete 
+［J］. Journal of the Chinese Ceramic Society ， 2014 ， 42（8） ：
+1037 -1041 . （in Chinese ）
+［26］　GONG K ， WHITE C E . Nanoscale chemical degradation 
+mechanisms of sulfate attack in alkali -activated slag ［J］. Journal 
+of Physical Chemistry C ， 2018 ， 122（11） ：5992 -6004 .
+［27］　BELTRAME N A M ， ANGULSKI DA LUZ C ， PERARDT 
+M， et al . Alkali activated cement made from blast furnace slag 
+generated by charcoal ：Resistance to attack by sodium and 
+magnesium sulfates ［J］. Construction and Building Materials ， 
+2020 ， 238：117710 .
+［28］　MOBASHER N ， BERNAL S A ， PROVIS J L . Structural 
+evolution of an alkali sulfate activated slag cement ［J］. Journal of 
+Nuclear Materials ， 2016 ， 468：97-104.13

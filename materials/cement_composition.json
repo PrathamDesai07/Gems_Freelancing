@@ -1,0 +1,89 @@
+{
+  "cement_type": "P·I 52.5",
+  "cement_standard": "Chinese National Standard",
+  "description": "Portland cement P·I 52.5 used in fly ash blended paste degradation study",
+  "data_source": "XRF/XRD analysis from experimental study (相关参数)",
+  "date": "2026-02-28",
+  
+  "oxides_wt_percent": {
+    "CaO": 63.63,
+    "SiO2": 17.37,
+    "Al2O3": 4.20,
+    "Fe2O3": 3.89,
+    "MgO": 2.15,
+    "SO3": 2.05,
+    "K2O": 0.38,
+    "Na2O": 0.34,
+    "TiO2": 0.26
+  },
+  
+  "total_oxides_percent": 92.27,
+  "loss_on_ignition_note": "Remaining percentage includes minor oxides and LOI",
+  
+  "minerals_wt_percent": {
+    "C3S": 61.8,
+    "C2S": 8.6,
+    "C3A": 1.7,
+    "C4AF": 16.2,
+    "K2SO4": 0.2,
+    "gypsum_CaSO4_2H2O": 3.3,
+    "bassanite_CaSO4_half_H2O": 0.0,
+    "anhydrite_CaSO4": 0.0,
+    "calcite_CaCO3": 0.5
+  },
+  
+  "total_minerals_percent": 92.3,
+  
+  "mineral_formulas": {
+    "C3S": "3CaO·SiO2",
+    "C2S": "2CaO·SiO2",
+    "C3A": "3CaO·Al2O3",
+    "C4AF": "4CaO·Al2O3·Fe2O3",
+    "K2SO4": "K2SO4",
+    "gypsum": "CaSO4·2H2O",
+    "bassanite": "CaSO4·0.5H2O",
+    "anhydrite": "CaSO4",
+    "calcite": "CaCO3"
+  },
+  
+  "physical_properties": {
+    "density_g_cm3": 3.15,
+    "specific_surface_area_m2_kg": 350,
+    "blaine_fineness_note": "Typical for P·I 52.5 cement"
+  },
+  
+  "chemical_characteristics": {
+    "cao_sio2_ratio": 3.66,
+    "alumina_silica_ratio": 0.24,
+    "lime_saturation_factor": 0.95,
+    "notes": "High C3S content typical for Type I Portland cement"
+  },
+  
+  "elemental_composition_mmol_per_100g": {
+    "Ca": 1135.2,
+    "Si": 289.1,
+    "Al": 82.4,
+    "Fe": 48.7,
+    "Mg": 53.4,
+    "S": 25.6,
+    "K": 8.1,
+    "Na": 11.0,
+    "Ti": 3.3
+  },
+  
+  "hydration_parameters": {
+    "initial_hydration_degree_C3S": 0.95,
+    "initial_hydration_degree_C2S": 0.65,
+    "initial_hydration_degree_C3A": 1.0,
+    "initial_hydration_degree_C4AF": 0.70,
+    "note": "Initial estimates for 28-day hydration at 20°C, to be calibrated"
+  },
+  
+  "validation_notes": {
+    "source": "Experimental data from salt attack degradation study",
+    "method": "XRF for oxide composition, Rietveld refinement for mineral phases",
+    "temperature_condition": "20°C",
+    "curing_condition": "Standard curing",
+    "replicate_samples": "Multiple specimens tested for consistency"
+  }
+}

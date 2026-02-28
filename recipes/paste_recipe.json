@@ -1,0 +1,181 @@
+{
+  "recipe_name": "OPC_FA_Paste_30percent",
+  "recipe_description": "Portland cement + 30% fly ash blended paste for salt attack study",
+  "data_source": "Experimental specifications from degradation study (相关参数)",
+  "date": "2026-02-28",
+  
+  "mix_design": {
+    "water_binder_ratio": 0.3,
+    "fly_ash_replacement_percent": 30,
+    "cement_percent_of_binder": 70,
+    "fly_ash_percent_of_binder": 30
+  },
+  
+  "masses_per_1000cm3": {
+    "cement_g": 1120,
+    "fly_ash_g": 480,
+    "water_g": 480,
+    "total_binder_g": 1600,
+    "total_paste_g": 2080
+  },
+  
+  "volume_fractions": {
+    "cement_cm3": 355.6,
+    "fly_ash_cm3": 204.3,
+    "water_cm3": 480.0,
+    "solid_volume_cm3": 559.9,
+    "water_volume_cm3": 480.0,
+    "initial_porosity_estimate": 0.04,
+    "notes": "Volumes calculated using material densities from composition files"
+  },
+  
+  "material_sources": {
+    "cement": "P·I 52.5 Portland cement (see cement_composition.json)",
+    "fly_ash": "Class F fly ash (see flyash_composition.json)",
+    "water": "Deionized water",
+    "cement_density_g_cm3": 3.15,
+    "fly_ash_density_g_cm3": 2.35,
+    "water_density_g_cm3": 1.0
+  },
+  
+  "specimen_geometry": {
+    "shape": "cylindrical_disc",
+    "diameter_mm": 5,
+    "thickness_mm": 3,
+    "volume_cm3": 0.0589,
+    "typical_mass_g": 5,
+    "surface_area_cm2": 0.863,
+    "notes": "Actual experimental specimen dimensions from study"
+  },
+  
+  "mixing_procedure": {
+    "step_1": "Mix dry cement and fly ash thoroughly",
+    "step_2": "Add water gradually while mixing",
+    "step_3": "Mix for 3-5 minutes until homogeneous",
+    "step_4": "Cast into molds immediately",
+    "step_5": "Vibrate to remove air bubbles",
+    "mixing_temperature_C": 20
+  },
+  
+  "curing_conditions": {
+    "method": "Standard curing",
+    "temperature_C": 20,
+    "relative_humidity_percent": 95,
+    "curing_duration_days": 28,
+    "sealed_condition": true,
+    "notes": "Sealed curing prevents moisture loss and carbonation"
+  },
+  
+  "initial_conditions": {
+    "closed_system": true,
+    "hydration_time_days": 28,
+    "temperature_C": 20,
+    "pressure_bar": 1.0,
+    "sealed": true,
+    "carbonation_prevention": true
+  },
+  
+  "expected_28day_properties": {
+    "compressive_strength_MPa": 40,
+    "porosity_percent": 15,
+    "capillary_porosity_percent": 10,
+    "gel_porosity_percent": 5,
+    "pH_pore_solution": 13.7,
+    "notes": "Estimates based on similar OPC+FA systems at w/b=0.3"
+  },
+  
+  "phase_assemblage_expected_28d": {
+    "portlandite_mol_per_1000cm3": 4.5,
+    "C_S_H_mol_per_1000cm3": 12.0,
+    "ettringite_mol_per_1000cm3": 0.6,
+    "monosulfate_mol_per_1000cm3": 0.4,
+    "hydrotalcite_mol_per_1000cm3": 0.2,
+    "unhydrated_C3S_percent": 5,
+    "unhydrated_C2S_percent": 35,
+    "unhydrated_C3A_percent": 0,
+    "unhydrated_C4AF_percent": 30,
+    "unreacted_FA_glass_percent": 80,
+    "notes": "Initial estimates to be validated and calibrated"
+  },
+  
+  "total_oxide_composition_paste": {
+    "CaO_g": 464.0,
+    "SiO2_g": 402.9,
+    "Al2O3_g": 246.5,
+    "Fe2O3_g": 67.2,
+    "MgO_g": 26.1,
+    "SO3_g": 26.7,
+    "K2O_g": 7.5,
+    "Na2O_g": 3.9,
+    "TiO2_g": 12.0,
+    "H2O_g": 480.0,
+    "notes": "Total oxides from cement + fly ash per 1000 cm³ paste"
+  },
+  
+  "total_molar_composition_paste": {
+    "CaO_mol": 8.27,
+    "SiO2_mol": 6.71,
+    "Al2O3_mol": 2.42,
+    "Fe2O3_mol": 0.42,
+    "MgO_mol": 0.65,
+    "SO3_mol": 0.33,
+    "K2O_mol": 0.08,
+    "Na2O_mol": 0.06,
+    "TiO2_mol": 0.15,
+    "H2O_mol": 26.67,
+    "notes": "Molar quantities for GEMS input"
+  },
+  
+  "degradation_test_conditions": {
+    "initial_curing": "28 days at 20°C, sealed",
+    "exposure_start_age_days": 28,
+    "test_duration_days": 60,
+    "test_temperature_C": 20,
+    "solution_volume_mL": 1000,
+    "sample_mass_g": 5,
+    "solution_to_solid_ratio": 200,
+    "replacement_schedule": "Varies by scenario (immersion vs pressure)"
+  },
+  
+  "exposure_scenarios": {
+    "scenario_1": "Pure water immersion",
+    "scenario_2": "Pure water with 1.2 MPa pressure",
+    "scenario_3": "70 g/L NaCl solution immersion",
+    "scenario_4": "70 g/L NaCl solution with 1.2 MPa pressure",
+    "scenario_5": "10 g/L Na2SO4 + 70 g/L NaCl mixed solution immersion",
+    "scenario_6": "10 g/L Na2SO4 + 70 g/L NaCl mixed solution with 1.2 MPa pressure",
+    "total_scenarios": 6
+  },
+  
+  "modeling_approach": {
+    "baseline_state": "28-day hydrated paste composition",
+    "degradation_model": "Sequential equilibration with external solution",
+    "solution_replacement": "Simulates leaching and ion exchange",
+    "pressure_effect": "Modeled as increased solution renewal rate",
+    "mass_balance": "Tracked via cumulative water contact"
+  },
+  
+  "validation_data_available": {
+    "XRD_28d": "Phase identification and semi-quantitative analysis",
+    "TGA_28d": "Portlandite content, bound water",
+    "SEM_EDS": "Microstructure and elemental distribution",
+    "pore_solution_analysis": "pH, major ion concentrations",
+    "mercury_intrusion_porosimetry": "Pore size distribution"
+  },
+  
+  "calculation_notes": {
+    "oxide_totals_cement": "From 1120 g cement per 1000 cm³",
+    "oxide_totals_flyash": "From 480 g fly ash per 1000 cm³",
+    "combined_oxides": "Weighted sum of cement and fly ash contributions",
+    "water_content": "480 g = 26.67 mol for w/b = 0.3",
+    "volume_consistency": "Total solid + water ≈ 1040 cm³ including minor porosity"
+  },
+  
+  "connection_to_phase1": {
+    "database": "CEMDATA18 configured in Phase 1",
+    "temperature": "20°C as set in project_config.json",
+    "C_S_H_model": "CSHQ as configured in Phase 1",
+    "suppressed_phases": "C3AS0.8H4.4, thaumasite per Phase 1 setup",
+    "solid_solutions": "AFm_ss, AFt_ss, CSH_ss, hydrotalcite_ss enabled"
+  }
+}

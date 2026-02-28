@@ -1,0 +1,640 @@
+=== Page 1 ===
+Modelling chemical degradation of concrete during leaching with rain and
+soil water types
+D. Jacques ⁎, L. Wang, E. Martens, D. Mallants
+Belgian Nuclear Research Centre (SCK CEN), Institute for Environment, Health, and Safety, Boeretang 200, B-2400 Mol, Belgium
+abstract article info
+Article history:
+Received 19 May 2009Accepted 15 February 2010
+Keywords:Pore solution (B)Thermodynamic calculation (B)Degradation (C)
+Long-term performance (C)
+Radio-active waste (E)Percolation of external water through concrete results in the degradation of cement and changes the
+concrete pore water and solid phase composition. The assessment of long-term degradation of concrete ispossible by means of model simulation. This paper describes simulations of chemical degradation of cementfor different types of rain and soil water at an ambient earth surface temperature (10 °C). Rain and soil water
+types were derived using generic equations and measurement of atmospheric boundary conditions
+representative for North-Belgium. An up-to-date and consistent thermodynamic model is used to calculatethe geochemical changes during chemical degradation of the concrete. A general pattern of four degradation
+stages was simulated with the third stage being the geochemically most complex stage involving reactions
+with calcium-silicate hydrates, AFm and AFt phases. Whereas the sequence of the dissolution reactions wasrelatively insensitive to the composition of the percolating water, the duration of the different reactions
+depends strongly on the percolating water composition. Major identi ﬁed factors in ﬂuencing the velocity of
+cement degradation are the effect of dry deposition and biological activity increasing the partial pressure ofCO
+2(g)in the soil air phase (and thus increasing the inorganic carbon content in the percolating water). Soil
+weathering processes have only a minor impact, at least for the relatively inert sandy material considered in
+this study.
+© 2010 Elsevier Ltd. All rights reserved.
+1. Introduction
+Cement and concrete are typically not in thermodynamic
+equilibrium with the surroundings in which they are located. Because
+concrete used in e.g. waste conditioning and surface disposal sites is
+not an isolated system, in ﬁltration and movement of solutes from the
+surroundings will change the concrete pore water and solid phase
+composition and, therefore, the solubility and sorption of contami-
+nants (see Wang et al. [1]for an extensive review of sorption values
+for radionuclides and some chemotoxic elements as a function of the
+cement degradation stage).
+Typical chemical degradation reactions are decalci ﬁcation, disso-
+lution and leaching of cement components and carbonation (Glasser
+et al. [2]), amongst others. These reactions induce a gradual change in
+the pore water composition, from typical “young ”concrete pore water
+with a pH above 13 to more evolved pore water with a pH lower than
+10. Different attempts have been made to simulate the long-term
+chemical degradation of concrete [3–7]. In general, at 25 °C four stages
+of cement degradation are identi ﬁed depending on the pH and cement
+pore water controlling cement phases (pH-values are for 25 °C). Stage
+1 has a pH larger than 12.5 with a high concentration of Na and K ions.
+Stage 2 has a pH of 12.5 controlled by the dissolution of portlanditewith approximately 20 mm of Ca. Stage 3 starts when all portlandite
+has been leached out of the cement and the pH drops from 12.5 to 10.0
+when the pore water composition is buffered by different cement
+phases including AFt, AFm and calcium-silicate hydrates (C –S–H
+phases). The end of this stage is de ﬁned when all these phases are
+completely leached out. Stage 4 has a pH lower than 10 with calciteand aggregate minerals present. The pore water composition is then
+mainly in ﬂuenced by the composition of the intruding water.
+Although the reactions within each stage, are quite independent of
+the composition of the intruding water, the duration of the different
+stages (expressed in total amount of added water) and the amount of
+minerals which dissolves or precipitates per kg of added water
+depend strongly on the composition of the in ﬁltrating water.
+The assessment of the progression of the long-term chemical
+degradation of cement is possible by means of model simulation. The
+most straightforward way is using thermodynamic equilibrium
+modelling coupled with transport of solution species. Such modelling
+approach is able to reproduce the zoning of cement degradation, as is
+shown by e.g. Moranville et al. [8]. A more simple approach is to use
+only thermodynamic equilibrium modelling with a mass-balance
+approach in which, after the equilibrium calculation, the cement-
+equilibrated pore water is replaced with a new amount of the external
+aggressive water but keeping the changed cement solid phase. Such
+type of simulation allows an in-depth analysis of the geochemical
+changes in both the pore water and the solid phase.Cement and Concrete Research 40 (2010) 1306 –1313
+⁎Corresponding author.
+E-mail address: djacques@sckcen.be (D. Jacques).
+0008-8846/$ –see front matter © 2010 Elsevier Ltd. All rights reserved.
+doi:10.1016/j.cemconres.2010.02.008
+Contents lists available at ScienceDirect
+Cement and Concrete Research
+journal homepage: http://ees.elsevier.com/CEMCON/default.asp
+
+=== Page 2 ===
+This paper describes simulations of chemical concrete degradation
+using thermodynamic equilibrium modelling combined with mass-
+balance approach for different rain and soil water types accounting for
+processes like wet deposition, dry deposition, soil biological processes
+and soil weathering and release of major cations at ambient surface
+temperatures (10 °C) using a consistent thermodynamic model for
+cement phases at temperatures different from the standard temper-ature (25 °C). These calculations were done within the framework of
+near-surface disposal of low and intermediate-level short-lived radio-
+active waste in Belgium, and therefore, atmospheric boundary
+conditions relevant for determining rain water and soil water
+composition were taken representative for Belgian conditions.
+2. Model approach
+Chemical degradation of concrete is simulated using mass conser-
+vation and thermodynamic equilibrium laws (mass action equations)
+starting from 1000 cm
+3of concrete at a long-term averaged atmospheric
+temperature ( ∼10 °C, representative for Belgium, Jacques and Mallants
+[9]). The concrete is equilibrated with a given amount of external water
+(not in equilibrium with the concrete phases). After equilibration, the
+resulting water is replaced by a new amount of external water whereas
+the changed cement solid phase is kept. In this way, the changing
+cement pore water and solid phase composition is simulated as function
+of cumulative added (external) water. This approach needs (i) a
+consistent thermodynamic database (i.e., solubility constants of the
+cement minerals are calculated with a single set of aqueous species and
+thermodynamic constants) for aqueous species and cement phases for
+10 °C, (ii) the initial concrete composition and (iii) the composition of
+the external water types.
+2.1. Thermodynamic model for cement degradation
+A thermodynamic data set for cement minerals was built by
+Lothenbach and Winnefeld [10], Lothenbach et al. [11] and Matschei
+et al. [12] (CEMDATA07), consistent with the thermodynamic data in
+the Nagra/PSI-Thermodynamic Data Base [13]. When used in the
+geochemical GEMS-software [14], temperature dependencies of ther-
+modynamic parameters are calculated with the embedded SUPCRT code
+[15]. The GEMS-software minimizes the Gibbs free energy of the system
+subject to a number of constraints (mass-balance conditions, electrical
+neutrality). The database can be used in other geochemical codes (e.g.
+PHREEQC [16]in which geochemical equilibrium is calculated based on
+mass action equations) at 25 °C together with the Nagra/PSI-Thermo-
+dynamic Data Base. To be used at other temperatures in PHREEQC,
+temperature dependencies of the aqueous species should be exactly the
+same as in GEMS, otherwise, the CEMDATA07 database and the Nagra/
+PSI database are not consistent. To simulate the chemical degradation
+due to leaching at a long-term average of the atmospheric temperature
+(taken to be 10 °C in Belgium), the equilibrium constants of all aqueous
+species and minerals in the model must be recalculated for this
+temperature. The Gibbs free energy for all species was calculated with
+GEMS (based on the revised Helgeson –Kirkham –Flowers equations for
+aqueous species or on the integration of the heat capacity function Cp(T)
+for minerals and gases) and related to the mass action constant KTby:
+KT=e x p −ΔrG∘
+T
+RT/C18/C19
+ð1Þ
+where Ris the universal gas constant, and ΔrGT° is the Gibbs free
+energy change of a reaction at temperature T:
+ΔrG∘
+T=−∑
+iνjiΔfG∘
+T;Aið2Þ
+where ΔfGT°
+,Aiis the Gibbs free energy of formation of species Aiat
+temperature Tand νjiare the stoichiometric coef ﬁcients of thechemical reaction. A detailed description of the conversion of the
+GEMS-database to a PHREEQC-database, a list of the aqueous species
+and minerals in the thermodynamic model and corresponding mass
+action constants at 10 °C are given in Jacques [17]. Note that the
+solubilities of Na and K in stage 1 were slightly differently treated.
+Alkali sulphate salts are very soluble resulting in the high Na and K
+concentrations, but sulphate is buffered by the formation of ettringite.Because Na- and K-controlling phases are lacking in the thermody-
+namic database, two surrogate phases (Na
+2O and K 2O) were de ﬁned
+to mimic the average concentrations of Na and K in fresh ordinary
+Portland cement (as reported by Brouwers and van Eijk [18]).
+2.2. Concrete composition and initial cement hydrates
+Calculations are based on a CEM I 42.5 N composition as given in
+Lothenbach et al. [11](Table 1 ). The concrete consists of 350 kg CEM I,
+1828 kg of different calcareous aggregates and 175 of kg water per m3
+of concrete (Jacques et al. [19]). Calculated equilibrium concrete pore
+water composition and mineral phase assemblages are given in
+Table 2 .
+2.3. Water composition
+The geochemical degradation of concrete depends on the
+composition of the external percolated water. The sensitivity of the
+chemical degradation rate of concrete for water composition is
+evaluated by doing several simulations with different water types.
+Water compositions used in the simulations are given in Table 3 .
+Theﬁrst two types of water are so-called rain water types. Type 1 is
+deﬁned by assuming that the water in ﬁltrating the concrete has the
+same composition as rain water. This type is indicated as Rain water —
+“wet only deposition ”and representative values were obtained from a
+series of averaged yearly concentrations as measured in the Dutch
+‘National Precipitation Chemistry Network ’(as cited in Jacques et al.
+[19]). The only biological process taken into account for this type of
+water is total nitri ﬁcation of the ammonium. Another rain water variant
+(type 2) takes into account the bulk dry deposition in calculating its
+chemical composition. In this study, this so-called “Rain water —bulk
+deposition ”is represented by long-term (1993 –2002) annual averaged
+bulk deposition amounts measured in the open ﬁe l da sr e p o r t e di n
+Neirynck et al. [20]. Deposition values reported as keq/ha/year are
+converted to mol/kg water using the average annual precipitation
+surplus (= precipitation −actual evapotranspiration, [19]).
+A second group of water types are those in which the rain water,
+prior to contacting the concrete, is ﬂowing through soil layers
+resulting in composition changes due to (micro)biological respiration
+and soil weathering processes. Soil microbiological respiration
+increases the partial pressure of CO 2(g)in the soil gas phase compared
+Table 1
+Oxide and phase composition of CEM I.After [11], only the four major clinker phases are given.
+Mineral g/100 g OPC mol/100 g OPC Molar mass (g/mol)
+CaO 62.4 1.1127 56.0794
+SiO
+2 18.9 0.3146 60.0843
+Al2O3 4.4 0.0432 101.961
+Fe2O3 2.5 0.0157 159.688
+CaO(free) 0.6 0.0107 56.0774
+MgO 1.4 0.0347 40.3044
+K2O 0.95 0.0101 94.196
+Na2O 0.10 0.0016 61.979
+CO2 2.1 0.0477 44.01
+SO3 3.0 0.0375 80.0652
+Alite (C 3S) 58
+Belite (C 2S) 10
+Aluminate (C 3A) 7.6
+Ferrite (C 4AF) 7.51307 D. Jacques et al. / Cement and Concrete Research 40 (2010) 1306 –1313
+
+=== Page 3 ===
+to the partial pressure of CO 2(g)of the atmosphere. The increase in the
+partial pressure of CO 2(g)depends on the availability of energy and
+water in the plant –soil environment. The model of Brook et al. [21]for
+predicting the partial pressure of CO 2(g)in the soil gas phase uses the
+yearly actual evapotranspiration as a surrogate for both available
+water and energy:
+log PCO2ðÞ =−3:47 + 2 :09 1−e−0:00172 ETa/C16/C17
+ð3Þ
+where PCO2is the partial pressure of CO 2(g)in the soil gas phase (atm)
+and ETais the annual actual evapotranspiration (mm). The latter was
+calculated for typical weather conditions in North-Belgium using a
+37-year long climatological record for a sandy soil covered with grass
+(for details, see [9]). Also the second typical soil process (weathering) is
+estimated in a generic way using only a limited amount of informa-tion on soil texture and parent material class used to de ﬁne a weathering
+rate class [22]. The yearly weathering rate of major cations (Na, K, Ca,
+Mg) is calculated as:
+BC
+w=z500 WRc−0:5 ðÞ expA
+281−A
+273 + T/C16/C17
+ð4Þ
+where BCwis the weathering rate of major cations (eq/ha/year), Tis the
+average yearly soil temperature (10 °C), WRc is the weathering rate class
+(1 for a sandy soil), zis the soil depth (1 m) and A=2600K. The
+fractions of the individual cations were based on the average total cation
+contents for acid sandy soils reported in De Vries [23] and are ﬁxed at
+0.3519, 0.4863, 0.0962 and 0.0653 for Na, K, Ca and Mg, respectively.Three types of soil water were de ﬁned: (i) only accounting for soil
+biological respiration processes ( “Soil water —CO2”, type 3) (ii)
+accounting for soil biological respiration processes and base cation
+weathering, in which the Al concentration is calculated in equilibrium
+with the soil mineral gibbsite ( “Soil water —gibbsite ”, type 4), and
+(iii) the same as “Soil water —gibbsite ”, but the Al concentration is
+obtained from multiplying the base cation weathering rate with afactor of 2, according to [22] (“Soil water —weathering ”, type 5).
+Some general assumptions were made in the derivation of the soil
+water type with respect to the long-term time scale considered in the
+chemical degradation of concrete. Basically, assumptions were made
+to apply a static mass-balance approach for calculating the soil
+inﬂuence on the composition of the in ﬁltrating water. For example,
+ion exchange and sorption processes in the soil are not taken into
+account. They are considered as ﬁnite buffering processes because, on
+the long term, the cation exchange sites are in equilibrium with the
+inﬁltrating soil water composition and the weathering processes.
+Consequently, ion exchange and sorption processes will not change
+the pore water composition once this equilibrium is established.
+Other assumptions are listed in [19].
+3. Results and discussion of the simulations
+3.1. Cement degradation during leaching with rain water
+Fig. 1 shows some simulation results for the “Rain water —wet
+deposition only ”. The four major stages of geochemical concrete
+degradation are indicated. Stage I and stage II are, respectively,
+characterized by high Na and K concentrations (simulated here in
+equilibrium with the surrogate alkali oxides, Na
+2O and K 2O) and Ca
+(simulated in equilibrium with portlandite). The element concentra-
+tions are controlled by the different cement phases (except Na and K
+in stage 2) and are, consequently, signi ﬁcantly different from the rain
+water composition. The ﬁrst stage ends after approximately 0.35 kg of
+water per 1000 cm3of concrete was added. The second stage ends
+after approximately 72 kg of water per 1000 cm3concrete was added.
+The dissolution of portlandite results in an increase in porosity of
+about 4.9%.
+The third stage is geochemically the most complex stage with a
+sequence of mineral dissolution and precipitation reactions with
+changing dissolution and precipitation reactions of the C –S–H, AFm
+and AFt phases. Its end is de ﬁned by the complete dissolution of the
+C–S–H tobermorite-like end member. Within this stage, the solution
+composition drastically changes with a decrease in pH to 11.06 and up to
+one order of magnitude changes in solute concentrations. A number of
+cement phase dissolution and precipitation reactions can be inferredTable 2
+Initial pore water composition of 1000 cm3of concrete, including 350 g of CEM I 42.5 N
+(Table 1 ), 1828 g of calcite and 175 g of water.
+Element Concentration
+(mol/kg H 2O)Mineral Amount
+(mol/1000 cm3of concrete)
+Al 1.38E −05 Jena9.95E−01
+C 8.25E −05 Toba1.07E−01
+Ca 1.58E −03 Ettringite 4.37E −02
+K 1.60E −01 Tricarboaluminate 1.36E −02
+Mg 1.93E −09 Monocarboaluminate 6.34E −02
+Na 6.82E −02 HydrotalciteOH 3.04E −02
+S 2.81E −04 Portlandite 1.49
+Si 3.40E −5N a 2O (surrogate) 3.66E −03
+pH 13.8 K 2O (surrogate) 3.08E −02
+Ionic strength 0.22 Calcite 18.32
+aJen and Tob are the terms used for the jennite-like and tobermorite-like end
+members in the ideal solid solution description of the C –S–H phases.
+Table 3
+Overview of the composition of the percolation water. Types 1 and 2 are rain water types for wet deposition only (type 1) and for wet and dry deposition (t ype 2) with atmospheric
+partial pressure of CO 2(g)(=10−3.5atm). Type 3 is the wet and dry deposition cases with soil partial pressures of CO 2(g)(=10−2.3atm). Types 4 and 5 are soil water types with soil
+weathering and Al in equilibrium with gibbsite (type 4) or derived from weathering rates (type 5). Concentrations are given in mol/(kg H 2O).
+Water type 1 2 3 4 5
+Rain water —wet only Rain water —bulk deposition Soil water —CO2 Soil water —gibbsite Soil water —weathering
+Al –– – 1.02·10−54.48·10−5
+C 1.70·10−51.70·10−52.67·10−42.72·10−42.70·10−4
+Ca 5.00·10−65.35·10−55.35·10−55.71·10−55.71·10−5
+Cl 5.12·10−51.82·10−41.82·10−41.82·10−41.82·10−4
+K 3.80·10−62.94·10−52.94·10−56.53·10−56.53·10−5
+Mg 5.00·10−62.27·10−52.27·10−52.53·10−52.53·10−5
+N(5) 1.17·10−44.12·10−44.12·10−43.54·10−43.54·10−4
+Na 4.40·10−51.79·10−41.79·10−42.05·10−42.05·10−4
+S 3.50·10−51.19·10−41.19·10−41.19·10−41.19·10−4
+pH 3.78 3.34 3.34 4.41 3.73
+ISa2.82·10−41.02·10−31.02·10−31.18·10−31.07·10−3
+aIonic strength.1308 D. Jacques et al. / Cement and Concrete Research 40 (2010) 1306 –1313
+
+=== Page 4 ===
+Fig. 1. Geochemical changes during leaching of 1000 cm3of concrete with Rain water —wet deposition only (type 1) at 10 °C. Port: portlandite, Jen: jennite-like end member,
+Tob: tobemorite-like end member, Mc: monocarboaluminate, Cal: calcite, Str: strätlingite, Tca: tricarboaluminate, Ett: ettringite, Ht: OH-hydr otalcite. Dashed vertical lines delineate
+the four degradation stages.1309 D. Jacques et al. / Cement and Concrete Research 40 (2010) 1306 –1313
+
+=== Page 5 ===
+from Fig. 1 . These stages end after approximately 1766 kg of water per
+1000 cm3concrete was added. Due to the dissolution of the voluminous
+AFt and AFm phase, the porosity also increases signi ﬁcantly in stage 3.
+In stage 4, OH-hydrotalcite and calcite (both from the cement
+phase and from the calcareous aggregates) are present. OH-hydro-
+talcite ﬁrst dissolves completely with co-dissolution of calcite needing
+approximately 4400 kg of water per 1000 cm3concrete, followed by a
+slow dissolution of calcite.
+The same sequence of reactions up to stage 3 was simulated for the
+“Rain water —bulk deposition ”case ( Fig. 2 a—only the solid phase
+composition is shown) but with a faster chemical degradation of
+concrete compared to “Rain water —wet deposition only ”. Stage 3
+needs 246 kg of water per 1000 cm3less than the “Rain water —bulk
+deposition ”. A different reaction sequence is simulated for stage
+4: OH-hydrotalcite is ﬁrst converted in CO 3–hydrotalcite with precipi-
+tation of Al(OH) 3due to the lower pH of the soil water composition.
+3.2. Cement degradation during leaching with soil water
+Aﬁrst calculation case with soil water is the one where biological
+processes were taken into account by increasing the partial pressure
+of CO 2(g) in the soil gas phase to 10−2.3atm (based on Eq. (3)).
+Mineralogical changes are shown in Fig. 2 b. A large difference if
+compared to the rain water cases is the precipitation of calcite (note
+that the precipitation of calcite is not visible due to the logarithmic
+scale in Fig. 2 b) in all degradation reactions during stages 1, 2, and 3,
+whereas calcite was only formed during the dissolution of the
+carbonate-bearing minerals (monocarboaluminate and tricarboalu-
+minate) in the cement matrix for the rain water types. The calcite is
+formed here by the process of carbonation in which dissolved
+inorganic carbon, present as CO 32−at high pH, reacts with free calcium
+ions (Ca2+). The latter is provided to the concrete pore water by
+dissolution of the Ca-bearing cement phases (e.g., portlandite during
+stages 1 and 2). Due to this carbonation, the amount of water needed
+to end stage 3 is less compared to the rain water types: 1162 kg of
+water per 1000 cm3of concrete compared to 1520 kg of water for the
+rain water (type 2).
+The last two simulations are those accounting also for weathering
+of the soil mineral phases. The main difference with the previous
+calculations is the presence of aluminium in the water by assuming
+equilibrium with gibbsite (Soil water —gibbsite) or deduced from the
+base cation weathering rate (Soil water —weathering). The two
+simulations are very similar and only “Soil water —gibbsite ”is
+therefore shown in Fig. 2 c. The sequence of reactions in stages 1 to 3 is
+identical to the previous simulation (Soil water —CO2) with a slightly
+larger amount of water needed to end stage 3. During stage 4, Al(OH) 3
+is precipitating during calcite dissolution which results in a slightlysmaller increase in porosity during stage 4 compared to the “Soil
+water —CO
+2”case.
+3.3. Comparison of the cases
+Table 4 gives the cumulative amount of water needed per
+1000 cm3concrete to end stages 1, 2 and 3. The end of stages 1 and
+2 is insensitive to the composition of the in ﬁltrating water, except that
+the soil water types are slightly more aggressive. The difference
+between the fastest and slowest end of stage 3 is about 540 kg of
+water per 1000 cm3of concrete.
+The “Rain water —bulk deposition ”water type is more aggressive
+compared to the “Rain water —wet only ”water type. Whereas the
+composition of the wet deposition is in general more predictable from
+factors as distance from the sea and main wind direction, the bulk
+deposition prediction is much more dif ﬁcult because it depends on
+surface characteristics, vegetation type, local-scale wind direction,
+industrial activities in the surroundings (Appelo and Postma [24]). For
+example, forests change signi ﬁcantly the composition of the through-fall water by different crown exchange processes. Hansen and Postma
+[25]showed that concentrations in aquifers may vary up to a factor 10
+depending on the location of the measurement (near the windward
+margin of a forest, or inside the forest). In that sense, the impact of dry
+deposition on the long-term durability of concrete used e.g. in near-
+surface disposal facilities is relatively uncertain.
+Increasing the partial pressure of CO 2(g) from atmospheric
+conditions ( PCO2=10−3.5atm) to soil conditions accounting for
+biological activity ( PCO2=10−2.3atm) reduced the water needed to
+end stage 3 by about 350 kg of water per 1000 cm3of concrete (i.e., by
+about 20%). Putting a soil cover on top of concrete may thus have
+negative effects on the long-term chemical durability of it due to an
+increased inorganic carbon content from biological processes. How-
+ever, a soil layer may (i) protect the concrete from physical degra-
+dation processes as raindrop impact erosion and abrasive erosion
+when exposed directly to atmospheric conditions, (ii) buffer freezing
+and thawing cycles, (iii) limit the impact of biological agents (roots,
+organic acids) and (iv) reduce water percolation by evapotranspira-
+tion processes. Note also that for the very long time periods envisaged
+in radio-active waste disposal, the effect of a change in climatological
+conditions on the biological activity may thus also affect the chemical
+concrete durability.
+The weathering process, simulated here using a generic major
+cation weathering rate, has a small but bene ﬁcial effect on the
+chemical durability of the concrete. However, when heavy clay (clay
+content larger than 60 weight percentage) is used to cover the
+concrete, the major cation weathering rate is signi ﬁcantly higher
+resulting in higher major cation concentrations, Al and Si concentra-
+tions and pH and a longer durability of the concrete is simulated [19].
+The variability in the solution composition is illustrated by
+comparing the simulated Ca concentrations for the different water
+types in Fig. 3 a. The composition of the in ﬁltrating water is only of
+minor importance in stages 1 and 2 and partly in stage 3 where
+cement pore water is mainly buffered by the cement phases. After
+tricarboaluminate is dissolved, variation between the cases increases
+for two reasons: (i) when more and more cement phases are leached,
+the concentration of the unbuffered elements are equal to the
+concentration in the external water, and (ii) because the rate of
+leaching of cement phases is different between the water types, the
+composition of the solid phases differs at a given amount ofcumulative water between the water types. Consequently, different
+assemblages of cement minerals control the pore water composition.
+A similar behaviour is simulated for the other elements with the
+exception of elements controlled by the concentration in the
+incoming water when the cement hydrates controlling these
+elements are depleted (e.g., Na and K).
+Fig. 3 b shows the weight percentage of the C –S–H phase as
+function of the cumulative amount of water per 1000 cm
+3of concrete.
+This is of particular interest because the C –S–H phase plays an
+important role in the sorption and retardation of contaminants. As
+was observed for Ca, the decrease is quite similar between the
+different cases as long as monocarboaluminate and tricarboaluminate
+are present. When these two cement phases are completely leached
+out, variation between the different water types increases.
+3.4. Discussion
+The calculation approach in which new water is brought in contact
+with the evolving concrete matrix simulates basically the chemical
+detrimental process of decalci ﬁcation by leaching. Experimental
+evidence, mainly based on accelerated leaching experiments (e.g.
+Nguyen et al [26], amongst others), showed that decalci ﬁcation
+results in an increase of porosity and permeability and a decrease in
+mechanical strength [2]. The model calculations presented above
+simulate also an increase in porosity during the decalci ﬁcation process
+because, in general, cement phases with a high molar volume are1310 D. Jacques et al. / Cement and Concrete Research 40 (2010) 1306 –1313
+
+=== Page 6 ===
+replaced by cement phases with a lower molar volume. Veri ﬁcation or
+validation of the sequence of dissolution/precipitation reactions are
+difﬁcult for real systems under representative (both hydrological and
+chemical) conditions for a speci ﬁc region. The main reason is that the
+chemical degradation front due to decalci ﬁcation is a rather slowprocess. For example, Yokozeki et al. [27] investigated concrete
+samples with ages between 34 and 104 years old and found that the
+thickness of the portlandite dissolution front was in most cases up to
+30 mm and that the C –S–H dissolution front was limited to a few
+millimetres (up to 5 mm). No information on the different minerals
+Fig. 2. Geochemical changes during leaching of 1000 cm3of concrete with (a) Rain water —bulk deposition (type 2), (b) Soil water —CO2(type 3), and (c) Soil water —gibbsite (type 4) at
+10 °C. Port: portlandite, Jen: jennite-like end member, Tob: tobemorite-like end member, Mc: monocarboaluminate, Cal: calcite, Str: strätlingite , Tca: tricarboaluminate, Ett: ettringite,
+Ht: OH-hydrotalcite, Htc: CO 3-hydrotalcite. Dashed vertical lines delineate the four degradation stages.1311 D. Jacques et al. / Cement and Concrete Research 40 (2010) 1306 –1313
+
+=== Page 7 ===
+was reported. To the authors' knowledge, such information is also
+lacking for concrete structures under conditions similar to the water
+types investigated in the title study.
+In the presence of carbonate ions, precipitation of calcite and
+dissolution of portlandite occur simultaneously. Because the molar
+volume of portlandite is smaller than that of calcite, the carbonation
+process results in a porosity decrease or clogging [2]and may form a
+protective zone near the interface between the concrete and the
+aqueous phase. To assess the balance between the leaching/
+decalci ﬁcation and the carbonation processes, reactive transport
+models are undoubtedly a powerful tool. Glasser et al. [2]gives an
+overview of attempts to model these two processes accounting fortransport and diffusion. In many of these attempts, the cement
+mineralogy is simpli ﬁed to a few minerals as portlandite and
+sometimes the C –S–H phases whereas secondary minerals such the
+AFm, AFt and CASH phases are mostly neglected. However, at very
+long time scales, which are envisaged in nuclear waste disposal, these
+minerals show a complex precipitation/dissolution sequence, as is
+demonstrated in the title study. Carbonation, decalci ﬁcation processes
+or other chemical detrimental reactions (see [2]) and their relative
+importance for a given water composition and ﬂow regime can be
+assessed with the thermodynamic database and geochemical models
+such as PHREEQC-2 (in PHREEQC, possible transport modes are one-
+dimensional advective ﬂow, multi-dimensional diffusion [28–31],
+fractured ﬂow[32] or in a variably-saturated porous medium with
+HP1 [33,34] or RICH-PHREEQ [35]). Recently, also GEMS was also used
+in a reactive transport simulator (Shao et al. [36]).
+Changes in the solid phase composition due to geochemical
+detrimental reactions will also induce a change in porosity (see Fig. 1 )
+and, consequently, in permeability. In addition, chemically-induced
+porosity changes may result in mechanical stresses and mechanical-
+induced porosity changes. Chemo-mechanical models (e.g., [37,38] )
+accounting for chemical –mechanical coupled effects often use phe-
+nomenological relations between the calcium content of the solid
+Fig. 3. (a) Ca evolution and (b) C –S–H weight percentage evolution as a function of cumulative leached water in 1000 cm3concrete for 5 different water compositions. The four
+stages are indicated by colours: stage 2 is yellow, stage 3 is blue and stage 4 is red. Numbers refer to the water types as de ﬁned in Table 3 .Table 4
+Overview of the amount of water (kg) needed to end the ﬁrst three stages for 1000 cm3
+of concrete. In each case, more than 10,000 kg of cumulative leached water is needed todissolve the calcite (i.e., end of stage 4).
+Type 1 Type 2 Type 3 Type 4 Type 5
+State 1 0.35 0.35 0.35 0.35 0.35
+S t a t e 2 7 27 27 17 07 0State 3 1766 1520 1162 1185 12031312 D. Jacques et al. / Cement and Concrete Research 40 (2010) 1306 –1313
+
+=== Page 8 ===
+phase and the calcium pore water concentration to simulate the
+chemical concrete degradation process [39,40] . Simulations as the
+ones presented in the title study can be used to calculate the relation
+between the solid phase and the pore water calcium content and
+derive parameters for a speci ﬁc composition of the cementitious
+material or of the intruding pore water.
+4. Conclusions
+This paper describes the chemical degradation of concrete as a
+function of cumulative percolated amount of water for different water
+types. The sequence of mineralogical changes in the cement is
+relatively insensitive with respect to the water type composition. The
+overall description of four chemical degradation stages of concrete
+during leaching is encountered in the simulations, with stage 3
+concerning the dissolution of AFm, AFt and C –S–H phases the
+chemically most complex stage. These cement phases do not dissolve
+in a successive sequence, but in a complex way, e.g. transforming ﬁrst
+the AFm phase monocarboaluminate in strätlingite, followed by
+ettringite dissolution and followed by strätlingite dissolution.
+In contrast to the sequence of mineralogical changes, the duration of
+the different stages and dissolution reactions –as measured by the
+cumulative amount of water needed to end a stage or to completely
+dissolve a given cement phase –strongly depends on the water
+composition. In that respect, dry deposition and biological soil processes
+contribute signi ﬁcantly to the aggressiveness of the percolating water.
+Unfortunately, these two processes are relatively uncertain in the
+framework of long-term assessment of concrete durability because they
+depend, amongst others, on climatological conditions and site-speci ﬁc
+surface factors such as vegetation and industries. The approach followed
+in this study allows a fast assessment of the impact on the chemical
+concrete durability associated with these factors by considering a range
+of possible pore water compositions.
+Acknowledgement
+This present work has been performed as part of the project on
+disposal of LILW-SL that is carried out by ONDRAF/NIRAS, the Belgian
+Agency for Radioactive Waste and enriched Fissile Materials.
+Disclaimer: Theﬁndings and conclusions in this paper are those of
+the authors and do not necessarily represent the of ﬁcial position of
+ONDRAF/NIRAS. The work presented in this paper was more
+particularly carried out as preparatory work to a future license
+application ﬁle for a near surface disposal facility at Dessel to be
+submitted by ONDRAF/NIRAS to the FANC. Therefore, the results in
+this paper have not yet undergone regulatory review nor approval by
+the FANC. Furthermore, it is not excluded that further developments
+and re ﬁnements of the work presented in this paper will be included
+in the future license application ﬁle.
+References
+[1] L. Wang, E. Martens, D. Jacques, P. De Cannière, J. Berry, D. Mallants, Review of
+Sorption Values for the Cementitious Near Field of a Near Surface Radioactive
+Waste Disposal Facility, NIROND-TR 2008-23E, 2009.
+[2] F.P. Glasser, J. Marchand, E. Samson, Durability of concrete —degradation phenomena
+involving detrimental chemical reactions, Cem. Concr. Res. 38 (2008) 226 –246.
+[3] F.B. Neall, Modelling of the Near- ﬁeld Chemistry of the SMA Repository at the
+Wellenberg Site, 1994 (PSI-Bericht Nr. 94-18).
+[4] F.B. Neall, Modelling the long-term chemical evolution of cement –groundwater
+systems, Mater. Res. Soc. Symp. Proc. 412 (1996) 483 –490.
+[5] U. Berner, Evolution of pore water chemistry during degradation of cement in a
+radioactive waste repository environment, Waste Manag. 12 (1992) 201 –219.
+[6] A. Atkinson, N.M. Everitt, R. Guppy, Evolution of pH in a Radwaste Repository:
+Experimental Simulation of Cement Leaching: Part 1, DOE/RW/89/025, 1989.
+[7] A. Atkinson, N.M. Everitt, R. Guppy, Evolution of pH in a Radwaste Repository:
+Internal Reactions Between Concrete Constituents: Part 2, DOE/RW/89/025, 1989.
+[8] M. Moranville, S. Kamali, E. Guillon, Physicochemical equilibria of cement-based
+materials in aggressive environments —experiment and modeling, Cem. Concr. Res. 34
+(2004) 1569 –1578.[9] D. Jacques, D. Mallants, Modelling the Potential and Actual Evapotranspiration
+and Drainage at the Nuclear Zone Mol-Dessel, NIROND-TR 2008-25E, 2009.
+[10] B. Lothenbach, F. Winnefeld, Thermodynamic modeling of the hydration of
+Portland cement, Cem. Concr. Res. 36 (2006) 209 –226.
+[11] B. Lothenbach, T. Matschei, G. Möschner, F. Glasser, Thermodynamic modeling of
+the effect of temperature on the hydration and porosity of Portland cement, Cem.
+Concr. Res. 38 (2008) 1 –18.
+[12] T. Matschei, B. Lothenbach, F. Glasser, Thermodynamic properties of Portland
+cement hydrates in the system CaO –Al2O3–SiO 2–CaSO 4–CaCO 3–H2O, Cem. Concr.
+Res. 37 (2007) 1379 –1410.
+[13] W. Hummel, U. Berner, E. Curti, F.J. Pearson, T. Thoenen, Nagra/PSI Chemical
+Thermodynamic Data Base 01/01, Universal Publishers/uPUBLISH.com, USA, 2002.
+[14] D.A. Kulik, GEMS-PSI 2.2, PSI-Villigen, Switzerland, 2007 ( http://gems.web.psi.ch ).
+[15] J.W. Johnson, E.H. Oelkers, H.C. Helgeson, SUPCRT92: a software package for
+calculating the standard molal thermodynamic properties of minerals, gases,
+aqueous species and reactions from 1 to 5000 bar and 0 to 1000 °C, Comput. Geosci.
+18 (1992) 899 –947.
+[16] D.L. Parkhurst, C.A.J. Appelo, User's Guide to PHREEQC (version 2) —aC o m p u t e r
+Program for Speciation, Batch-reaction, One-dimensional Transport, and Inverse
+Geochemical Calculations, Water-Resources Investigation Report 99-4259; Denver,
+Colorado, 1999.
+[17] D. Jacques, Benchmarking of the Cement Model and Detrimental Chemical Reactions
+Including Temperature Dependent Parameters. NIROND-TR 2008-30E, 2009.
+[18] H.J.H. Brouwers, R.J. van Eijk, Alkali concentrations of pore solution in hydrating
+OPC, Cem. Concr. Res. 33 (2003) 191 –196.
+[19] D. Jacques, L. Wang, E. Martens, D. Mallants, Time dependence of the geochemical
+boundary conditions for the cementitious engineered barriers of the Belgian surface
+disposal facility, NIRAS-MP5 DATA-LT(NF) Version 1, NIROND-TR 2008-24E, 2009.
+[20] J. Neirynck, G. Genouw, S. Coenen, P. Roskamp, Depositie en luchtkwaliteit in Vlaamse
+bosgebieden, Instituut voor bosbouw & wildbeheer, mededelingen 2004-1, 2004.
+[21] G.A. Brook, M.E. Folkoff, E.O. Box, A World model of soil carbon dioxide, Earth Surf.
+Processes Landforms 8 (1983) 79 –88.
+[22] UBA, Manual on Methodologies and Criteria for Modelling and Mapping Critical Loads &
+Levels and Air Pollution Effects, Risks and Trends, 2004 ( http://www.icpmapping.org ).
+[23] W. De Vries, Soil Response to acid deposition at different regional scales, Field and
+laboratory data, critical loads, and model predictions, Doctoral thesis, Agricultural
+University, Wageningen, the Netherlands, (1994).
+[24] C.A.J. Appelo, D. Postma, Geochemistry, Groundwater and Pollution, 2nd editionA.
+A. Balkema Publishers, 2005.
+[25] B.K. Hansen, D. Postma, Acidi ﬁcation, buffering, and salt effects in the unsaturated zone
+of a sandy aquifer, Klosterhede, Denmark, Water Resour. Res. 31 (1995) 2795 –2809.
+[26] V.H. Nguyen, H. Colina, J.M. Torrenti, C. Boulay, B. Nedjar, Chemo-mechanical
+coupling behaviour of leached concrete, Part I: experimental results, Nucl. Eng.
+Des. 237 (2007) 2083 –2089.
+[27] K. Yokozeki, K. Watanabe, N. Sakata, N. Otsuki, Modeling of leaching from
+cementitious materials used in underground environment, Appl. Clay Sci. 26
+(2004) 293 –308.
+[28] C.A.J. Appelo, P. Wersin, Multicomponent diffusion modeling in clay systems with
+application to the diffusion of tritium, iodide, and sodium in Opalinus Clay,Environ. Sci. Technol. 41 (2007) 5002 –5007.
+[29] C.A.J. Appelo, A. Vinsot, S. Mettler, S. Wechner, Obtaining the porewater
+composition of a clay rock by modeling the in- and out-diffusion of anions and
+cations from an in-situ experiment, J. Contam. Hydrol. 101 (2008) 67 –76.
+[30] E. Martens, D. Jacques, T. Van Gerven, L. Wang, D. Mallants, Geochemical modeling
+of leaching of Ca, Mg, Al, and Pb from cementitious waste forms, Cem. Concr. Res.
+40 (2010) 1298 –1305 (this issue).
+[31] E. Weetjens, E. Martens, D. Jacques, Quantifying conservatism of performance
+assessment calculations by sorption model reduction: Case study on near ﬁeld Cs
+migration in Callovo-Oxfordian Clay, M ater. Res. Soc. Symp. Proc. 1193 (2009) 381 –388.
+[32] D.S. Lipson, J.E. McCray, G.D. Thyne, Using PHREEQC to simulate solute transport
+in fractured bedrock, Ground Water 45 (2007) 468 –472.
+[33] D. Jacques, J. Šimůnek, M.Th. van Genuchten, D. Mallants, Operator-splitting errors in
+coupled reactive transport codes for transient variably saturated ﬂow and
+contaminant transport in layered soil pro ﬁles, J. Contam. Hydrol. 88 (2006) 197 –218.
+[34] J. Šimůnek, D. Jacques, M.Th. van Genuchten, D. Mallants, Multicomponent
+geochemical transport modelling using HYDRUS-1D and HP1, J. Am. Water Resour.Assoc. 46 (2006) 1537 –1547.
+[35] L. Wissmeier, D.A. Barry, Implementation of variably saturated ﬂow into PHREEQC
+for the simulation of biogeochemical reactions in the vadose zone, Environ.
+Model. Soft. 25 (2010) 526 –538.
+[36] H. Shao, S.V. Dmytrieva, O. Kolditz, D.A. Kulik, W. P ﬁngsten, G. Kosakowski,
+Modelling reactive transport in non-ideal aqueous-solid solution system, Appl.
+Geochem. 24 (2009) 1287 –1300.
+[37] F. Bangert, S. Grasberger, D. Kuh l, G. Meschke, Environmentally induced
+deterioration of concrete: physical motivation and numerical modeling, Eng.
+Fract. Mech. 70 (2003) 891 –910.
+[38] D. Kuhl, F. Bangert, G. Meschke, Coupled chemo-mechanical deterioration of
+cementitious materials. Part I: modeling, Int. J. Solids Struct. (2004) 15 –40.
+[39] B. Gérard, Contribution des couplages mécanique-chimie-transfert dans la tenue
+a long terme des ouvrages de stockage de déchets radioactifs, Ph.D. Thesis,
+Laboratoire de Méchanique et Technologie, E.N.S. De Cachan, 1996.
+[40] A. Delagrave, B. Gérard, J. Marchand, Modelling the calcium leaching mechanisms
+in hydrated pastes, in: K. Scrivener, J. Young (Eds.), Mechanics of ChemicalDegradation of Cement Based Systems, Chapman & Hall, London, 1997, pp. 30 –37.1313 D. Jacques et al. / Cement and Concrete Research 40 (2010) 1306 –1313

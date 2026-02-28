@@ -1,0 +1,1946 @@
+=== Page 1 ===
+Journal Pre-proof
+Understanding the sulfate attack of Portland cement–based materials exposed to
+applied electric fields: Mineralogical alteration and migration behavior of ionic species
+Chen Li, Zhengwu Jiang, Rupert J. Myers, Qing Chen, Mengxue Wu, Jiaqi Li, Paulo
+J.M. Monteiro
+PII: S0958-9465(20)30122-0
+DOI: https://doi.org/10.1016/j.cemconcomp.2020.103630
+Reference: CECO 103630
+To appear in: Cement and Concrete Composites
+Received Date: 14 September 2019
+Revised Date: 11 March 2020
+Accepted Date: 9 April 2020
+Please cite this article as: C. Li, Z. Jiang, R.J. Myers, Q. Chen, M. Wu, J. Li, P.J.M. Monteiro,
+Understanding the sulfate attack of Portland cement–based materials exposed to applied electric fields:
+Mineralogical alteration and migration behavior of ionic species, Cement and Concrete Composites
+(2020), doi: https://doi.org/10.1016/j.cemconcomp.2020.103630 .
+This is a PDF file of an article that has undergone enhancements after acceptance, such as the addition
+of a cover page and metadata, and formatting for readability, but it is not yet the definitive version of
+record. This version will undergo additional copyediting, typesetting and review before it is published
+in its final form, but we are providing this version to give early visibility of the article. Please note that,
+during the production process, errors may be discovered which could affect the content, and all legal
+disclaimers that apply to the journal pertain.
+© 2020 Published by Elsevier Ltd.
+
+=== Page 2 ===
+1 Understanding the sulfate attack of Portland cement –based materials exposed to applied 1 
+electric fields: Mineralogical alteration and migra tion behavior of ionic species 2 
+ 3 
+Chen Li a,b , Zhengwu Jiang  a,*, Rupert J. Myers c,d , Qing Chen a, Mengxue Wu a,e , Jiaqi Li b, Paulo J. M. Monteiro b,f 4 
+ 5 
+a Key Laboratory of Advanced Civil Engineering Mater ials of Ministry of Education, Tongji University, 4 800 6 
+Cao’an Road, Shanghai, 201804, China 7 
+b Department of Civil and Environmental Engineering,  University of California, Berkeley, California, 94 720, 8 
+United States 9 
+c School of Engineering, University of Edinburgh, Ed inburgh, EH9 3FB, United Kingdom 10 
+d Current address: Department of Civil and Environme ntal Engineering, Imperial College London, London, SW7 11 
+2AZ, United Kingdom 12 
+e Administration for Market Regulation of Chengdu, S ichuan, 610044, China 13 
+f Material Science Division, Lawrence Berkeley Natio nal Laboratory, Berkeley, California, United States  14 
+ 15 
+                                                             
+* Corresponding author 
+E-mail address : jzhw@tongji.edu.cn (Z. Jiang).  
+
+=== Page 3 ===
+2 Abstract 16 
+ 17 
+The magnesium and sodium sulfate attacks on Portlan d cement paste in the presence of applied electric fields were 18 
+studied, and the mineralogical alterations were inv estigated by both experiments and thermodynamic mod eling. 19 
+When an electric current flows out of the cement pa ste, the electric migration of ions induced sulfate  ingress and 20 
+decalcification. Compared with the specimen exposed  to Na 2SO 4, that exposed to MgSO 4 for 28 d proceeded to a 21 
+later degradation stage, which is characterized by the decomposition of ettringite, portlandite, and A Fm phases, and 22 
+the formation of CaSO 4. Thermodynamic modeling indicates a neutralization  process induced by the electric 23 
+migration of OH -, which is potentially responsible for the decompos ition of ettringite. When an electric current 24 
+flows into the cement paste, the Mg 2+  and Na + showed different migration behavior. Mg 2+  was incorporated to form 25 
+brucite and M-S-H–like products in a shallow area ( ~100 μm) on the surface of the specimen, whilst a part of  the 26 
+Na + could be bonded to form Na-rich silica gel with th e other part penetrating through the specimen. By c oupling 27 
+the pore solution chemistry obtained from thermodyn amic modeling with the Nernst-Planck equation, the migration 28 
+behaviors of the ionic species (SO 42-, Mg 2+ , and Na +) were analyzed. 29 
+ 30 
+Keywords 31 
+ 32 
+Sulfate attack; Mineralogical alteration; Thermodyn amic modeling; Nernst-Planck equation; Applied elec tric field 33 
+ 34 
+1 Introduction 35 
+ 36 
+Cement-based materials are porous and consist of mu ltiple phases. The hydration products (solid phase)  form the 37 
+
+=== Page 4 ===
+3 skeleton of the pore structures, and the pore solut ion (aqueous phase) and air (gaseous phase) fill in side the pores. 38 
+In a fully hydrated cement paste, the hydration pro ducts are approximately at equilibrium with the por e solution. 39 
+However, this state will be affected by the ionic e xchange between the pore solution and the external environment. 40 
+Such a process usually induces mineralogical altera tions and is described as a chemical attack. The at tack is 41 
+affected by the type, rate, and direction of the io n exchange, as well as the chemical reactions that occur. 42 
+ 43 
+The ingress of external sulfate will cause sulfate attack, which is one of the most widely recognized and 44 
+well-studied chemical attacks. In Portland cement s ystems, sulfate attacks are usually characterized b y the 45 
+formation of ettringite, and by the expansion, crac king, and strength loss thereafter [1-3]. Recent th eories relate the 46 
+expansion to the crystallization pressure caused by  the formation of ettringite from oversaturated sol ution in small 47 
+pores [4-6]. The crystals growing in confined pores , e.g., in the C-S-H gel, generate crystallization pressure and 48 
+thus expansive stress [7,8], whilst those growing i n unrestrained pore spaces do not. Gypsum usually f orms at the 49 
+late stage of sulfate attack. There was once a deba te on whether the formation of gypsum is a cause [9 -11] or an 50 
+effect [12,13] of the expansion and cracking. Recen t studies proposed that the presence of gypsum indu ces a high 51 
+supersaturation with respect to ettringite, and thu s a high crystallization pressure and more expansio n [2,14,15]. 52 
+ 53 
+The type of cation that coincides with sulfate grea tly influences the degradation process. When the ca tion is Mg 2+ , 54 
+surface erosion occurs in addition to expansion [15 -17]. This phenomenon is induced by the formation o f brucite 55 
+and magnesium silicate hydrate (M-S-H) [2,16], and is the most important characteristic to distinguish  magnesium 56 
+sulfate attack from sodium sulfate attack. It was a lso reported that the co-existence of Na +, K +, and Ca 2+  can reduce 57 
+surface erosion and expansion in the MgSO 4 attack [2,16]. When the sulfate is provided by an acidic environment, 58 
+neutralization can take place in the pore solution,  and the Ca 2+  can diffuse towards the external environment due t o 59 
+
+=== Page 5 ===
+4 the concentration gradient. Under this circumstance , calcium leaching or decalcification will also occ ur together 60 
+with the sulfate attack [18-20]. 61 
+ 62 
+In most cases, the ionic exchange between cement-ba sed materials and the external environment is drive n by the 63 
+concentration gradient, and this process is known a s diffusion. In certain field conditions, the expos ed surface of a 64 
+structure is subjected to strong evaporation condit ions. The moisture gradient between the external en vironment 65 
+and cement-based materials induces capillary suctio n, and the ionic species will be transported by adv ection [21]. 66 
+Under an applied electric field, the ionic species in the pore solution can also migrate, which is kno wn as electric 67 
+migration [22-24]. The transportation of ionic spec ies—their diffusion, advection, and electric migrat ion in 68 
+cement-based materials is described by the Nernst-P lanck equation [22-25]. During the ionic transporta tion, 69 
+chemical reactions can take place. For example, SO 42- can react with monosulfate to form ettringite [1,2 0,26]. This 70 
+reaction impacts not only the mass transport of SO 42- but also the strength of Ca 2+  and AlO 2- by disturbing the 71 
+equilibrium between the hydration products and the pore solution. In this respect, the concurrent chem ical reactions 72 
+and ionic transportation both play significant role s in the ingress of sulfate. 73 
+ 74 
+In some cases, cement-based materials are directly exposed to applied electric fields, e.g., the DC st ray current that 75 
+is present in underground metro tunnels [27-29]. El ectric migration can accelerate the ingress of aggr essive ions 76 
+from the external environment and remove the calciu m and alkali metals from the pore solution [30,31].  Electric 77 
+fields are also applied in some modern concrete tec hniques, e.g., chloride extraction, realkalinizatio n, cathodic 78 
+protection, and electrochemical deposit [32-35]. In  these techniques, certain types of ions are design ed to migrate, 79 
+but the migrations of other ions have to be conside red because they may induce side effects [36]. Elec tric migration 80 
+is also a useful tool for laboratory acceleration t ests, e.g., the  chloride ion penetration tests (ASTM C1202), calciu m 81 
+
+=== Page 6 ===
+5 leaching acceleration tests [37,38], etc. Recent st udies proposed that electric migration tests can be  potentially used 82 
+in the acceleration of sulfate attacks [39-41]. How ever, a deeper understanding of the mineralogical a lterations and 83 
+the degradation mechanism under such circumstances will be needed to evaluate the validity of this tec hnique. 84 
+ 85 
+In a conventional sulfate attack caused by diffusio n, both the cations and anions in the external solu tion diffuse into 86 
+the cement-based materials, while the ions in the p ore solution, e.g. Ca 2+ , OH -, and alkali metal ions diffuse 87 
+outward. In contrast, under applied electric fields , the cations and anions migrate in different direc tions, and thus 88 
+the degradation behavior and mechanism may differ f rom the diffusion-induced sulfate attacks. This pap er studies 89 
+the MgSO 4 and Na 2SO 4 attacks on Portland cement paste in the presence o f applied electric fields. The chemical 90 
+and mineralogical alterations during the degradatio n process were analyzed by scanning electron micros copy 91 
+(SEM), energy dispersive X-ray spectrometry (EDS), X-ray diffractometry (XRD), and thermogravimetric a nalysis 92 
+(TGA). The results suggest different degradation be haviors between the areas near the cathode and anod e, and 93 
+between the specimens exposed to different sulfate sources. To better understand the degradation mecha nism, an 94 
+approach was proposed to simplify the electric migr ation processes, and changes of the phase assemblag es during 95 
+the simplified electric migration processes were th en calculated by thermodynamic modeling. By combini ng the 96 
+pore solution chemistry obtained in the thermodynam ic modeling with the Nernst-Planck equation, the mi gration 97 
+behaviors of various ionic species were analyzed to  explain the different degradation behaviors observ ed 98 
+experimentally. 99 
+ 100 
+2 Experimental 101 
+2.1 Cement paste specimens 102 
+ 103 
+
+=== Page 7 ===
+6 Cement paste specimens were prepared using Portland  cement and deionized water at a water-to-cement ra tio of 0.5. 104 
+The chemical composition of the Portland cement was  tested by X-ray fluorescence spectrometry (XRF), a nd the 105 
+mineralogical composition was measured by XRD and a nalyzed by Rietveld refinement, as shown in Table 1 . The 106 
+specimens were cast into cylindrical molds that wer e 100 mm in diameter and 50 mm in height, cured at 20 °C ± 107 
+1 °C, RH > 95% and unmolded after 24 h. The top of the cylinders, which was not in contact with the mo lds, was 108 
+polished by P240 (58 μm) sandpaper to make it flat and smooth. The specim ens were then cured in saturated 109 
+limewater at 20 °C ± 1 °C until 28 d. 110 
+ 111 
+Table 1  Chemical and mineralogical compositions of the Por tland cement (wt. %). 112 
+Chemical composition Mineralogical composition 
+Na 2O 0.04 C 3S 58.32 
+MgO 0.76 C 2S 11.64 
+Al 2O3 4.55 C 3A 3.96 
+SiO 20.8 C 4AF 8.03 
+P2O5 0.11 Calcite 4.58 
+SO 3 2.92 Anhydrite 0.76 
+K2O 0.74 Bassanite 3.67 
+CaO 64.8 Gypsum 0.01 
+TiO 2 0.23 Lime 0.35 
+Cr 2O3 0.02 Portlandite 0.58 
+MnO 0.11 CF 2 1.53 
+Fe 2O3 3.27 Goergeyite 3.30 
+CuO 0.02 Perovskite 1.79 
+ZnO 0.05 Periclase 0.85 
+SrO 0.03 Dolomite 0.13 
+LOI 2.58 Quartz 0.21 
+ 113 
+2.2 Electric field application 114 
+ 115 
+The electric field was applied by electrolytic cell s similar to those for the chloride ion penetration  tests described in 116 
+ASTM C1202 (Fig. 1a). The anode was a titanium mesh , and the cathode was a copper mesh. A constant ele ctric 117 
+
+=== Page 8 ===
+7 current of 30.0 mA (equal to ~4.71 A/m 2) was maintained by a DC power supply. The cells on  both sides were 118 
+filled with the same sulfate solution, either 0.5 m ol/L MgSO 4 or 0.5 mol/L Na 2SO 4. This concentration is slightly 119 
+higher than the one used in the sulfate expansion t ests in ASTM C1012 (5% Na 2SO 4, ~0.35 mol/L). The solutions 120 
+were prepared using deionized water and sodium sulf ate anhydrous (Sinopharm, purity > 99.0%) or magnes ium 121 
+sulfate heptahydrate (Sinopharm, purity > 99.0%), a nd were refreshed every three days. An estimation b ased on 122 
+charge conservation shows that the concentration of  the sulfate solutions can remain higher than ~0.34  mol/L 123 
+during the experiment (see Supplementary Data). For  either MgSO 4 or Na 2SO 4, three sets of electrolytic cells were 124 
+set up. The specimens were taken out after exposure  to the applied electric fields for 7, 14, and 28 d ays. The 125 
+deposits formed on the electrodes were cleaned ever y six days.  126 
+ 127 
+ 128 
+Fig. 1. Test setup to apply electric fields: (a) overview of the test setup and (b) schematic of ionic motion  where 129 
+thickness and velocity are not to scale. The ionic motion is driven by electric migration (red arrows)  and diffusion 130 
+(blue arrows). 131 
+ 132 
+Figure 1b illustrates the motion of ionic species i n the test setup. The anode is connected to the pos itive output of 133 
+the power supply and has a higher electric potentia l compared with the cathode. The cations in the ano dic solution 134 
+(Mg 2+  or Na +) migrate towards the cement paste and enter the sp ecimen from the surface near the anode. 135 
+Meanwhile, the cations in the pore solution (Ca 2+ , Na +, K +, etc.) migrate towards the cathode and leave the 136 Specimen 
+Sulfate solution Cathode:  
+copper mesh Anode:  
+titanium mesh DC Power supply (a)  (b) 
+Solution  
+Anode degradation area  (Positive) Anode 
+Mg 2+  / Na + 
+(H +) 
+SO 42- 
+(OH -) 
+ e- Cations 
+Ca 2+ 
+Na +, K + 
+CaOH + 
+… 
+ 
+Anions:  
+OH - 
+SO 42- 
+AlO 2-, SiO 32- 
+… Cathode (Negative)  
+e- 
+Anions:  
+OH - 
+SO 42- 
+AlO 2-, SiO 32- 
+… Cations 
+Ca 2+ 
+Na +, K + 
+CaOH + 
+… Mg 2+  / Na + 
+(H +) H2 
+O2 SO 42- 
+(OH -) 
+  
+Solution  
+Cathode degradation area  Cement paste  
+Inner part  
+
+=== Page 9 ===
+8 specimen from the nearby surface. The anions migrat e in the opposite direction. Diffusion also occurs in addition to 137 
+electric migration. The ionic species in the extern al solution (SO 42- and Na +/Mg 2+ ) diffuse towards the specimen on 138 
+both sides, and the ions in the pore solution also diffuse towards the external solutions. 139 
+ 140 
+Similar test setups are also used in [39-41] for ac celerating sulfate attacks in the laboratory. The c urrent density was 141 
+not reported in those literatures, and the estimate d values were between one and several A/m 2 based on the voltage 142 
+and size of the specimen (assuming the resistivity of water-saturated cement mortar is around 10 k Ω·cm). For 143 
+studying the effects of DC stray current on reinfor cement corrosion and concrete degradation, the curr ent densities 144 
+of 1 and 10 A/m 2 were chosen in [27,42]. The current density used i n this paper (~4.71 A/m 2) is comparable to 145 
+these reported values. 146 
+ 147 
+2.3 Test method 148 
+ 149 
+After the exposures to the applied electric fields for certain durations, the specimens were removed f rom the test 150 
+setups and cut into pieces according to the procedu res in Fig. 2. Small patches that contain all the d epth from the 151 
+exposure surface (0 mm) to ~25 mm were prepared for  SEM. A face perpendicular to the exposure surface was 152 
+used for observation. These samples were impregnate d with epoxy resin, polished on SiC discs and diamo nd 153 
+suspension-sprayed discs (Buehler), carbon-coated, and observed using a Quanta 200 FEG microscope in t he 154 
+backscattered electron mode. The hydration products  on the surface of the specimens usually showed cle ar features 155 
+(brightness and morphology), and the chemical compo sition of such well-resolved hydration products was  analyzed 156 
+based on at least five EDS measurements. EDS point analyses were also conducted randomly in the well h ydrated 157 
+areas (where the hydration products mingle and cann ot be identified easily) to reflect the chemical co mposition of 158 
+
+=== Page 10 ===
+9 the hydration products in such areas. The average c hemical composition in several 50 μm × 50 μm areas was 159 
+measured to represent the distribution of elements along the depth from the exposure surface. The micr ostructure 160 
+were analyzed by observing a 5-mm-wide area paralle l to the surface. 161 
+ 162 
+ 163 
+Fig. 2.  Preparation of samples: (a) the sides of a cylindr ical specimen that were not well exposed to sulfate  164 
+solutions were cut off, (b) small patches that were  perpendicular to the exposure surface was cut for SEM, (c) the 165 
+surface part (0.5 mm) of the remainder was removed,  (d) the specimen was cut parallel to the exposure surface into 166 
+5-mm thick slices, and (e) the slices were crushed into powders (particle size <75 μm) for XRD and TGA. 167 
+ 168 
+The powder samples for XRD and TGA were soaked in e thanol for 5 days to stop the hydration and then dr ied at 169 
+40 °C for 24 h. XRD was conducted on a D/max2550VB3 +/PC diffractometer equipped with Cu K α1 radiation and 170 
+a graphite monochromator. The X-ray generator was o perated at 40 kV and 250 mA, the scanning range was  2 θ = 171 
+5–75°, and the step size and counting time were 0.0 2° and 2 s, respectively. TGA was conducted on a NE TZSCH 172 
+STA 449C simultaneous thermal analyzer. The samples  were heated under N 2 atmosphere from 40 °C to 950 °C 173 
+with a heating rate of 10 °C/min. The data were exp ressed as differential thermogravimetry, and the pe aks were 174 
+assigned according to [43]. Note that the specimens  for XRD and TGA did not include the surface part ( ~0.5 mm), 175 
+because this part was quite different in compositio n from the other parts according to SEM but its mat erial amount 176 
+was not sufficient for these tests. 177 
+ 178 (a) Remove sides 
+(c) Remove surface 0.5 mm (b) Cut perpendicular 
+to the surface 
+(d) Cut parallel 
+to the surface (e) Crush into powders 
+For XRD and TGA For SEM 100 mm 50 mm 
+
+=== Page 11 ===
+10 2.4 Rietveld refinement 179 
+ 180 
+Corundum ( α-Al 2O3, Aladdin, purity > 99.99%) was used as an internal  standard. It was mixed with the dried 181 
+powder samples at a mass ratio of 10 to 90. The Rie tveld refinement was conducted using TOPAS Academic  V5. 182 
+The crystallographic models were obtained from the Inorganic Crystal Structure Database (ICSD), see 183 
+Supplementary Data. The optimized parameters includ ed the background coefficient, zero-shift error, cr ystal size L, 184 
+and lattice parameters (restrained within ± 0.5%). The peak shape was described by the fundamental par ameter (FP) 185 
+approach employed in TOPAS. The March-Dollase ellip soidal preferred orientation correction algorithm [ 44] was 186 
+employed for Alite-M3 (606) [45], portlandite (001)  [46], and calcite (104) [45]. Two peaks using fund amental 187 
+parameters were added near 2 θ = 29.3° and 50.0° to simulate the broad peaks prod uced by C-S-H [47,48]; and the 188 
+scale factor, crystal size L, and position of the p eaks were refined. 189 
+ 190 
+2.5 Simplifications in the thermodynamic modeling o f the degradation process 191 
+ 192 
+In order to gain insight into the chemical and mine ralogical aspects of the degradation process and st udy the 193 
+degradation mechanism, a simplified approach was pr oposed to represent the main processes of electric migration. 194 
+Based on this simplified approach, the phase assemb lage during degradation was further studied by ther modynamic 195 
+modeling. Here, electric migration is assumed to be  the only driving force for the ionic motion and de scribed by the 196 
+Nernst-Planck equation [22-25] as 197 
+,=−∙
+
+  
+  (1) 
+where Ji,e  (mol·m -2·s -1) is the bulk flux of ionic species i at location  x; Dia (m 2·s -1) is the apparent diffusion 198 
+coefficient; zi is the charge number; Ci (mol·m -3) is the ionic strength; F = 9.648 × 10 -4 C·mol -1 is the Faraday 199 
+
+=== Page 12 ===
+11 constant; R = 8.314 J·mol -1·K -1 is the gas constant; T (K) is the absolute temperature; and Ψ (V) is the electric 200 
+potential. The apparent diffusion coefficient usual ly has a positive relationship with the correspondi ng diffusion 201 
+coefficient in free water ( Di0 in m 2·s -1), and this relationship is impacted by the pore st ructure characterized by 202 
+porosity ( φ) and tortuosity ( τ) as [23] 203 
+=
+ (2) 
+ 204 
+When an electric field is applied, the migration ra te of an ion depends on its charge number, concentr ation, and 205 
+diffusion coefficient in free water. The diffusion coefficient in free water can be obtained from the chemistry 206 
+handbook [49], and the concentration of ions in the  cement paste before exposure to electric fields ca n be calculated 207 
+by thermodynamic modeling (see Supplementary Data),  as shown in Table 2. 208 
+ 209 
+Table 2 Concentration of ions in the pore solution before degradation and diffusion coefficient in free water  ( Di0). 210 
+ Concentration 
+mol/L Diffusion coefficient 
+10 -9 m2/s Direction 
+OH - 2.05×10 -1 5.273 
+Cathode → inner part → anode → anodic solution SO 42- 6.79×10 -4 1.065 
+AlO 2- 4.25×10 -5 n.a. 1 
+SiO 32- 9.94×10 -6 n.a. 1 
+CO 32- 4.66×10 -5 n.a. 1 
+HCO 3- 2.27×10 -8 1.185 
+Ca 2+  1.01×10 -3 0.792 
+Anode → inner part → cathode → cathodic solution Ca(OH) + 9.09×10 -4 n.a. 1 
+Mg 2+  1.11×10 -10 0.706 
+Na + 2.34×10 -3 1.334 
+K+ 2.01×10 -1 1.957 
+1 Not available in [49]. 211 
+ 212 
+As illustrated in Fig. 1b, it is assumed that each specimen contains two degradation areas that are lo cated on the 213 
+exposure surfaces and are affected by the chemical attack, while the inner part between these two degr adation areas 214 
+is not affected. At the beginning of degradation, t he pore solution chemistry and pore structure are s imilar in all 215 
+
+=== Page 13 ===
+12 parts across the cement paste, and the electric gra dient is uniform. In the pore solution, ionic speci es i at different 216 
+positions will migrate at the same rate according t o Eq. 1. In the degradation area near the cathode, the cations are 217 
+released into the cathodic solution due to electric  migration, but they are also supplemented by those  migrating 218 
+from the inner part of the specimen at the same rat e. The anions in the pore solution migrate towards the inner part 219 
+and are replaced by those from the cathodic solutio n. However, the migration rate of the anions from t he cathodic 220 
+solution into the cement paste is difficult to dete rmine, because the electric gradient and pore struc ture are different 221 
+between the surface of a specimen and its interior.  Here, it is assumed that the replacement of the an ions in the 222 
+degradation area near the cathode maintains the cha rge balance. Similarly, the main process in the deg radation area 223 
+near the anode is the replacement of cations in the  pore solution by those from the anodic solution in  a 224 
+charge-balanced manner. These processes are similar  to those reported in numerical simulation studies of the rapid 225 
+chloride migration test [23,50]. Here, they are def ined as the “basic state” of electric migration, wh ich is a transient 226 
+state when the concentration of the ions in the por e solution is similar to that before degradation in itiates. The 227 
+duration of the basic state depends on whether the concentration of the ionic species in the pore solu tion remains 228 
+stable during the ionic exchange and the relevant c hemical reactions. 229 
+ 230 
+In the pore solution, the concentration of OH - is higher than the other anions by three orders of  magnitude (Table 2), 231 
+and the main anion in the cathodic solution (a neut ral Na 2SO 4 or MgSO 4 solution) is SO 42-. According to Eq. 1, 232 
+these two ionic species migrate much faster than th e others in the pore solution and the cathodic solu tion, 233 
+respectively. Moreover, the decomposition of portla ndite can somewhat help maintain the ionic strength  of OH - in 234 
+the pore solution, which is known as the buffering effect [51]. Therefore, the electric migration proc ess near the 235 
+cathode is simplified to the replacement of each tw o moles of OH - by one mole of SO 42-. 236 
+ 237 
+
+=== Page 14 ===
+13 In the area near the anode, K + and Na + are the most easily migrated ionic species. Howeve r, they will be removed 238 
+quickly due to their low contents in the hydrated c ement paste [23,50], indicating that this state is short-lived. 239 
+Afterward, Ca 2+  will be the main ionic species to migrate. (CaOH + will also migrate, but its effect on the 240 
+mineralogical alteration is similar to that of Ca 2+ .) Its ionic strength can be maintained by the buff ering effect, 241 
+suggesting a possibly longer duration. Therefore, t he electric migration process in this state is simp lified by 242 
+replacing each mole of Ca 2+  with one mole of Mg 2+  or two moles of Na +, based on a hydrated system without K 243 
+and Na. 244 
+ 245 
+2.6 Thermodynamic modeling 246 
+ 247 
+Thermodynamic modeling was performed using the geoc hemical code GEMS 3.3 [52] with the  Nagra/PSI database 248 
+[53] and CEMDATA 18 database (version 18.01) [54]. The CSHQ model was selected. The solid solutions of  AFt 249 
+and AFm were not considered. Siliceous hydrogarnet (C 3AS 0.8 H4.4 ) and thaumasite usually form at slow kinetics at 250 
+the ambient temperature [55,56]. The presence of el ectric fields does not significantly impact the slo w formation 251 
+kinetics of thaumasite [57], but it remains unknown  whether the formation kinetics of C 3AS 0.8 H4.4  will be 252 
+influenced. These products were both suppressed in the modeling. 253 
+ 254 
+First, the phase assemblage before sulfate ingress was calculated. The following hydration degrees wer e assumed 255 
+based on the XRD results at an age of 28 d: 95% for  C 3S, 65% for C 2S, 100% for C 3A, and 70% for C 4AF. The 256 
+Na 2O and K 2O in the cement were assumed to dissolve completely , while the MgO was assumed to dissolve by 257 
+90%. Calcite was set to react freely [58]. 258 
+ 259 
+
+=== Page 15 ===
+14 The hydration phase assemblage during the electric migration process was then calculated by changing t he input 260 
+recipe according to the simplified approach (see Su pplementary Data). In order to further analyze the migration rate 261 
+of the ionic species in the pore solution during de gradation, the theoretical flux of OH - in the pore solution at the 262 
+beginning of degradation was considered as a refere nce. Provided that the pore structure in Eq. 2 does  not change 263 
+significantly during degradation, the relative flux  (R) of a type of ionic species i is hereby defined as 264 
+=,
+ ,=
+
+ 
+   (3) 
+ 265 
+At a given time during the electric migration proce ss, an ion with higher relative flux migrates faste r, provided that 266 
+the flux is uniform in the cross-section. In additi on to their migration, the concentration of ions in  the pore solution 267 
+may also be affected by the phase changes induced b y electric migration, and the manner of ionic migra tion may 268 
+thus deviate from the description of the simplified  processes. This effect can also be represented by the changes in 269 
+the relative flux. 270 
+ 271 
+3 Results 272 
+3.1 Test results of MgSO 4 exposure 273 
+3.1.1 Chemical composition and microstructural alte rations 274 
+ 275 
+Near the cathode, an exposure to MgSO 4 in the presence of applied electric fields increas ed the S content of the 276 
+cement paste (Fig. 3, see from the left). The S con tent near the surface (e.g., 0.1–10 mm) increased w ith the 277 
+exposure time and became higher than that of the in side part (e.g., 20 mm). In addition, the Ca conten t near the 278 
+surface decreased whilst the Si and Al contents inc reased. An enrichment of Mg was observed at a depth  of 0.1– 279 
+0.25 mm after an exposure time of 28 d (Fig. 3b). I n addition to the chemical composition alteration, the surface 280 
+
+=== Page 16 ===
+15 area near the cathode (0–3 mm) showed a layered mic rostructure (Fig. 4a). In the outermost layer (0–30 0 μm, area 281 
+I), a large amount of CaSO 4 formed on the surface of the specimen, and the hyd ration products decalcified to form 282 
+silica-alumina gel (e.g., Spot A of Fig. 4b). Deepe r inside the cement paste (300–1000 μm, area II), the hydration 283 
+products were affected by both decalcification and magnesium ingress. The silica-alumina gel showed a high Mg 284 
+content (Spot A of Fig. 4c), which agrees with the Mg enrichment in this area (Fig. 3b). CaSO 4 was also present in 285 
+this area (Spot B of Fig. 4c). About 1–3 mm from th e surface (area III), the hydration products were n ot impacted 286 
+by the ingress of either magnesium or sulfate. The cement paste was porous (Fig. 4d). The Ca/Si ratio of the 287 
+hydration products in this area was typically small er than 1.5, which coincides with the chemical comp osition 288 
+shown in Fig. 3b. From 3 mm inside (area IV), the c ement paste started to show continuous alterations without 289 
+layered structures. 290 
+ 291 
+  292 
+Fig. 3.  Chemical composition at different distances from t he surface (cathode on the left and anode on the ri ght) 293 
+after exposure to MgSO 4 for (a) 7 d and (b) 28 d. Each data point represen ts the average over a 50 μm × 50 μm area 294 
+measured by EDS. Error bars indicate the standard e rror in ZAF matrix correction schemes. The sampling  points 295 
+nearest to the surfaces are 0.1 mm from the surface . 296 
+ 297 0510 15 20 25 
+036912 
+0 1 2 3 4 5
+Ca content / % Si, Al, S, and Mg content / % 
+Distance / mm Si Al S
+Mg Ca 
+0
+Cathode Anode 0 10 10 20 20 (a) 
+0510 15 20 25 
+036912 
+0 1 2 3 4 5
+Ca content / % Si, Al, S, and Mg content / % 
+Distance / mm Si Al S
+Mg Ca 
+0
+Cathode Anode 0 10 10 20 20 (b) 
+
+=== Page 17 ===
+16   298 
+  299 
+Fig. 4. Microstructure of the surface area (0–4 mm) near t he cathode after 28 d exposure to MgSO 4: (a) an 300 
+overview, and (b) to (d) enlargements of the square d areas. Surface on the right. 301 
+ 302 
+The cement paste near the anode did not show signif icant alterations on both chemical composition (Fig . 3, see 303 
+from the right) and microstructure (Fig. 5). A very  small increase of the S content was observed in th e surface area 304 
+(0.1 mm from the surface). Considering the directio n of electric migration (Fig. 1b), the increased S content is 305 
+mainly induced by diffusion [39,40]. The Mg 2+  in the anodic solution should theoretically move t owards the cement 306 
+paste due to electric migration (Fig. 1b). However,  the ingress of Mg 2+  was constrained within a depth of ~100 μm 307 
+according to SEM. (Fig. 5). This 100- μm-zone was rich in CaSO 4, and two types of Mg-containing products with 308 
+different brightness and Mg/Si ratio were found. Cl oser to the surface, some Mg-containing products in  clusters 309 
+were embedded in the CaSO 4. These products were darker than the hydration pro ducts nearby. The Mg/Si ratio was 310 
+I II  III  IV  I: Si-Al gel + Cs 
+II: MSH + Cs  III: low C/S CSH 
+IV: low C/S CSH + Cs  
+(b)  
+(c)  (d)  (a) 0–4 mm 
+CaSO 4 Spot A  O 
+71.3  Mg  
+2.6  Al 
+8.8 Si 
+12.1  S 
+3.0  Ca  
+~0  Spot  
+A 
+I II  (b) 0–350 μm 
+Spot A  
+Spot B  O 
+56.1 
+67.7  Mg  
+15.6 
+ 3.7  Al 
+4.7 
+1.1  Si 
+15.8 
+ 4.5 S 
+1.4 
+9.0  Ca  
+ 5.7 
+12.8  Spot  
+A 
+B (c) 450–600 μm 
+O 
+66.5  Mg  
+0.8 Al 
+3.9  Si 
+11.0  S 
+1.7  Ca  
+15.1  Spot  
+A 
+Spot A  Pores  (d) ~2.5 mm 
+
+=== Page 18 ===
+17 higher than 3 (Spot A), which potentially indicates  a mixture of M-S-H and brucite on the microscale. Similar 311 
+products were also reported to form on the surface of the cement mortar after the magnesium sulfate at tack in the 312 
+absence of applied electric fields [15,16]. Farther  from the exposure surface, there were some larger particles (Spot 313 
+B). Compared with the Mg-containing products in clu sters (Spot A), the Mg/Si ratio of these particles was much 314 
+lower, and the Ca content was higher. This chemical  composition led to a slightly higher brightness an d may 315 
+represent a mixture of M-S-H and C-S-H, or an M-C-S -H [59]. Next to the CaSO 4-rich zone, the Ca/Si ratio of the 316 
+hydration products was typically higher than 1.5, a nd no magnesium-containing products were observed, which is 317 
+also verified in Fig. 3b. 318 
+ 319 
+  320 
+Fig. 5. Microstructure of the surface area (0–250 μm) near the anode after 28 d exposure to MgSO 4: (a) an 321 
+overview and (b) enlargement of the squared area. S urface on the left. 322 
+ 323 
+EDS spot analyses were conducted randomly at certai n depths, and the S/Ca is plotted against the Al/Ca  in Fig. 6. 324 
+After an exposure time of 7 d (Fig. 6a), the chemic al composition of the hydration products indicates the presence 325 
+of CaSO 4 and ettringite at the depths of 0.5 mm and 5 mm fr om the cathode. A small amount of ettringite may ex ist 326 
+at the depth of 15 mm. After an exposure time of 28  d (Fig. 6b), the hydration products at 2 mm from t he cathode 327 
+(area III, Fig. 4a) showed very small S/Ca and rela tively high Al/Ca to the other groups, coinciding w ith the 328 
+CaSO 4 rich zone  
+MSH+brucite  
+MSH+CSH (a) 0–250 μm 
+Spot A  
+Spot B Spot C O 
+62.6 
+69.1 
+67.2 Mg 
+23.8 
+ 7.0 
+ 1.5 Al 
+1.2 
+1.9 
+1.1 Si 
+ 7.7 
+12.2 
+ 9.2 S 
+0.8 
+0.3 
+1.2 Ca 
+ 3.2 
+ 7.7 
+20.0 Spot 
+A 
+B 
+C (b) 0–125 μm 
+
+=== Page 19 ===
+18 decalcification observed in Spot A, Fig. 4d. CaSO 4 was suggested to be the dominant sulfate-bearing p hase at 5 mm 329 
+from the cathode (area IV, Fig. 4a), and a large am ount of CaSO 4 with ettringite in a minor proportion may be 330 
+paresnt at 15 mm from the cathode. In the areas tha t are 0.5 mm, 5 mm, and 15 mm from the anode (Fig. 6c), the 331 
+hydration products may contain a mixture of ettring ite, monosulfate, C-S-H, and portlandite. 332 
+ 333 
+   334 
+Fig. 6.  Atom ratio plots of S/Ca against Al/Ca at differen t depths from the surface after exposures to MgSO 4: (a) 335 
+and (b) the cathode areas exposed to MgSO 4 for 7 d and 28 d, respectively; (c) the anode area s exposed to MgSO 4 336 
+for 28 d. CH = Portlandite (and C-S-H at a similar position), Ett = Ettringite, Ms = Monosulfate, Hc/M c = 337 
+Hemicarbonate or monocarbonate, Gyp = CaSO 4. 338 
+ 339 
+3.1.2 Mineralogical alteration 340 
+ 341 
+In the cement paste near the cathode, the formation  of sulfate-bearing products and decomposition of p ortlandite 342 
+were observed. After 28 d exposure to MgSO 4, the cement paste nearest to the surface (0.5–5 mm ) contained almost 343 
+no portlandite or ettringite, but a large amount of  CaSO 4 (Fig. 7a, see from the left). The CaSO 4 content was 344 
+slightly higher at 5–10 mm than that of the surface  part, and started to decrease beyond this depth. P ortlandite and 345 
+ettringite were detected beyond the depth of 10 mm,  and their contents increased with the depth. In ad dition to the 346 
+decomposition of portlandite, the amorphous content  in the cement paste near the cathode also showed a  reduction. 347 
+Fig. 7b shows that the formation of ettringite and CaSO 4 started even before 7 d, during which the decompos ition 348 
+of portlandite had been significant. Between 7–14 d , the formation of CaSO 4 continued while ettringite started to 349 0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hc/Mc (a) 
+0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 2 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hc/Mc (b) 
+0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hc/Mc (c) 
+
+=== Page 20 ===
+19 decompose. Almost no portlandite could be detected by 14 d, and the CaSO 4 content remained almost constant 350 
+afterward. Monocarbonate and hemicarbonate were obs erved due to the hydration of limestone [56,58]. Th ese 351 
+products had formed before the exposure to MgSO 4 but started to decompose after the exposure. Almos t no AFm 352 
+phases remained near the cathode after an exposure time of 7 d (Fig. 7b). Magnesium-bearing products w ere not 353 
+observed in XRD, which agrees with the small penetr ation depth of Mg 2+  shown in Fig. 3 and Fig. 4. However, 354 
+brucite was observed to form in the cathodic soluti on, which mingles with other products and forms a t hick layer of 355 
+deposits on the electrode. The deposits collected o n the 28th exposure day and tested by XRD suggested  a mixture 356 
+of 40.2% brucite, 41.1% gypsum, 14.5% portlandite, 3.3% anhydrite, and 0.8% calcite. 357 
+ 358 
+ 359 
+   360 
+Fig. 7. Mineralogical composition of the specimen exposed to MgSO 4 obtained by XRD and Rietveld refinement: 361 
+(a) all the depths after 28 d exposure time; (b) an d (c) phase alteration of the 0.5–5 mm area near th e cathode and 362 
+anode, respectively, after different exposure time.  CaSO 4 = anhydrite + bassanite + gypsum, AFm-S = monosulf ate, 363 
+AFm-C = monocarbonate + hemicarbonate, hydrogarnet = katoite + hydrogrossular. 364 
+ 365 
+In the anode area, the ettringite content in the 0. 5–5 mm area increased slowly with the exposure time , and the 366 020 40 60 80 100 
+0510 15 20 25 
+0 1 2 3 4 5
+Mass content for amorphous / % Mass content / % 
+Distance / mm Portlandite 
+Ettringite 
+CaSO4 
+AFm-S 
+AFm-C 
+Unreacted 
+Hydrogarnet 
+Calcite 0 10 20 20 10 0
+Cathode Anode (a) 
+0510 15 20 25 
+0 7 14 21 28 Mass content / % 
+Age / d (b) 
+020 40 60 80 100 
+0 7 14 21 28 
+Mass content for Am/% 
+Age / d (c) 
+
+=== Page 21 ===
+20 contents of monocarbonate and hemicarbonate decreas ed (Fig. 7c). After 28 d, the ettringite content in  this area was 367 
+slightly higher than that of the 5–10 mm area (Fig.  7a, see from the right). No other significant mine ralogical 368 
+alterations could be observed in the 0.5–5 mm area,  which also agrees with the SEM observations (Fig. 3, Fig. 5, 369 
+and Fig. 6c). The XRD analyses did not include the outer surface (~0.5 mm) and thus no Mg-bearing prod uct, e.g., 370 
+brucite, was detected. No brucite deposits could be  found in the anodic solution, either. 371 
+ 372 
+The XRD results are also confirmed by TGA, as detai led in Supplementary Data. 373 
+ 374 
+3.2 Test results of Na 2SO 4 exposure 375 
+3.2.1 Chemical composition and microstructural alte rations 376 
+ 377 
+Near the cathode, an exposure to Na 2SO 4 in the presence of applied electric fields also in duced an increased S 378 
+content (Fig. 8, see from the left), but to a much lower extent compared with the situation of the MgS O 4 exposure 379 
+(Fig. 3). The S content in the 0.5–10 mm area after  28 d exposure to Na 2SO 4 (Fig. 8b) was even lower than that of 380 
+the same area exposed to MgSO 4 for 7 d (Fig. 3a). Different from the situation of  MgSO 4 exposure, the loss of Ca 2+  381 
+in this area could not be clearly observed. After a n exposure time of 28 d, the Ca content on the surf ace even 382 
+showed a small increase (Fig. 8b). The microstructu re of the cement paste after the exposure to Na 2SO 4 showed 383 
+different features compared with that of the MgSO 4 exposure. The cement paste in the 0–600 μm area was porous 384 
+(Fig. 9a). Portlandite and large ettringite crystal s could be observed (Fig. 9b). A calcite shell cove red the surface of 385 
+the specimen, and calcite could also be found insid e the cement paste. 386 
+ 387 
+
+=== Page 22 ===
+21   388 
+Fig. 8. Chemical composition at different distances from t he surface (cathode on the left and anode on the ri ght) 389 
+after exposure to Na 2SO 4 for (a) 7 d and (b) 28 d. 390 
+ 391 
+The surface area near the anode (0.5 mm) showed sli ghtly higher S content compared with the areas insi de the 392 
+specimen (Fig. 8, see from the right), which is sim ilar to the situation of MgSO 4 exposure. Different from Mg 2+  393 
+whose penetration depth is less than 100 μm, Na + could penetrate deeper into the specimen from the anode, as 394 
+indicated by its increased content at a depth of 5– 15 mm near the anode in Fig. 8a. There are two poss ible causes 395 
+for the Na enrichment: a) a continuous accumulation  during seven days, or b) a quick accumulation duri ng the day 396 
+before testing, after the sulfate solution was just  refreshed. When we chose not to refresh the soluti on on the 27th 397 
+day, no Na enrichment was observed in the specimen on the 28th day (Fig. 8b). This observation support s the 398 
+second hypothesis and indicates that the migration of Na + under electric fields was fast. The microstructure  of the 399 
+surface area after Na 2SO 4 exposure showed some similar features compared wit h that of MgSO 4 exposure. A 400 
+CaSO 4-rich zone also formed (Fig. 10a), and silica gel t hat is rich in Na can be observed (Spot A of Fig. 1 0b). 401 
+Between the CaSO 4-rich zone and the cement paste, there is a Na-bear ing rim (Spot B of Fig. 10b). Comparing the 402 
+chemical composition of the rim with that of the Na -rich silica gel, the former owned a slightly lower  Na content 403 
+and a higher Ca content. Next to the CaSO 4-rich zone, the Ca/Si ratio of the hydration produc ts was also higher 404 
+than 1.5. The Ca/Si ratio became stable beyond this  depth (~100 μm), as also verified in Fig. 8b. 405 
+ 406 0510 15 20 25 
+036912 
+0 1 2 3 4 5
+Ca content / % Si, Al, S, and Mg content / % 
+Distance / mm Si Al S
+Na Ca 
+0
+Cathode Anode 0 10 10 20 20 (a) 
+0510 15 20 25 
+036912 
+0 1 2 3 4 5
+Ca content / % Si, Al, S, and Mg content / % 
+Distance / mm Si Al S
+Na Ca 
+0
+Cathode Anode 0 10 10 20 20 (b) 
+
+=== Page 23 ===
+22   407 
+Fig. 9. Microstructure of the surface area (0–250 μm) near the cathode after 28 d exposure to Na 2SO 4: (a) an 408 
+overview and (b) enlargement of the squared area. S urface on the left. 409 
+ 410 
+  411 
+Fig. 10. Microstructure of the surface area (0–250 μm) near the anode after 28 d exposure to Na 2SO 4: (a) an 412 
+overview and (b) enlargement of the squared area. S urface on the right. 413 
+ 414 
+The S/Ca plotted against Al/Ca indicates the presen ce of ettringite in large amounts at 0.5 mm and 5 m m depths 415 
+from the cathode when the specimen is exposed to Na 2SO 4 for 7 d (Fig. 11a). After an exposure time of 28 d , 416 
+ettringite was suggested to form at 0.5 mm, 5 mm, a nd 15 mm depths from the cathode (Fig. 11b), whilst  a small 417 
+amount of ettringite may also be present at the 0.5  mm area from the anode (Fig. 11c). 418 
+ 419 
+Calcite layer  
+Calcite  (a) 0–250 μm 
+Unreacted 
+clinker  
+Ettringite  
+CSH  
+Portlandite  Pores  (b) ~250 μm 
+CaSO 4 rich zone  Na-rich gel  (a) 0–250 μm 
+Spot C 
+ Spot A O 
+60.6  
+65.5  
+68.8  Na 
+10.4  
+ 9.0 
+ 1.5 Al 
+0.9 
+1.2 
+0.7 Si 
+20.1  
+13.3  
+ 7.5 S 
+1.5 
+0.8 
+1.5 Ca 
+ 5.5 
+ 8.5 
+20.0 Spot  
+A 
+B 
+C 
+Na-bearing rim  
+Spot B (b) 0–125 μm 
+
+=== Page 24 ===
+23    420 
+Fig. 11.  Atom ratio plots of S/Ca against Al/Ca at differen t depths from the surface after exposures to Na 2SO 4: (a) 421 
+and (b) the cathode areas exposed to Na 2SO 4 for 7 d and 28 d, respectively; (c) the anode area s exposed to Na 2SO 4 422 
+for 28 d. CH = Portlandite (and C-S-H at a similar position), Ett = Ettringite, Ms = Monosulfate, Hc/M c = 423 
+Hemicarbonate or monocarbonate, Gyp = CaSO 4. 424 
+ 425 
+3.2.2 Mineralogical alteration 426 
+ 427 
+When the specimen is exposed to Na 2SO 4, CaSO 4 did not form in large amounts near the cathode (e. g., 0.5–20 mm, 428 
+Fig. 12a, see from the left) even after an exposure  time of 28 d. Instead, the ettringite content in t his area was high, 429 
+and it decreased with the distance from the surface . Furthermore, the decomposition of portlandite and  AFm 430 
+(especially monocarbonate and hemicarbonate) after Na 2SO 4 exposure was not as significant as the situations in the 431 
+MgSO 4 exposure (comparing Fig. 12a to Fig. 7a). The deco mposition of portlandite and AFm, and the formation  of 432 
+ettringite showed a positive relationship with time  (Fig. 12b). 433 
+ 434 
+ 435 0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hg Hc/Mc (a) 
+0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hg Hc/Mc (b) 
+0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hg Hc/Mc (c) 
+020 40 60 80 100 
+0510 15 20 25 
+0 1 2 3 4 5
+Mass content for amorphous / % Mass content / % 
+Distance / mm Portlandite 
+Ettringite 
+CaSO4 
+AFm-S 
+AFm-C 
+Unreacted 
+Hydrogarnet 
+Calcite 0 10 20 20 10 0
+Cathode Anode (a) 
+
+=== Page 25 ===
+24    436 
+Fig. 12. Mineralogical composition of the specimen exposed to Na 2SO 4 obtained by XRD and Rietveld refinement: 437 
+(a) all the depths after 28 d exposure time; (b) an d (c) phase alteration of the 0.5–5 mm area near th e cathode and 438 
+anode, respectively, after different exposure time.  CaSO 4 = anhydrite + bassanite + gypsum, AFm-S = monosulf ate, 439 
+AFm-C = monocarbonate + hemicarbonate, hydrogarnet = katoite + hydrogrossular. 440 
+ 441 
+In the surface area near the anode (0.5–5 mm), no s ignificant mineralogical alterations could be obser ved except for 442 
+a small increase in the ettringite content and a de crease in the contents of monocarbonate and hemicar bonate. 443 
+Similar to the situation of MgSO 4 exposure, these phenomena are assigned to the effe cts of SO 42- diffusing from the 444 
+anodic solution (Fig. 12c). The Na enrichment after  7 d exposure to Na 2SO 4 did not form any products that can be 445 
+detected by XRD. Moreover, no deposits formed in th e cathodic and anodic solutions. 446 
+ 447 
+3.3 Results of thermodynamic modeling 448 
+ 449 
+3.3.1 Phase assemblage and pore solution chemistry 450 
+ 451 
+The phase assemblage and pore solution chemistry du ring the simplified electric migration processes we re 452 
+calculated by thermodynamic modeling. For the elect ric migration near the cathode (Fig. 13a), SO 42- initially 453 
+stabilized ettringite in favor of monocarbonate. Af ter the complete consumption of monocarbonate, gyps um was 454 
+stabilized in favor of portlandite and C-S-H. Durin g these processes, the SO 42- concentration in the pore solution 455 
+showed an increase, whilst the OH - concentration kept decreasing (Fig. 13b). In addit ion to gypsum, amorphous 456 0510 15 20 25 
+0 7 14 21 28 Mass content / % 
+Age / d (b) 
+020 40 60 80 100 
+0 7 14 21 28 
+Mass content for Am/% 
+Age / d (c) 
+
+=== Page 26 ===
+25 SiO 2 and AH 3 were predicted as the stable phases at the last st age of the electric migration process. 457 
+ 458 
+  459 
+  460 
+  461 
+Fig. 13. Phase assemblage and pore solution chemistry duri ng the simplified electric migration process, calcu lated 462 
+by thermodynamic modeling: (a) and (b) the degradat ion process near the cathode; (c) and (d) the degra dation 463 
+process near the anode after MgSO 4 exposure; (e) and (f) the degradation process near  the anode after Na 2SO 4 464 
+exposure. The horizontal-axis can be interpreted in to the alteration in a certain position with time o r the distribution 465 
+of products after a certain exposure time. A logari thmic axis is used for better comparison with therm odynamic 466 
+modeling studies on diffusion-induced sulfate attac ks [1,2,11,14-16]. The arrows above the figures ill ustrate the 467 030 60 90 
+0 1 2 3Volume / cm 3per 100 g cement 
+OH -replaced by 0.5 SO 42-/ molCSH 
+Unreacted clinker CH Ett Gyp 
+Fe-Hg FH 3Mc 
+SiO 2AH 3
+0.001 0.01 0.1 1Before degradation 
+/Inner part 
+Na 2SO 40 ~10 mm MgSO 4~20 mm 0 ~10 mm >40 mm 
+Degradation process (a) 
+Cc 
+-10 -8 -6 -4 -2 0
+0.001 0.01 0.1 1Lg Concentration / mol·L -1
+OH -replaced by 0.5 SO 42-/ molOH- 
+SO4-2 
+AlO2- 
+Ca+2 OH -
+SO 42-
+Ca 2+ AlO 2-(b) 
+030 60 90 
+0 1 2 3Volume / cm 3per 100 g cement 
+0.5 Ca 2+ replaced by 0.5 Mg 2+ / molCSH 
+Unreacted clinker CH Ett Gyp 
+Fe-Hg FH 3Mc 
+Ht 
+0.001 0.01 0.1 1MH 
+MSH Before degradation 
+/Inner part 
+Degradation process 0 ~0.1 mm too shallow to 
+be observed 
+(c) 
+Cc 
+-10 -8 -6 -4 -2 0
+0.001 0.01 0.1 1Lg Concentration / mol·L -1
+0.5 Ca 2+ replaced by 0.5 Mg 2+  / molOH -
+Ca 2+ 
+AlO 2-
+Mg 2+ (d) 
+SO 42+ 
+030 60 90 
+0 1 2 3Volume / cm 3per 100 g cement 
+0.5 Ca 2+ replaced by Na +/ molCSH 
+Unreacted clinker CH Ett 
+Na 2SO 4
+Fe-Hg FH 3Mc 
+NSH 
+0.001 0.01 0.1 1C3AH 6
+FH 3Before degradation 
+/Inner part 
+Degradation process 0 ~0.1 mm too shallow to 
+be observed 
+(e) 
+Cc 
+-8 -6 -4 -2 02
+0.001 0.01 0.1 1Lg Concentration / mol·L -1
+0.5 Ca 2+ replaced by Na +/ molH A
+C N
+$Ca 2+ AlO 2-
+Na +OH -(f) 
+SO 42-
+
+=== Page 27 ===
+26 approximate distribution of hydration products afte r 28 d exposure time (experimental results). CH = p ortlandite, 468 
+Ett = ettringite, Mc = monocarbonate, Gyp = gypsum,  Cc = calcite, Fe-Hg = C 3FS 0.84 H4.32  and/or C 3F1.34 H3.32 , Ht = 469 
+hydrotalcite, MH = brucite, MSH = M-S-H gel, and NS H = the Na end-member, [(NaOH) 2.5 SiO 2H2O] 0.2  included 470 
+in the CSHQ model. 471 
+ 472 
+In the anode area exposed to MgSO 4 (Fig. 13c), the incorporated Mg 2+  stabilized hydrotalcite and ettringite in favor 473 
+of monocarbonate at an initial stage. Brucite forme d when all the monocarbonate was consumed, during w hich 474 
+portlandite decomposed. At the last stage of the el ectric migration process, M-S-H and gypsum were sta bilized in 475 
+favor of C-S-H and ettringite, respectively. In con trast, exposure to Na 2SO 4 induced continuous Na uptake in the 476 
+C-S-H (Fig. 13e). By separating the Na end-member f rom the C-S-H phase in the CSHQ model, the Na uptak e can 477 
+be clearly observed. Portlandite kept stable until the depletion of C-S-H. Ettringite and monocarbonat e were 478 
+predicted to destabilize during the electric migrat ion process. 479 
+ 480 
+3.3.2 Migration of ionic species 481 
+ 482 
+The simplified electric migration process assumes t hat the phase changes are restricted in a certain “ degradation 483 
+area” on the surface of a specimen (see Fig. 1b). T he relative flux of a certain ion is thus interpret ed as its migration 484 
+rate from the degradation area towards a certain di rection which depends on the ion’s polarity. In the  degradation 485 
+area near the cathode, when degradation initiated O H - had the highest relative flux among all the ionic species (Fig. 486 
+14a). This phenomenon demonstrates that the replace ment of OH - by SO 42- from the external solution was the most 487 
+significant process that occurred. The relative flu x of SO 42- turned higher when all the monocarbonate decompose d 488 
+(point A), and exceeded that of OH - when portlandite started to decompose and gypsum s tarted to form (point B). 489 
+From this point on, SO 42- would take the place of OH - as the main ionic species that migrated towards th e inner part 490 
+of the specimen. The replacement of OH - by SO 42- in the degradation area, represented by the relati ve flux of OH -, 491 
+
+=== Page 28 ===
+27 thus slowed down, and the degradation remained stab le at point B. During the degradation process, the relative flux 492 
+of Ca 2+  showed an increase (point A), indicating that the loss of Ca 2+  from the degradation area to the external 493 
+solution will be faster than the compensation from the inner part of the specimen. 494 
+ 495 
+ 496 
+  497 
+  498 
+Fig. 14. The relative flux of ionic species: (a) the cathod e area; (b) and (c) the anode area exposed to MgSO 4 and 499 
+Na 2SO 4, respectively. The cations and anions migrate in d ifferent directions, see Fig. 1b. Certain ionic spe cies are 500 
+compensated by those from the inner part of the spe cimen, and the compensation rate is marked by a dia mond 501 
+(provided that the ionic strength in the inner part  of the specimen remains stable). The square bracke t indicates the 502 
+ionic species in the external solution is transport ed into the degradation area with the same relative  flux to certain 503 
+ions based on the assumption of charge balance. 504 
+ 505 
+For the anode area that is exposed to MgSO 4 (Fig. 14b), the relative flux of OH - remained the highest for a long 506 
+period during the electric migration process. This phenomenon indicates that the outflow of OH - to the external 507 1.E-07 1.E-05 1.E-03 1.E-01 1.E+01 
+0.001 0.01 0.1 1Relative flux 
+OH -replaced by 0.5 SO 42-/ molA B
+1.E-07 1.E-05 1.E-03 1.E-01 1.E+01 
+0.001 0.01 0.1 1Relative flux 
+0.5 Ca 2+ replaced by 0.5 Mg 2+ / molto 1.321 E-8A B
+1.E-06 1.E-04 1.E-02 1.E+00 1.E+02 
+0.001 0.01 0.1 1Relative flux 
+0.5 Ca 2+ replaced by Na +/ molOH - migrate from degradation area to inner part  
+Equal to SO 42- from cathodic solution to degradation area  
+SO 42- migrate from degradation area to inner part  
+Ca 2+  migrate from degradation area to cathodic solution  
+Ca 2+  migrate from inner part to degradation area  (a) 
+Ca 2+  migrate from degradation area to inner part 
+Equal to Mg 2+  from anodic solution to degradation area 
+Mg 2+  migrate from degradation area to inner part 
+SO 42- migrate from degradation area to anodic solution 
+OH - migrate from degradation area to anodic solution 
+OH - migrate from inner part to degradation area (b)  
+Ca 2+  migrate from degradation area to inner part 
+Equal to Na + from anodic solution to degradation area 
+Na + migrate from degradation area to inner part 
+SO 42- migrate from degradation area to anodic solution 
+OH - migrate from degradation area to anodic solution 
+OH - migrate from inner part to degradation area (c)  
+
+=== Page 29 ===
+28 solution, as well as the compensation of OH - from the inner part, was faster than the migration  of all the other ions. 508 
+The relative flux of Ca 2+  was at a lower level, indicating that the Ca 2+  in the degradation area would be replaced by 509 
+the Mg 2+  from the external solution at a slow rate. The rel ative flux of Mg 2+  was even lower than that of Ca 2+ , 510 
+indicating that the Mg 2+  in the degradation area could hardly migrate towar ds the inner part. The relative flux of 511 
+SO 42- showed an increase during the electric migration p rocess (point A). This phenomenon will theoreticall y lead 512 
+to a loss of SO 42- in the degradation area, but this effect may be of fset by the diffusion of SO 42- from the external 513 
+solution in the experiments. At the last degradatio n stage (point B), the relative flux of Mg 2+  increased sharply, the 514 
+penetration of Mg 2+  started, and the entire electric migration process  repeated stepwise in a slightly deeper area 515 
+from the surface. The degradation phase assemblage thus kept stable at point B. 516 
+ 517 
+When the anode was exposed to Na 2SO 4 (Fig. 14c), the relative flux of OH - remained the highest among all the 518 
+ionic species during the entire electric migration process. The relative flux of Na + was lower than that of OH -, but 519 
+much higher than that of Mg 2+  in the specimen exposed to MgSO 4. This phenomenon indicates that Na + will 520 
+migrate into the cement paste at a much higher rate  than Mg 2+ . The relative flux of Ca 2+  was at a low level during 521 
+the electric migration process, suggesting that the  replacement of Ca 2+  by Na + in the degradation area will be slow, 522 
+and most Na + will migrate towards the inner part of the specime n. 523 
+ 524 
+4 Discussions 525 
+4.1 Comparison between test results and thermodynam ic modeling 526 
+ 527 
+The mineralogical alterations that occurred near th e cathode agreed well with the thermodynamic modeli ng, as 528 
+indicated by the arrows in Fig. 13a. After exposure  to MgSO 4 for 28 d, CaSO 4 was observed to form in the outer 529 
+
+=== Page 30 ===
+29 part of the specimen (0–10 mm) where almost no port landite or ettringite existed (XRD, Fig. 7a). The 530 
+silica-alumina gel found on the surface of the spec imen (SEM, Fig. 4b) corresponds to the amorphous Si O 2 and 531 
+AH 3 in the thermodynamic modeling [14], and the reduct ion of the amorphous content coincides with the 532 
+decomposition of C-S-H predicted by thermodynamic m odeling. Deeper inside the specimen (10–40 mm), the  533 
+content of CaSO 4 gradually decreased, while those of portlandite an d ettringite increased (XRD, Fig. 7a). In 534 
+comparison, the specimen exposed to Na 2SO 4 for 28 d remained at an earlier degradation stage,  when CaSO 4 did 535 
+not form in large amounts. The different degradatio n stages between the specimens also coincide with t he amount 536 
+of S that has been transported from the cathodic so lution into the cement paste (EDS, cf. Fig. 3b and Fig. 8b). 537 
+ 538 
+The mineralogical alterations occurred in a shallow  depth (~0.1 mm) in the cement paste near the anode , but had 539 
+proceeded to the last degradation stage in both exp osure conditions when comparing the test results wi th the 540 
+thermodynamic modeling (Fig. 13c and 13e). For the MgSO 4 exposure, the presence of Mg-containing products 541 
+(brucite and M-S-H, SEM, Fig. 5) agrees with the th ermodynamic calculation, while for the Na 2SO 4 exposure, the 542 
+Na-rich silica gel (Fig. 10) coincides with the Na uptake by C-S-H in the thermodynamic modeling. A Ca SO 4-rich 543 
+zone was observed in both exposure conditions no ma tter if CaSO 4 is predicted to be stable. The diffusion of SO 42- 544 
+from the anodic solution is believed to be responsi ble for this phenomenon (see also Fig. 1b). 545 
+ 546 
+4.2 Migration behavior of Mg 2+ , Na +, and SO 42- 547 
+ 548 
+The degradation near the cathode and anode proceede d in different ways. Near the cathode, the anions f rom the 549 
+external solution (mainly SO 42-) migrated into a deep area, and the mineralogical alteration proceeded gradually 550 
+following the prediction of thermodynamic modeling.  For the anode area exposed to MgSO 4, the incorporation of 551 
+
+=== Page 31 ===
+30 Mg 2+  occurred in a shallow area with the mineralogical alteration proceeding directly to the late degradat ion stage. 552 
+In contrast, Na + could penetrate deep into the cement paste, but th e mineralogical alteration occurred also in a 553 
+shallow area. The different migration behaviors of the ionic species can be explained by the relative flux which is 554 
+obtained from the solution chemistry calculated by thermodynamic modeling. 555 
+ 556 
+According to section 3.3.2, an ion’s capability for  migration under electric fields depends on its rel ative flux, while 557 
+its accumulation rate in a degradation area depends  on the relative flux of the other ion that is bein g replaced. For 558 
+the degradation process near the cathode, the high relative flux of OH - suggests a fast accumulation of SO 42- at an 559 
+early degradation stage, whilst the increased relat ive flux of SO 42- indicates an accelerated migration rate towards 560 
+the inner part of the specimen (Fig. 14a). In contr ast, for the degradation process near the anode, th e smaller 561 
+relative flux of Ca 2+  than that of OH - suggests a slower accumulation rate of the cations  (Mg 2+  or Na +) than the 562 
+outflow of OH - (Fig. 14b and 14c), which coincides with the shall ow depth of Mg 2+  and Na + incorporation (Fig. 5 563 
+and 10). The strengths of Na + and Mg 2+  in the pore solution (Fig. 13d and 13f) and thus t heir relative fluxes (Fig. 564 
+14b and 14c) were different after the chemical reac tions. As a result, Na + and Mg 2+  showed different migration 565 
+behaviors (also compare Fig. 3 and Fig. 8). The dif ferent migration behaviors of SO 42- and Mg 2+  were once realized 566 
+when using thermodynamic modeling to study the magn esium sulfate attack simply caused by diffusion [15 ,16]. It 567 
+was reported that the penetration depth of Mg 2+  is usually overestimated compared to that of SO 42-. According to 568 
+the findings in this paper, this can be explained b y the low concentration of Mg 2+  in the pore solution and thus its 569 
+slower diffusion rate than SO 42-. 570 
+ 571 
+The electric migration of the cations and anions ca n also influence each other because both processes carry electric 572 
+charges. The experiment was conducted under a const ant electric current. The same amount of charges sh ould pass 573 
+
+=== Page 32 ===
+31 through the specimen during the same period of time , no matter the specimen was exposed to MgSO 4 or Na 2SO 4. In 574 
+the cathode side, SO 42- was migrated from the cathodic solution into the c ement paste. It penetrated through the 575 
+specimen together with OH - (and other anions) in the pore solution. In the me anwhile, the Ca 2+  in the pore solution 576 
+were released into the cathodic solution, but this process carried less electric charges due to the lo w relative flux of 577 
+Ca 2+  than the anions. In the anode side exposed to MgSO 4, the migration of Mg 2+  and Ca 2+  towards the inner part of 578 
+the specimen were at low rates. The electric charge s were mainly carried by the OH - migrating from the inner part 579 
+of the specimen towards the anode side, and finally  into the anodic solution. In contrast, in the case  of Na 2SO 4 580 
+exposure, Na + could penetrate through the specimen much more eas ily than Mg 2+ , and its electric migration can 581 
+carry much more electric charges. Under such circum stance, the electric migration of anions (SO 42- and OH -) will 582 
+carry fewer charges, and thus the sulfate ingress w ill proceed on a lower rate compared with the situa tion of MgSO 4 583 
+exposure. Similar results were also reported in [41 ] but no convincing explanations were ever given. 584 
+ 585 
+4.3 Comparison with the sulfate attack induced by d iffusion 586 
+ 587 
+To compare with the sulfate attack in the absence o f electric field (induced by diffusion), the main m ineralogical 588 
+alterations of Portland cement (Type I with limesto ne addition) mortars under Na 2SO 4 and MgSO 4 attacks [11,15] 589 
+and the results obtained in this paper are summariz ed in Table 3. This section focuses on the sulfate ingress and 590 
+decalcification near the cathode because a) these e ffects influenced a much wider area than the phase alterations 591 
+near the anode and b) similar processes also occur in the diffusion-induced sulfate attacks. 592 
+ 593 
+In the diffusion-induced Na 2SO 4 attack, the ingress of sulfate leads to the format ion of ettringite followed by that of 594 
+gypsum. In the MgSO 4 attack, nevertheless, Mg 2+  reacts with OH - in the pore solution to form brucite, reducing the  595 
+
+=== Page 33 ===
+32 solution pH to ~10.5 and inducing the decomposition  of ettringite [60,61]. The decomposition of ettrin gite was also 596 
+observed here when the specimen is exposed to MgSO 4. This phenomenon can be also attributed to a reduc tion of 597 
+the pore solution alkalinity, but the presence of M g 2+  may not be a decisive factor considering the shall ow depth of 598 
+the Mg transportation (Fig. 3b). During the sulfate  ingress, the OH - in the pore solution near the cathode was 599 
+theoretically transported towards the inner part of  the specimen by the electric field. This process i s used as a basic 600 
+assumption in the thermodynamic modeling and it is shown that the decomposition of ettringite and the formation 601 
+of gypsum occurred simultaneously with the decrease  of OH - concentration in the pore solution (Fig. 13b). 602 
+According to the test results, the presence of CaSO 4 in the cement paste near the cathode (Fig. 7) indi cates 603 
+sufficient ionic strengths of Ca 2+  and SO 42- for the stabilization of ettringite [2,14,15], whi lst the Al content in the 604 
+hydration products did not show any apparent reduct ion (Fig. 3). It can be thus inferred that the deco mposition of 605 
+ettringite was most probably caused by a neutraliza tion process as assumed in the thermodynamic modeli ng. A 606 
+similar neutralization process was also observed wh en accelerating thaumasite sulfate attacks by appli ed electric 607 
+fields, and this process was also believed to desta bilize ettringite according to [62]. 608 
+ 609 
+Table 3  Mineralogical alterations of sulfate attacks induc ed by electric migration (this paper) and diffusion  610 
+(obtained from [11,15]). 611 
+Process Formation phase Decomposition phase 
+Electric migration, cathode Ettringite  Gypsum + Si-Al gel Monocarbonate  Portlandite  Ettringite  
+C-S-H 
+Electric migration, anode, Na 2SO 4 1 Na-rich silica gel + Gypsum (surface) Not clearly o bserved in the experiments 
+Electric migration, anode, MgSO 4 1 M-S-H + Brucite + Gypsum (surface) Not clearly obse rved in the experiments 
+Diffusion, Na 2SO 4 Ettringite  Gypsum 2 Monocarbonate  Portlandite  C-S-H 
+Diffusion, MgSO 4 Ettringite  Brucite  Gypsum  M-S-H Monocarbonate  Portlandite  Ettringite  
+C-S-H 
+1 Only the experimentally verified phases are listed  in the formation column. The decomposition order o f the hydration products was 612 
+not clearly observed in the experiments and thus is  not listed in the decomposition column. 613 
+2 Gypsum forms when the Na 2SO 4 concentration is high, e.g., 44 g/L in [11]. 614 
+ 615 
+In the diffusion-induced sulfate attack, decalcific ation usually occurs on the surface of a specimen a nd is 616 
+
+=== Page 34 ===
+33 characterized by the decomposition of portlandite a nd the decrease of the Ca/Si in C-S-H [1,63,64]. In  the presence 617 
+of bicarbonate, gypsum will be the only stable sulf ate-bearing product in the decalcification zone, an d amorphous 618 
+SiO 2 and AH 3 are predicted as the stable phases by thermodynami c calculation [14,15]. Similar results are also 619 
+obtained in this paper (e.g., the MgSO 4 exposure for 28 d), but a different mechanism can be proposed when the 620 
+decalcification is induced by electric migration. A ccording to the thermodynamic modeling, the relativ e flux of 621 
+Ca 2+  migrating from the cement paste to the external so lution accelerated during the degradation process ( Fig. 14a). 622 
+This suggests that the loss of Ca 2+  in the cement paste near the cathode cannot be ful ly compensated by the Ca 2+  623 
+migrating from the inner part of the specimen. The Ca 2+  content near the cathode decreased (Fig. 3 and 8),  thus 624 
+leading to the decalcification and the decompositio n of hydration products. The decalcification near t he cathode 625 
+may also have accelerated the transportation of Mg 2+  through diffusion (Fig. 3b and Fig. 4c), as also r eported in 626 
+concrete exposed to field conditions [65,66]. But t he presence of Mg is not likely to be the cause of decalcification 627 
+here considering the depths of these processes (Fig . 4, Area III showed decalcification but very small  Mg content). 628 
+ 629 
+The Ca/Si ratio (cf. Fig. 3 and Fig. 8) and portlan dite content (cf. Fig. 7 and Fig. 12) indicate that  the specimen 630 
+exposed to MgSO 4 had a higher degree of decalcification than that e xposed to Na 2SO 4. On one hand, the 631 
+decalcification process is induced by the electric migration of Ca 2+ . It will be impacted by the electric migration of 632 
+other cations (Mg 2+  and Na +), and thus the degree of decalcification coincides  with that of sulfate ingress. On the 633 
+other hand, this process is also impacted by altera tions of ionic strength in the external sulfate sol ution near the 634 
+cathode, which is a potential drawback of the test setup. When the specimen was exposed to Na 2SO 4, H + in the 635 
+solution would be reduced to H 2 on the cathode, thus producing OH - in the solution [40] (Fig. 1b). Both OH - and 636 
+SO 42- could carry electric charges and would migrate int o the cement paste near the cathode. The OH - migrating 637 
+towards the specimen may react with the Ca 2+  that was driven out of the paste to form a surface  layer consisting of 638 
+
+=== Page 35 ===
+34 portlandite. When the Na 2SO 4 solution was refreshed (every 3 d), the portlandit e might carbonate, forming a calcite 639 
+layer as observed in the SEM (Fig. 9). This hypothe sis explains the slight increase of the Ca content near the 640 
+cathode area in Fig. 8b and a better protection fro m carbonation may help with its verification. In co ntrast, in the 641 
+MgSO 4 solution, the OH - produced on the cathode precipitated with Mg 2+  to form brucite in the external solution 642 
+(section 3.1.2). Owing to the precipitation of OH -, SO 42- was the main anion migrating into the specimen, an d thus 643 
+CaSO 4 formed on the surface of the specimen instead of c alcite (Fig. 4b). 644 
+ 645 
+4.4 Comparison with coupled reactive-transport mode ling 646 
+ 647 
+As stated in [1], the coupled reactive-transport mo deling and the pure thermodynamic modeling presente d 648 
+comparable results in revealing the phase alteratio ns of a diffusion-induced sulfate attack. The pure thermodynamic 649 
+modeling is usually easy to use and provides fast r esults, but the results do not correspond directly with the real 650 
+exposure time or the depth from the exposure surfac e. In comparison, coupled reactive-transport modeli ng provides 651 
+the information of time and depth, but the accuracy  depends strongly on the preciseness of models (e.g ., 652 
+transportation equation, fluid transport, charge ba lance) [21,67] and parameters (e.g., diffusion coef ficient) [1]. This 653 
+paper proposed a simplified approach for the pure t hermodynamic modeling study of electric-migration-i nduced 654 
+sulfate attacks. Such an approach focuses on the ch emical and mineralogical aspects and clarifies alte rations of the 655 
+hydration products. Although the real distribution of the products was not presented, this information  can be 656 
+reflected by the relative flux that is proposed her e. The advantages and validity of this approach wil l be further 657 
+demonstrated in an upcoming paper investigating the  effect of supplementary cementitious materials in the same 658 
+situation. 659 
+ 660 
+
+=== Page 36 ===
+35 The thermodynamic modeling calculation conducted in  this paper is based on the assumption that the kin etics of the 661 
+chemical reactions is much faster than the transpor tation of ionic species, and that the hydration sys tem is close to 662 
+an equilibrium state. As reviewed in [68], this ass umption is usually valid  in most practical cases involving the 663 
+diffusion of ions in saturated systems, and thus it  is widely accepted by the existing pure thermodyna mic modeling 664 
+studies [1,2,11,14-16]. In contrast, electric migra tion usually induces a quicker ionic motion, and th us the 665 
+equilibrium state is more difficult to be reached [ 24]. When studying the electric migration of chlori de by coupled 666 
+reactive-transport models, an equilibrium state was  assumed in [69] and the test results agree well wi th the 667 
+modeling. The results of this paper also show that the migration behavior of ionic species coincides w ith the 668 
+solution chemistry (relative flux) under the assump tion of equilibrium. It can be thus inferred that t he real solution 669 
+chemistry in the hydrated cement paste is similar t o that under the equilibrium state and that the equ ilibrium 670 
+assumption is likely to be valid in the case of ele ctric migration. 671 
+ 672 
+The electric migration behavior of ionic species ca n be represented by the relative flux, which depend s on the ion’s 673 
+diffusion coefficient and concentration in the pore  solution. The diffusion coefficients of different ions are usually 674 
+at the same order of magnitude, as shown in Table 2 . However, their concentrations can span several or ders of 675 
+magnitude, which induces wide differences in the re lative fluxes and is responsible for the different migration 676 
+behavior of Mg 2+ , Na +, and SO 42- under applied electric fields. In this respect, fo r a reactive-transport process, it is 677 
+sometimes acceptable to suppose the same diffusion coefficient for different ionic species, as was don e in 678 
+[16,70,71]. Nevertheless, the effect of chemical re actions on the concentration and thus the migration  of ionic 679 
+species should be carefully considered. 680 
+ 681 
+4.5 Comparison with real-life situations 682 
+
+=== Page 37 ===
+36  683 
+This setup simulates both processes when electric c urrent flows into and out of the cement-based mater ials 684 
+simultaneously. In contrast, in the case of DC stra y current, these two processes occur separately. Th e electric 685 
+current enters the concrete at a certain location, goes through the reinforcement, and then flows out of the concrete 686 
+at another location [29]. The ionic exchange betwee n the external environment and cement-based materia ls induced 687 
+by the inflow and outflow of electric current can b e represented by the anode area and cathode area in  this setup, 688 
+respectively, but the behavior of the reinforcement s, e.g., anodic corrosion or hydrogen evolution, is  not simulated. 689 
+Moreover, this paper focused on the chemical and mi neralogical aspects of sulfate attacks and thus the  physical and 690 
+microstructural aspects, including expansion and cr acking, were not investigated. During the electric migration 691 
+tests, the specimens did not show significant crack ing, which agrees with the focus of this paper but may possibly 692 
+differ from the real situation. The test results (F ig. 7) and thermodynamic modeling (Fig. 13a) both i ndicate the 693 
+decomposition of ettringite at the late degradation  stage, probably suggesting the absence of expansio n at that stage. 694 
+However, thermodynamic modeling predicted an increa sed volume of hydration products near the cathode, which 695 
+may yet cause expansion. Based on the results of th is paper, it is difficult to determine whether expa nsion and 696 
+cracking will occur under such circumstances. 697 
+ 698 
+The concentration of ions in the external solution will change with time, and this will be the other d ifference 699 
+between the test setup and the real-life situation.  Although the concentration of the sulfate solution  theoretically 700 
+remains above ~0.34 mol/L due to the 3-day periodic ally refreshment (see section 2.2 and Supplementary  Data), it 701 
+seems that the alterations of the ionic strength in  the external sulfate solution have still impact th e products formed 702 
+on the surface of the specimens (see section 4.3). Increasing the volume of the external solutions and  shortening the 703 
+refreshing cycle can be solutions to this problem. 704 
+
+=== Page 38 ===
+37  705 
+The test setup used here has been proposed for the purpose of laboratory acceleration tests [39-41]. T he discussion 706 
+in section 4.3 demonstrates that the electric migra tion of ionic species near the cathode not only ind uce the ingress 707 
+of sulfate, but also cause a neutralization process  in the pore solution and a decalcification process  (see also Table 708 
+3). These effects should be considered when interpr eting the mineralogical alterations obtained by suc h test setups, 709 
+especially when a) MgSO 4 attack is investigated and the degradation proceed s to the late-stage quickly and b) a 710 
+long exposure time is investigated in the case of N a 2SO 4 attack and the degradation may proceed to a later stage 711 
+compared with that in this paper. After an exposure  time of 28 d, SO 42- from the cathodic solution had penetrated 712 
+through most of the specimen and even influenced th e area that is 5–10 mm deep from the anode, as indi cated by 713 
+the distribution of hydration products (Fig. 7 and Fig. 12). Specimens with greater height are thus re commended for 714 
+such tests, especially in the case of long duration  (e.g., > 28 d exposure time), in order that the re al penetration 715 
+depth of SO 42- can be accurately identified from an uncontaminate d area. 716 
+ 717 
+In addition to the situations mentioned above, we b elieve that the simplified approach for the thermod ynamic 718 
+modeling study proposed in this paper can be more b roadly applied in investigating the behavior of cem ent-based 719 
+materials under applied electric fields. Future stu dies may involve the use of this approach in accele rated 720 
+electrochemical leaching tests [37,38], other types  of chemical attacks, and in concrete technologies involving 721 
+electrochemical methods (e.g., chloride extraction,  realkalinization, and electrochemical deposit [32- 34]). 722 
+ 723 
+5 Conclusions 724 
+ 725 
+When an electric current flows out of a Portland ce ment paste (in the cathode area of the specimen), t he electric 726 
+
+=== Page 39 ===
+38 migration of ionic species induced the ingress of s ulfate from the external solution. Ettringite forme d at the initial 727 
+stage but decomposed to form gypsum at a later stag e. Thermodynamic modeling indicates that the alkali nity of the 728 
+pore solution decreased during this process, which is most probably responsible for the decomposition of ettringite. 729 
+In addition to the sulfate ingress, decalcification  also occurred in this area, which is characterized  by the 730 
+decomposition of portlandite followed by that of C- S-H. When the specimen was exposed to MgSO 4, the sulfate 731 
+ingress and decalcification proceeded to a later st age and occurred in a deeper area compared with the  specimen 732 
+exposed to Na 2SO 4. 733 
+ 734 
+Near the anode, electric current flows into the cem ent paste, and the electric charges were mainly car ried by the 735 
+electric migration of OH - from the pore solution towards the external soluti on. The Ca 2+  originally in the pore 736 
+solution migrated towards the inner part of the spe cimen at a much lower rate than that of OH -, and thus the 737 
+incorporation of the cations from the external solu tion (Mg 2+  or Na +) was slow. The incorporation of Mg 2+  formed 738 
+brucite and M-S-H–like products. Thermodynamic mode ling indicates that this process induced a low Mg 2+  739 
+concentration in the pore solution, and thus Mg 2+  would not effectively migrate into the inner part of the specimen. 740 
+In contrast, the incorporation of Na + formed Na-rich silica gel, during which the Na + concentration in the pore 741 
+solution was much higher. As a result, Na + showed a better capability of migration and can pe netrate through the 742 
+cement paste easily. Since both cations and anions can carry electric charges, the different migration  behaviors of 743 
+Mg 2+  and Na + are attributed to inducing the different degrees o f sulfate ingress near the cathode. 744 
+ 745 
+A simplified approach based on thermodynamic modeli ng and the ionic transportation equation were newly  746 
+proposed to provide insights into the degradation p rocesses of the sulfate attacks that are induced by  electric 747 
+migration. In addition to calculating the degradati on phase assemblage, the migration behavior of ioni c species 748 
+
+=== Page 40 ===
+39 under electric fields can be represented by the rel ative flux. We believe this approach can be more br oadly applied 749 
+to predict the behavior of cement-based materials u nder electric fields. 750 
+ 751 
+Acknowledgements 752 
+ 753 
+The authors gratefully acknowledge the financial su pports provided by National Key Research and Develo pment 754 
+Projects (2018YFC0705404), National Natural Science  Foundation of China (51878480, 51678442, 51878481,  and 755 
+51878496), and the Fundamental Research Funds for t he Central Universities. 756 
+ 757 
+Appendix A. Supplementary Data  758 
+ 759 
+1 Estimating the concentration range of the sulfate  solution 760 
+2 Rietveld refinement 761 
+3 Input recipes for thermodynamic modeling 762 
+4 Mineralogical alterations of cement paste tested by TGA 763 
+ 764 
+References 765 
+ 766 
+[1] B. Lothenbach, B. Bary, P. Le Bescop, T. Schmid t, N. Leterrier, Sulfate ingress in Portland cement , Cem. Concr. Res. 767 
+40 (2010) 1211-1225. 768 
+[2] W. Kunther, B. Lothenbach, K.L. Scrivener, On t he relevance of volume increase for the length chan ges of mortar 769 
+bars in sulfate solutions, Cem. Concr. Res. 46 (201 3) 23-29. 770 
+
+=== Page 41 ===
+40 [3] M. Whittaker, L. Black, Current knowledge of ex ternal sulfate attack, Adv. Cem. Res. 27 (2015) 532 -545. 771 
+[4] R.J. Flatt, G.W. Scherer, Thermodynamics of cry stallization stresses in DEF, Cem. Concr. Res. 38 ( 2008) 325-336. 772 
+[5] R. Flatt, N. Aly Mohamed, F. Caruso, H. Derluyn , J. Desarnaud, B. Lubelli, R.M. Espinosa-Marzal, L . Pel, C. 773 
+Rodriguez-Navarro, G.W. Scherer, N. Shahidzadeh, M.  Steiger, Predicting salt damage in practice: A the oretical insight 774 
+into laboratory tests, RILEM Technical Letters. 2 ( 2017) 108. 775 
+[6] W. Müllauer, R.E. Beddoe, D. Heinz, Sulfate att ack expansion mechanisms, Cem. Concr. Res. 52 (2013 ) 208-215. 776 
+[7] C. Yu, W. Sun, K. Scrivener, Mechanism of expan sion of mortars immersed in sodium sulfate solution s, Cem. Concr. 777 
+Res. 43 (2013) 105-111. 778 
+[8] C. Yu, W. Sun, K. Scrivener, Degradation mechan ism of slag blended mortars immersed in sodium sulf ate solution, 779 
+Cem. Concr. Res. 72 (2015) 37-47. 780 
+[9] M. Santhanam, M.D. Cohen, J. Olek, Effects of g ypsum formation on the performance of cement mortar s during 781 
+external sulfate attack, Cem. Concr. Res. 33 (2003)  325-332. 782 
+[10] B. Tian, M.D. Cohen, Does gypsum formation dur ing sulfate attack on concrete lead to expansion?, Cem. Concr. 783 
+Res. 30 (2000) 117-123. 784 
+[11] T. Schmidt, B. Lothenbach, M. Romer, J. Neuens chwander, K. Scrivener, Physical and microstructura l aspects of 785 
+sulfate attack on ordinary and limestone blended Po rtland cements, Cem. Concr. Res. 39 (2009) 1111-112 1. 786 
+[12] B. Bary, N. Leterrier, E. Deville, P. Le Besco p, Coupled chemo-transport-mechanical modelling and  numerical 787 
+simulation of external sulfate attack in mortar, Ce m. Concr. Compos. 49 (2014) 70-83. 788 
+[13] A. Soive, V.Q. Tran, External sulfate attack o f cementitious materials: New insights gained throu gh numerical 789 
+modeling including dissolution/precipitation kineti cs and surface complexation, Cem. Concr. Compos. 83  (2017) 790 
+263-272. 791 
+[14] W. Kunther, B. Lothenbach, K. Scrivener, Influ ence of bicarbonate ions on the deterioration of mo rtar bars in sulfate 792 
+
+=== Page 42 ===
+41 solutions, Cem. Concr. Res. 44 (2013) 77-86. 793 
+[15] W. Kunther, B. Lothenbach, Improved volume sta bility of mortar bars exposed to magnesium sulfate in the presence 794 
+of bicarbonate ions, Cem. Concr. Res. 109 (2018) 21 7-229. 795 
+[16] W. Kunther, B. Lothenbach, K.L. Scrivener, Det erioration of mortar bars immersed in magnesium con taining sulfate 796 
+solutions, Mater. Struct. 46 (2013) 2003-2011. 797 
+[17] Z. Makhloufi, S. Aggoun, B. Benabed, E.H. Kadr i, M.Bederina, Effect of magnesium sulfate on the d urability of 798 
+limestone mortars based on quaternary blended cemen ts, Cem. Concr. Compos. 65 (2016) 186-199. 799 
+[18] B. Huber, H. Hilbig, J.E. Drewes, E. Müller, E valuation of concrete corrosion after short- and lo ng-term exposure to 800 
+chemically and microbially generated sulfuric acid,  Cem. Concr. Res. 94 (2017) 36-48. 801 
+[19] L. Gu, P. Visintin, T. Bennett, Evaluation of accelerated degradation test methods for cementitio us composites 802 
+subject to sulfuric acid attack; application to con ventional and alkali-activated concretes, Cem. Conc r. Compos. 87 (2018) 803 
+187-204. 804 
+[20] E. Rozière, A. Loukili, R. El Hachem, F. Grond in, Durability of concrete exposed to leaching and external sulphate 805 
+attacks, Cem. Concr. Res. 39 (2009) 1188-1198. 806 
+[21] E. Samson, J. Marchand, Modeling the transport  of ions in unsaturated cement-based materials, Com puters & 807 
+Structures. 85 (2007) 1740-1756. 808 
+[22] R.A. Patel, Q.T. Phung, S.C. Seetharam, J. Per ko, D. Jacques, N. Maes, G. De Schutter, G. Ye, K. Van Breugel, 809 
+Diffusivity of saturated ordinary Portland cement-b ased materials: A critical review of experimental a nd analytical 810 
+modelling approaches, Cem. Concr. Res. 90 (2016) 52 -72. 811 
+[23] P. Yang, G. Sant, N. Neithalath, A refined, se lf-consistent Poisson-Nernst-Planck (PNP) model for  electrically 812 
+induced transport of multiple ionic species through  concrete, Cem. Concr. Compos. 82 (2017) 80-94. 813 
+[24] E. Samson, J. Marchand, K.A. Snyder, Calculati on of ionic diffusion coefficients on the basis of migration test 814 
+
+=== Page 43 ===
+42 results, Mater. Struct. 36 (2003) 156-165. 815 
+[25] J.M. Galíndez, J. Molinero, On the relevance o f electrochemical diffusion for the modeling of deg radation of 816 
+cementitious materials, Cem. Concr. Compos. 32 (201 0) 351-359. 817 
+[26] C. Li, M. Wu, W. Yao, Effect of coupled B/Na a nd B/Ba doping on hydraulic properties of belite-ye ’elimite-ferrite 818 
+cement, Constr. Build. Mater. 208 (2019) 23-35. 819 
+[27] L. Bertolini, M. Carsana, P. Pedeferri, Corros ion behaviour of steel in concrete in the presence of stray current, 820 
+Corros. Sci. 49 (2007) 1056-1068. 821 
+[28] A. Aghajani, M. Urgen, L. Bertolini, Effects o f DC stray current on concrete permeability, J. Mat er. Civ. Eng. 28 822 
+(2015) 04015177. 823 
+[29] A. Solgaard, M. Carsana, M. Geiker, A. Küter, L. Bertolini, Experimental observations of stray cu rrent effects on 824 
+steel fibres embedded in mortar, Corros. Sci. 74 (2 013) 1-12. 825 
+[30] F. Wittmann, Corrosion of cement-based materia ls under the influence of an electric field,  Mater . Sci. Forum, 826 
+Trans Tech Publ, 1997, pp. 107-126. 827 
+[31] G. Glass, N. Buenfeld, The inhibitive effects of electrochemical treatment applied to steel in co ncrete, Corros. Sci. 828 
+42 (2000) 923-927. 829 
+[32] W.H.A. Peelen, R.B. Polder, E. Redaelli, L. Be rtolini, Qualitative model of concrete acidificatio n due to cathodic 830 
+protection, Mater. Corros. 59 (2008) 81-89. 831 
+[33] Y. Chen, W. Yao, J. Zuo, Effect of ultrasound on electrochemical chloride extraction from mortar,  Materials 832 
+Research Express. 5 (2018) 036508. 833 
+[34] W. Li, B. Dong, Z. Yang, J. Xu, Q. Chen, H. Li , F. Xing, Z. Jiang, Recent Advances in Intrinsic S elf-Healing 834 
+Cementitious Materials, Adv. Mater. 30 (2018) e1705 679. 835 
+[35] J. García, F. Almeraya, C. Barrios, C. Gaona, R. Núñez, I. López, M. Rodríguez, A. Martínez-Villa fañe, J.M. 836 
+
+=== Page 44 ===
+43 Bastidas, Effect of cathodic protection on steel–co ncrete bond strength using ion migration measuremen ts, Cem. Concr. 837 
+Compos. 34 (2012) 242-247. 838 
+[36] J.C. Orellan, G. Escadeillas, G. Arliguie, Ele ctrochemical chloride extraction: efficiency and si de effects, Cem. 839 
+Concr. Res. 34 (2004) 227-234. 840 
+[37] A. Babaahmadi, L. Tang, Z. Abbas, T. Zack, P. Mårtensson, Development of an electro-chemical acce lerated ageing 841 
+method for leaching of calcium from cementitious ma terials, Mater. Struct. 49 (2016) 705-718. 842 
+[38] A. Babaahmadi, L. Tang, Z. Abbas, P. Mårtensso n, Physical and Mechanical Properties of Cementitio us Specimens 843 
+Exposed to an Electrochemically Derived Accelerated  Leaching of Calcium, International Journal of Conc rete Structures 844 
+and Materials. 9 (2015) 295-306. 845 
+[39] Q. Huang, C. Wang, C. Yang, L. Zhou, J. Yin, A ccelerated sulfate attack on mortars using electric al pulse, Constr. 846 
+Build. Mater. 95 (2015) 875-881. 847 
+[40] Q. Huang, C. Wang, C. Luo, C. Yang, Y. Luo, H.  Xie, Effect of mineral admixtures on sulfate resis tance of mortars 848 
+under electrical field, Adv. Cem. Res. 29 (2017) 45 -53. 849 
+[41] S. Lorente, M.-P. Yssorche-Cubaynes, J. Auger,  Sulfate transfer through concrete: Migration and d iffusion results, 850 
+Cem. Concr. Compos. 33 (2011) 735-741. 851 
+[42] A. Susanto, D.A. Koleva, O. Copuroglu, K. van Beek, K. van Breugel, Mechanical, electrical and mi crostructural 852 
+properties of cement-based materials in conditions of stray current flow, Journal of Advanced Concrete  Technology. 11 853 
+(2013) 119-134. 854 
+[43] K. Scrivener, R. Snellings, B. Lothenbach, A p ractical guide to microstructural analysis of cemen titious materials, 855 
+Crc Press, 2016. 856 
+[44] W. Dollase, Correction of intensities for pref erred orientation in powder diffractometry: applica tion of the March 857 
+model, J. Appl. Crystallogr. 19 (1986) 267-272. 858 
+
+=== Page 45 ===
+44 [45] R. Snellings, A. Bazzoni, K. Scrivener, The ex istence of amorphous phase in Portland cements: Phy sical factors 859 
+affecting Rietveld quantitative phase analysis, Cem . Concr. Res. 59 (2014) 139-146. 860 
+[46] M.A.G. Aranda, A.G. De la Torre, L. Leon-Reina , Rietveld Quantitative Phase Analysis of OPC Clink ers, Cements 861 
+and Hydration Products, Reviews in Mineralogy and G eochemistry. 74 (2012) 169-209. 862 
+[47] K. Mohan, H. Taylor, Analytical Electron Micro scopy of Cement Pastes: IV, β-Dicalcium Silicate Pastes, J. Am. 863 
+Ceram. Soc. 64 (1981) 717-719. 864 
+[48] J. Li, G. Geng, R. Myers, Y.-S. Yu, D. Shapiro , C. Carraro, R. Maboudian, P.J.M. Monteiro, The ch emistry and 865 
+structure of calcium (alumino) silicate hydrate: A study by XANES, ptychographic imaging, and wide- an d small-angle 866 
+scattering, Cem. Concr. Res. 115 (2019) 367-378. 867 
+[49] J. Kerr, D. Lide, CRC Handbook of Chemistry an d Physics, CRC Press Boca Raton, FL, USA, 2000. 868 
+[50] J. Xia, L.-y. Li, Numerical simulation of ioni c transport in cement paste under the action of ext ernally applied 869 
+electric field, Constr. Build. Mater. 39 (2013) 51- 59. 870 
+[51] C. Andrade, R. Buják, Effects of some mineral additions to Portland cement on reinforcement corro sion, Cem. Concr. 871 
+Res. 53 (2013) 59-67. 872 
+[52] D.A. Kulik, T. Wagner, S.V. Dmytrieva, G. Kosa kowski, F.F. Hingerl, K.V. Chudnenko, U.R. Berner, GEM-Selektor 873 
+geochemical modeling package: revised algorithm and  GEMS3K numerical kernel for coupled simulation cod es, 874 
+Computational Geosciences. 17 (2013) 1-24. 875 
+[53] W. Hummel, U. Berner, E. Curti, F. Pearson, T.  Thoenen, Nagra/PSI chemical thermodynamic data bas e 01/01, 876 
+Radiochimica Acta. 90 (2002) 805-813. 877 
+[54] B. Lothenbach, D.A. Kulik, T. Matschei, M. Bal onis, L. Baquerizo, B. Dilnesa, G.D. Miron, R.J. My ers, Cemdata18: 878 
+A chemical thermodynamic database for hydrated Port land cements and alkali-activated materials, Cem. C oncr. Res. 115 879 
+(2019) 472-506. 880 
+
+=== Page 46 ===
+45 [55] B.Z. Dilnesa, B. Lothenbach, G. Renaudin, A. W ichser, D. Kulik, Synthesis and characterization of  hydrogarnet 881 
+Ca 3(Al xFe 1−x )2(SiO 4)y(OH) 4(3−y) , Cem. Concr. Res. 59 (2014) 96-111. 882 
+[56] C. Li, M. Wu, W. Yao, Eco-efficient Cementitio us System Consisting of Belite-Ye’elimite-Ferrite C ement, 883 
+Limestone Filler, and Silica Fume, ACS Sustainable Chem. Eng. 7 (2019) 7941-7950. 884 
+[57] Q. Zeng, C. Wang, Y. Luo, C. Yu, Q. Huang, C. Luo, Effect of temperatures on TSA in cement mortar s under 885 
+electrical field, Constr. Build. Mater. 162 (2018) 88-95. 886 
+[58] B. Lothenbach, G. Le Saout, E. Gallucci, K. Sc rivener, Influence of limestone on the hydration of  Portland cements, 887 
+Cem. Concr. Res. 38 (2008) 848-860. 888 
+[59] M. Vespa, B. Lothenbach, R. Dähn, T. Huthwelke r, E. Wieland, Characterisation of magnesium silica te hydrate 889 
+phases (M-S-H): A combined approach using synchrotr on-based absorption-spectroscopy and ab initio calc ulations, Cem. 890 
+Concr. Res. 109 (2018) 175-183. 891 
+[60] O.S.B. Al-Amoudi, Attack on plain and blended cements exposed to aggressive sulfate environments,  Cem. Concr. 892 
+Compos. 24 (2002) 305-316. 893 
+[61] P. Brown, S. Badger, The distributions of boun d sulfates and chlorides in concrete subjected to m ixed NaCl, MgSO 4, 894 
+Na 2SO 4 attack, Cem. Concr. Res. 30 (2000) 1535-1542. 895 
+[62] Y. Luo, C. Wang, Z. Fang, L. Xiao, Q. Zeng, Th e TSA degradation process of cement-based materials  in the 896 
+electrical field environment, Constr. Build. Mater.  206 (2019) 703-716. 897 
+[63] R. Gollop, H. Taylor, Microstructural and micr oanalytical studies of sulfate attack. IV. Reaction s of a slag cement 898 
+paste with sodium and magnesium sulfate solutions, Cem. Concr. Res. 26 (1996) 1013-1028. 899 
+[64] W. Kunther, B. Lothenbach, J. Skibsted, Influe nce of the Ca/Si ratio of the C–S–H phase on the in teraction with 900 
+sulfate ions and its impact on the ettringite cryst allization pressure, Cem. Concr. Res. 69 (2015) 37- 49. 901 
+[65] C. Li, M. Wu, Q. Chen, Z. Jiang, Chemical and mineralogical alterations of concrete subjected to chemical attacks in 902 
+
+=== Page 47 ===
+46 complex underground tunnel environments during 20–3 6 years, Cem. Concr. Compos. 86 (2018) 139-159. 903 
+[66] M. Rosenqvist, A. Bertron, K. Fridh, M. Hassan zadeh, Concrete alteration due to 55 years of expos ure to river water: 904 
+Chemical and mineralogical characterisation, Cem. C oncr. Res. 92 (2017) 110-120. 905 
+[67] E. Samson, J. Marchand, K.A. Snyder, J. Beaudo in, Modeling ion and fluid transport in unsaturated  cement systems 906 
+in isothermal conditions, Cem. Concr. Res. 35 (2005 ) 141-153. 907 
+[68] E. Samson, J. Marchand, J. Beaudoin, Modeling the influence of chemical reactions on the mechanis ms of ionic 908 
+transport in porous materials: an overview, Cem. Co ncr. Res. 30 (2000) 1895-1902. 909 
+[69] D. Conciatori, É. Grégoire, É. Samson, J. Marc hand, L. Chouinard, Statistical analysis of concret e transport 910 
+properties, Mater. Struct. 47 (2013) 89-103. 911 
+[70] E. Stora, B. Bary, Q.C. He, E. Deville, P. Mon tarnal, Modelling and simulations of the chemo–mech anical behaviour 912 
+of leached cement-based materials: leaching process  and induced loss of stiffness, Cem. Concr. Res. 39  (2009) 763-772. 913 
+[71] E. Stora, B. Bary, Q.C. He, E. Deville, P. Mon tarnal, Modelling and simulations of the chemo-mech anical behaviour 914 
+of leached cement-based materials: Interactions bet ween damage and leaching, Cem. Concr. Res. 40 (2010 ) 1226-1236. 915 
+ 916 
+
+=== Page 48 ===
+ Table 1  Chemical and mineralogical compositions of the Por tland cement (wt. %). 
+Chemical composition Mineralogical composition 
+Na 2O 0.04 C 3S 58.32 
+MgO 0.76 C 2S 11.64 
+Al 2O3 4.55 C 3A 3.96 
+SiO 20.8 C 4AF 8.03 
+P2O5 0.11 Calcite 4.58 
+SO 3 2.92 Anhydrite 0.76 
+K2O 0.74 Bassanite 3.67 
+CaO 64.8 Gypsum 0.01 
+TiO 2 0.23 Lime 0.35 
+Cr 2O3 0.02 Portlandite 0.58 
+MnO 0.11 CF 2 1.53 
+Fe 2O3 3.27 Goergeyite 3.30 
+CuO 0.02 Perovskite 1.79 
+ZnO 0.05 Periclase 0.85 
+SrO 0.03 Dolomite 0.13 
+LOI 2.58 Quartz 0.21 
+ 
+
+=== Page 49 ===
+ Table 2 Concentration of ions in the pore solution before degradation and diffusion coefficient in free water  ( Di0). 
+ Concentration 
+mol/L Diffusion coefficient 
+10 -9 m2/s Direction 
+OH - 2.05×10 -1 5.273 
+Cathode → inner part → anode → anodic solution SO 42- 6.79×10 -4 1.065 
+AlO 2- 4.25×10 -5 n.a. 1 
+SiO 32- 9.94×10 -6 n.a. 1 
+CO 32- 4.66×10 -5 n.a. 1 
+HCO 3- 2.27×10 -8 1.185 
+Ca 2+  1.01×10 -3 0.792 
+Anode → inner part → cathode → cathodic solution Ca(OH) + 9.09×10 -4 n.a. 1 
+Mg 2+  1.11×10 -10 0.706 
+Na + 2.34×10 -3 1.334 
+K+ 2.01×10 -1 1.957 
+1 Not available in [49]. 
+ 
+
+=== Page 50 ===
+ Table 3  Mineralogical alterations of sulfate attacks induc ed by electric migration (this paper) and diffusion  
+(obtained from [11,15]). 
+Process Formation phase Decomposition phase 
+Electric migration, cathode Ettringite  Gypsum + Si-Al gel Monocarbonate  Portlandite  Ettringite  
+C-S-H 
+Electric migration, anode, Na 2SO 4 1 Na-rich silica gel + Gypsum (surface) Not clearly o bserved in the experiments 
+Electric migration, anode, MgSO 4 1 M-S-H + Brucite + Gypsum (surface) Not clearly obse rved in the experiments 
+Diffusion, Na 2SO 4 Ettringite  Gypsum 2 Monocarbonate  Portlandite  C-S-H 
+Diffusion, MgSO 4 Ettringite  Brucite  Gypsum  M-S-H Monocarbonate  Portlandite  Ettringite  
+C-S-H 
+1 Only the experimentally verified phases are listed  in the formation column. The decomposition order o f the hydration products was 
+not clearly observed in the experiments and thus is  not listed in the decomposition column. 
+2 Gypsum forms when the Na 2SO 4 concentration is high, e.g., 44 g/L in [11]. 
+ 
+
+=== Page 51 ===
+  
+Fig. 1. Test setup to apply electric fields: (a) overview of the test setup and (b) schematic of ionic motion  where 
+thickness and velocity are not to scale. The ionic motion is driven by electric migration (red arrows)  and diffusion 
+(blue arrows). 
+ Specimen 
+Sulfate solution Cathode:  
+copper mesh Anode:  
+titanium mesh DC Power supply (a)  (b) 
+Solution  
+Anode degradation area  (Positive) Anode 
+Mg 2+  / Na + 
+(H +) 
+SO 42- 
+(OH -) 
+ e- Cations 
+Ca 2+ 
+Na +, K + 
+CaOH + 
+… 
+ 
+Anions:  
+OH - 
+SO 42- 
+AlO 2-, SiO 32- 
+… Cathode (Negative)  
+e- 
+Anions:  
+OH - 
+SO 42- 
+AlO 2-, SiO 32- 
+… Cations 
+Ca 2+ 
+Na +, K + 
+CaOH + 
+… Mg 2+  / Na + 
+(H +) H2 
+O2 SO 42- 
+(OH -) 
+  
+Solution  
+Cathode degradation area  Cement paste  
+Inner part  
+
+=== Page 52 ===
+  
+Fig. 2.  Preparation of samples: (a) the sides of a cylindr ical specimen that were not well exposed to sulfate  
+solutions were cut off, (b) small patches that were  perpendicular to the exposure surface was cut for SEM, (c) the 
+surface part (0.5 mm) of the remainder was removed,  (d) the specimen was cut parallel to the exposure surface into 
+5-mm thick slices, and (e) the slices were crushed into powders (particle size <75 μm) for XRD and TGA. 
+ (a) Remove sides 
+(c) Remove surface 0.5 mm (b) Cut perpendicular 
+to the surface 
+(d) Cut parallel 
+to the surface (e) Crush into powders 
+For XRD and TGA For SEM 100 mm 50 mm 
+
+=== Page 53 ===
+   
+Fig. 3.  Chemical composition at different distances from t he surface (cathode on the left and anode on the ri ght) 
+after exposure to MgSO 4 for (a) 7 d and (b) 28 d. Each data point represen ts the average over a 50 μm × 50 μm area 
+measured by EDS. Error bars indicate the standard e rror in ZAF matrix correction schemes. The sampling  points 
+nearest to the surfaces are 0.1 mm from the surface . 
+ 0510 15 20 25 
+036912 
+0 1 2 3 4 5
+Ca content / % Si, Al, S, and Mg content / % 
+Distance / mm Si Al S
+Mg Ca 
+0
+Cathode Anode 0 10 10 20 20 (a) 
+0510 15 20 25 
+036912 
+0 1 2 3 4 5
+Ca content / % Si, Al, S, and Mg content / % 
+Distance / mm Si Al S
+Mg Ca 
+0
+Cathode Anode 0 10 10 20 20 (b) 
+
+=== Page 54 ===
+   
+  
+Fig. 4. Microstructure of the surface area (0–4 mm) near t he cathode after 28 d exposure to MgSO 4: (a) an 
+overview, and (b) to (d) enlargements of the square d areas. Surface on the right. 
+ 
+I II  III  IV  I: Si-Al gel + Cs 
+II: MSH + Cs  III: low C/S CSH 
+IV: low C/S CSH + Cs  
+(b)  
+(c)  (d)  (a) 0–4 mm 
+CaSO 4 Spot A  O 
+71.3  Mg  
+2.6  Al 
+8.8 Si 
+12.1  S 
+3.0  Ca  
+~0  Spot  
+A 
+I II  (b) 0–350 μm 
+Spot A  
+Spot B  O 
+56.1 
+67.7  Mg  
+15.6 
+ 3.7  Al 
+4.7 
+1.1  Si 
+15.8 
+ 4.5 S 
+1.4 
+9.0  Ca  
+ 5.7 
+12.8  Spot  
+A 
+B (c) 450–600 μm 
+O 
+66.5  Mg  
+0.8 Al 
+3.9  Si 
+11.0  S 
+1.7  Ca  
+15.1  Spot  
+A 
+Spot A  Pores  (d) ~2.5 mm 
+
+=== Page 55 ===
+   
+Fig. 5. Microstructure of the surface area (0–250 μm) near the anode after 28 d exposure to MgSO 4: (a) an 
+overview and (b) enlargement of the squared area. S urface on the left. 
+ 
+CaSO 4 rich zone  
+MSH+brucite  
+MSH+CSH (a) 0–250 μm 
+Spot A  
+Spot B Spot C O 
+62.6 
+69.1 
+67.2 Mg 
+23.8 
+ 7.0 
+ 1.5 Al 
+1.2 
+1.9 
+1.1 Si 
+ 7.7 
+12.2 
+ 9.2 S 
+0.8 
+0.3 
+1.2 Ca 
+ 3.2 
+ 7.7 
+20.0 Spot 
+A 
+B 
+C (b) 0–125 μm 
+
+=== Page 56 ===
+    
+Fig. 6.  Atom ratio plots of S/Ca against Al/Ca at differen t depths from the surface after exposures to MgSO 4: (a) 
+and (b) the cathode areas exposed to MgSO 4 for 7 d and 28 d, respectively; (c) the anode area s exposed to MgSO 4 
+for 28 d. CH = Portlandite (and C-S-H at a similar position), Ett = Ettringite, Ms = Monosulfate, Hc/M c = 
+Hemicarbonate or monocarbonate, Gyp = CaSO 4. 
+ 0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hc/Mc (a) 
+0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 2 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hc/Mc (b) 
+0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hc/Mc (c) 
+
+=== Page 57 ===
+  
+   
+Fig. 7. Mineralogical composition of the specimen exposed to MgSO 4 obtained by XRD and Rietveld refinement: 
+(a) all the depths after 28 d exposure time; (b) an d (c) phase alteration of the 0.5–5 mm area near th e cathode and 
+anode, respectively, after different exposure time.  CaSO 4 = anhydrite + bassanite + gypsum, AFm-S = monosulf ate, 
+AFm-C = monocarbonate + hemicarbonate, hydrogarnet = katoite + hydrogrossular. 
+ 020 40 60 80 100 
+0510 15 20 25 
+0 1 2 3 4 5
+Mass content for amorphous / % Mass content / % 
+Distance / mm Portlandite 
+Ettringite 
+CaSO4 
+AFm-S 
+AFm-C 
+Unreacted 
+Hydrogarnet 
+Calcite 0 10 20 20 10 0
+Cathode Anode (a) 
+0510 15 20 25 
+0 7 14 21 28 Mass content / % 
+Age / d (b) 
+020 40 60 80 100 
+0 7 14 21 28 
+Mass content for Am/% 
+Age / d (c) 
+
+=== Page 58 ===
+   
+Fig. 8. Chemical composition at different distances from t he surface (cathode on the left and anode on the ri ght) 
+after exposure to Na 2SO 4 for (a) 7 d and (b) 28 d. 
+ 0510 15 20 25 
+036912 
+0 1 2 3 4 5
+Ca content / % Si, Al, S, and Mg content / % 
+Distance / mm Si Al S
+Na Ca 
+0
+Cathode Anode 0 10 10 20 20 (a) 
+0510 15 20 25 
+036912 
+0 1 2 3 4 5
+Ca content / % Si, Al, S, and Mg content / % 
+Distance / mm Si Al S
+Na Ca 
+0
+Cathode Anode 0 10 10 20 20 (b) 
+
+=== Page 59 ===
+   
+Fig. 9. Microstructure of the surface area (0–250 μm) near the cathode after 28 d exposure to Na 2SO 4: (a) an 
+overview and (b) enlargement of the squared area. S urface on the left. 
+ 
+Calcite layer  
+Calcite  (a) 0–250 μm 
+Unreacted 
+clinker  
+Ettringite  
+CSH  
+Portlandite  Pores  (b) ~250 μm 
+
+=== Page 60 ===
+   
+Fig. 10. Microstructure of the surface area (0–250 μm) near the anode after 28 d exposure to Na 2SO 4: (a) an 
+overview and (b) enlargement of the squared area. S urface on the right. 
+ 
+CaSO 4 rich zone  Na-rich gel  (a) 0–250 μm 
+Spot C 
+ Spot A O 
+60.6  
+65.5  
+68.8  Na 
+10.4  
+ 9.0 
+ 1.5 Al 
+0.9 
+1.2 
+0.7 Si 
+20.1  
+13.3  
+ 7.5 S 
+1.5 
+0.8 
+1.5 Ca 
+ 5.5 
+ 8.5 
+20.0 Spot  
+A 
+B 
+C 
+Na-bearing rim  
+Spot B (b) 0–125 μm 
+
+=== Page 61 ===
+    
+Fig. 11.  Atom ratio plots of S/Ca against Al/Ca at differen t depths from the surface after exposures to Na 2SO 4: (a) 
+and (b) the cathode areas exposed to Na 2SO 4 for 7 d and 28 d, respectively; (c) the anode area s exposed to Na 2SO 4 
+for 28 d. CH = Portlandite (and C-S-H at a similar position), Ett = Ettringite, Ms = Monosulfate, Hc/M c = 
+Hemicarbonate or monocarbonate, Gyp = CaSO 4. 
+ 0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hg Hc/Mc (a) 
+0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hg Hc/Mc (b) 
+0.0 0.2 0.4 0.6 0.8 1.0 
+0.0 0.1 0.2 0.3 0.4 0.5 S/Ca 
+Al/Ca 0.5 mm 
+5 mm 
+15 mm 
+CH Gyp 
+Ett 
+Ms 
+Hg Hc/Mc (c) 
+
+=== Page 62 ===
+  
+   
+Fig. 12. Mineralogical composition of the specimen exposed to Na 2SO 4 obtained by XRD and Rietveld refinement: 
+(a) all the depths after 28 d exposure time; (b) an d (c) phase alteration of the 0.5–5 mm area near th e cathode and 
+anode, respectively, after different exposure time.  CaSO 4 = anhydrite + bassanite + gypsum, AFm-S = monosulf ate, 
+AFm-C = monocarbonate + hemicarbonate, hydrogarnet = katoite + hydrogrossular. 
+ 020 40 60 80 100 
+0510 15 20 25 
+0 1 2 3 4 5
+Mass content for amorphous / % Mass content / % 
+Distance / mm Portlandite 
+Ettringite 
+CaSO4 
+AFm-S 
+AFm-C 
+Unreacted 
+Hydrogarnet 
+Calcite 0 10 20 20 10 0
+Cathode Anode (a) 
+0510 15 20 25 
+0 7 14 21 28 Mass content / % 
+Age / d (b) 
+020 40 60 80 100 
+0 7 14 21 28 
+Mass content for Am/% 
+Age / d (c) 
+
+=== Page 63 ===
+   
+  
+  
+Fig. 13. Phase assemblage and pore solution chemistry duri ng the simplified electric migration process, calcu lated 
+by thermodynamic modeling: (a) and (b) the degradat ion process near the cathode; (c) and (d) the degra dation 
+process near the anode after MgSO 4 exposure; (e) and (f) the degradation process near  the anode after Na 2SO 4 
+exposure. The horizontal-axis can be interpreted in to the alteration in a certain position with time o r the distribution 
+of products after a certain exposure time. A logari thmic axis is used for better comparison with therm odynamic 
+modeling studies on diffusion-induced sulfate attac ks [1,2,11,14-16]. The arrows above the figures ill ustrate the 
+approximate distribution of hydration products afte r 28 d exposure time (experimental results). CH = p ortlandite, 
+Ett = ettringite, Mc = monocarbonate, Gyp = gypsum,  Cc = calcite, Fe-Hg = C 3FS 0.84 H4.32  and/or C 3F1.34 H3.32 , Ht = 
+hydrotalcite, MH = brucite, MSH = M-S-H gel, and NS H = the Na end-member, [(NaOH) 2.5 SiO 2H2O] 0.2  included 
+in the CSHQ model. 030 60 90 
+0 1 2 3Volume / cm 3per 100 g cement 
+OH -replaced by 0.5 SO 42-/ molCSH 
+Unreacted clinker CH Ett Gyp 
+Fe-Hg FH 3Mc 
+SiO 2AH 3
+0.001 0.01 0.1 1Before degradation 
+/Inner part 
+Na 2SO 40 ~10 mm MgSO 4~20 mm 0 ~10 mm >40 mm 
+Degradation process (a) 
+Cc 
+-10 -8 -6 -4 -2 0
+0.001 0.01 0.1 1Lg Concentration / mol·L -1
+OH -replaced by 0.5 SO 42-/ molOH- 
+SO4-2 
+AlO2- 
+Ca+2 OH -
+SO 42-
+Ca 2+ AlO 2-(b) 
+030 60 90 
+0 1 2 3Volume / cm 3per 100 g cement 
+0.5 Ca 2+ replaced by 0.5 Mg 2+ / molCSH 
+Unreacted clinker CH Ett Gyp 
+Fe-Hg FH 3Mc 
+Ht 
+0.001 0.01 0.1 1MH 
+MSH Before degradation 
+/Inner part 
+Degradation process 0 ~0.1 mm too shallow to 
+be observed 
+(c) 
+Cc 
+-10 -8 -6 -4 -2 0
+0.001 0.01 0.1 1Lg Concentration / mol·L -1
+0.5 Ca 2+ replaced by 0.5 Mg 2+  / molOH -
+Ca 2+ 
+AlO 2-
+Mg 2+ (d) 
+SO 42+ 
+030 60 90 
+0 1 2 3Volume / cm 3per 100 g cement 
+0.5 Ca 2+ replaced by Na +/ molCSH 
+Unreacted clinker CH Ett 
+Na 2SO 4
+Fe-Hg FH 3Mc 
+NSH 
+0.001 0.01 0.1 1C3AH 6
+FH 3Before degradation 
+/Inner part 
+Degradation process 0 ~0.1 mm too shallow to 
+be observed 
+(e) 
+Cc 
+-8 -6 -4 -2 02
+0.001 0.01 0.1 1Lg Concentration / mol·L -1
+0.5 Ca 2+ replaced by Na +/ molH A
+C N
+$Ca 2+ AlO 2-
+Na +OH -(f) 
+SO 42-
+
+=== Page 64 ===
+  
+  
+  
+Fig. 14. The relative flux of ionic species: (a) the cathod e area; (b) and (c) the anode area exposed to MgSO 4 and 
+Na 2SO 4, respectively. The cations and anions migrate in d ifferent directions, see Fig. 1b. Certain ionic spe cies are 
+compensated by those from the inner part of the spe cimen, and the compensation rate is marked by a dia mond 
+(provided that the ionic strength in the inner part  of the specimen remains stable). The square bracke t indicates the 
+ionic species in the external solution is transport ed into the degradation area with the same relative  flux to certain 
+ions based on the assumption of charge balance. 
+ 1.E-07 1.E-05 1.E-03 1.E-01 1.E+01 
+0.001 0.01 0.1 1Relative flux 
+OH -replaced by 0.5 SO 42-/ molA B
+1.E-07 1.E-05 1.E-03 1.E-01 1.E+01 
+0.001 0.01 0.1 1Relative flux 
+0.5 Ca 2+ replaced by 0.5 Mg 2+ / molto 1.321 E-8A B
+1.E-06 1.E-04 1.E-02 1.E+00 1.E+02 
+0.001 0.01 0.1 1Relative flux 
+0.5 Ca 2+ replaced by Na +/ molOH - migrate from degradation area to inner part  
+Equal to SO 42- from cathodic solution to degradation area  
+SO 42- migrate from degradation area to inner part  
+Ca 2+  migrate from degradation area to cathodic solution  
+Ca 2+  migrate from inner part to degradation area  (a) 
+Ca 2+  migrate from degradation area to inner part 
+Equal to Mg 2+  from anodic solution to degradation area 
+Mg 2+  migrate from degradation area to inner part 
+SO 42- migrate from degradation area to anodic solution 
+OH - migrate from degradation area to anodic solution 
+OH - migrate from inner part to degradation area (b)  
+Ca 2+  migrate from degradation area to inner part 
+Equal to Na + from anodic solution to degradation area 
+Na + migrate from degradation area to inner part 
+SO 42- migrate from degradation area to anodic solution 
+OH - migrate from degradation area to anodic solution 
+OH - migrate from inner part to degradation area (c)  
+
+=== Page 65 ===
+Conflict of interest 
+None. 

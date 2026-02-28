@@ -1,0 +1,104 @@
+{
+  "project_name": "CementFlyAsh_SaltAttack",
+  "project_description": "Multi-environment reaction-transport modeling of fly ash blended cement paste under salt attack",
+  "date_created": "2026-02-28",
+  "duration_days": 60,
+  
+  "databases": {
+    "primary": "CEMDATA18",
+    "secondary": "NagraPSI",
+    "version": "cemdata18.1",
+    "database_path": "Cemdata18.1_08-01-19",
+    "notes": "Using CEMDATA18 version 1.1 (8-1-2019) with Nagra-PSI base database"
+  },
+  
+  "thermodynamic_conditions": {
+    "temperature_C": 20,
+    "temperature_K": 293.15,
+    "pressure_bar": 1.0,
+    "pressure_Pa": 101325,
+    "system_type": "closed_initially",
+    "notes": "Standard conditions for 28-day hydration, then open system for degradation"
+  },
+  
+  "phase_models": {
+    "csh_model": "CSHQ",
+    "csh_model_file": "phase.3rdparty.cemdata.pc.csh.cshq.ver18.01",
+    "csh_alternatives": ["CSHKN", "CSH3T", "CSH2O"],
+    "solid_solutions_enabled": [
+      "AFm_ss",
+      "AFt_ss",
+      "CSH_ss",
+      "hydrotalcite_ss"
+    ],
+    "notes": "CSHQ model selected for Portland cement + fly ash system"
+  },
+  
+  "suppressed_phases": [
+    "C3AS0.8H4.4",
+    "thaumasite"
+  ],
+  "suppression_reason": "These phases are kinetically hindered at 20°C and not observed in experimental systems",
+  
+  "cemdata_modules": {
+    "pc": true,
+    "pc_description": "Portland cement phases",
+    "ss": true,
+    "ss_description": "Solid solutions (AFm, AFt, C-S-H)",
+    "ss-fe3": true,
+    "ss_fe3_description": "Iron-containing solid solutions",
+    "aam": false,
+    "aam_description": "Alkali-activated materials (not used for this PC+FA system)",
+    "csh_variant": "cshq"
+  },
+  
+  "key_phases_to_track": [
+    "portlandite",
+    "CSH",
+    "ettringite",
+    "monosulfate",
+    "friedel_salt",
+    "gypsum",
+    "calcite",
+    "hydrotalcite",
+    "C3S",
+    "C2S",
+    "C3A",
+    "C4AF"
+  ],
+  
+  "aqueous_species_to_track": [
+    "Ca+2",
+    "Na+",
+    "K+",
+    "Cl-",
+    "SO4-2",
+    "OH-",
+    "AlO2-",
+    "SiO3-2",
+    "H+",
+    "H2O"
+  ],
+  
+  "validation_criteria": {
+    "database_consistency_check": true,
+    "temperature_correction_verified": true,
+    "phase_list_complete": true,
+    "expected_phases": [
+      "portlandite",
+      "C-S-H",
+      "ettringite",
+      "monosulfate",
+      "Friedel's salt",
+      "hydrotalcite"
+    ],
+    "expected_pH_range": [13.5, 13.8]
+  },
+  
+  "computational_settings": {
+    "convergence_tolerance": 1e-6,
+    "max_iterations": 500,
+    "activity_model": "extended_debye_huckel",
+    "ionic_strength_calculation": "automatic"
+  }
+}
