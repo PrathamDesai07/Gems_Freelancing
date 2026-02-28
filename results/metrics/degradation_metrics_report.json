@@ -1,0 +1,263 @@
+{
+  "scenario_metrics": {
+    "PW_immersion": {
+      "portlandite_dissolution": {
+        "rate_constant": 0.00012002160518536999,
+        "half_life_days": 5775.186721502341,
+        "initial_amount_mol": 4.2,
+        "final_amount_mol": 4.169863197752465,
+        "depletion_percent": 0.7175429106555902,
+        "status": "calculated"
+      },
+      "CSH_decalcification": {
+        "rate_constant": 0.04084634883885121,
+        "initial_amount_mol": 12.5,
+        "final_amount_mol": 10.049219069668927,
+        "depletion_percent": 19.60624744264858,
+        "status": "calculated"
+      },
+      "pH_neutralization": {
+        "initial_pH": 13.72,
+        "final_pH": 13.603810499613779,
+        "pH_drop": 0.11618950038622167,
+        "neutralization_rate_per_day": 0.0019364916731036943,
+        "time_to_buffer_loss_days": null,
+        "status": "calculated"
+      },
+      "chloride_binding": {
+        "total_bound": 0.0,
+        "max_friedel_mol": 0.0,
+        "status": "no_chloride"
+      },
+      "sulfate_damage": {
+        "damage_index": 0.0,
+        "initial_ettringite_mol": 0.85,
+        "final_ettringite_mol": 0.85,
+        "ettringite_increase_mol": 0.0,
+        "damage_severity": "low",
+        "status": "calculated"
+      }
+    },
+    "PW_pressure": {
+      "portlandite_dissolution": {
+        "rate_constant": 0.0003501838787263565,
+        "half_life_days": 1979.380613068113,
+        "initial_amount_mol": 4.2,
+        "final_amount_mol": 4.112674276942948,
+        "depletion_percent": 2.07918388231077,
+        "status": "calculated"
+      },
+      "CSH_decalcification": {
+        "rate_constant": 0.0970472148842111,
+        "initial_amount_mol": 12.5,
+        "final_amount_mol": 6.677167106947334,
+        "depletion_percent": 46.582663144421325,
+        "status": "calculated"
+      },
+      "pH_neutralization": {
+        "initial_pH": 13.72,
+        "final_pH": 13.429526249034444,
+        "pH_drop": 0.29047375096555683,
+        "neutralization_rate_per_day": 0.004841229182759281,
+        "time_to_buffer_loss_days": null,
+        "status": "calculated"
+      },
+      "chloride_binding": {
+        "total_bound": 0.0,
+        "max_friedel_mol": 0.0,
+        "status": "no_chloride"
+      },
+      "sulfate_damage": {
+        "damage_index": 0.0,
+        "initial_ettringite_mol": 0.85,
+        "final_ettringite_mol": 0.85,
+        "ettringite_increase_mol": 0.0,
+        "damage_severity": "low",
+        "status": "calculated"
+      }
+    },
+    "NaCl_immersion": {
+      "portlandite_dissolution": {
+        "rate_constant": 0.00016203937875922122,
+        "half_life_days": 4277.646494744415,
+        "initial_amount_mol": 4.2,
+        "final_amount_mol": 4.159363935920945,
+        "depletion_percent": 0.9675253352155968,
+        "status": "calculated"
+      },
+      "CSH_decalcification": {
+        "rate_constant": 0.05019044418153736,
+        "initial_amount_mol": 12.5,
+        "final_amount_mol": 9.488573349107758,
+        "depletion_percent": 24.091413207137933,
+        "status": "calculated"
+      },
+      "pH_neutralization": {
+        "initial_pH": 13.72,
+        "final_pH": 13.55733469945929,
+        "pH_drop": 0.16266530054071104,
+        "neutralization_rate_per_day": 0.0027110883423451843,
+        "time_to_buffer_loss_days": null,
+        "status": "calculated"
+      },
+      "chloride_binding": {
+        "total_bound_mg_per_g": 33.473701372921184,
+        "max_friedel_mol": 0.4721255482781549,
+        "final_friedel_mol": 0.4721255482781549,
+        "binding_capacity_utilized_percent": 100.0,
+        "status": "calculated"
+      },
+      "sulfate_damage": {
+        "damage_index": 0.0,
+        "initial_ettringite_mol": 0.85,
+        "final_ettringite_mol": 0.85,
+        "ettringite_increase_mol": 0.0,
+        "damage_severity": "low",
+        "status": "calculated"
+      }
+    },
+    "NaCl_pressure": {
+      "portlandite_dissolution": {
+        "rate_constant": 0.0004728352011775411,
+        "half_life_days": 1465.938193336162,
+        "initial_amount_mol": 4.2,
+        "final_amount_mol": 4.082519871029989,
+        "depletion_percent": 2.7971459278574082,
+        "status": "calculated"
+      },
+      "CSH_decalcification": {
+        "rate_constant": 0.11521031960758125,
+        "initial_amount_mol": 12.5,
+        "final_amount_mol": 5.587380823545125,
+        "depletion_percent": 55.300953411639,
+        "status": "calculated"
+      },
+      "pH_neutralization": {
+        "initial_pH": 13.72,
+        "final_pH": 13.313336748648222,
+        "pH_drop": 0.4066632513517785,
+        "neutralization_rate_per_day": 0.006777720855862975,
+        "time_to_buffer_loss_days": null,
+        "status": "calculated"
+      },
+      "chloride_binding": {
+        "total_bound_mg_per_g": 40.37996579693743,
+        "max_friedel_mol": 0.5695340732995405,
+        "final_friedel_mol": 0.5695340732995405,
+        "binding_capacity_utilized_percent": 100.0,
+        "status": "calculated"
+      },
+      "sulfate_damage": {
+        "damage_index": 0.0,
+        "initial_ettringite_mol": 0.85,
+        "final_ettringite_mol": 0.85,
+        "ettringite_increase_mol": 0.0,
+        "damage_severity": "low",
+        "status": "calculated"
+      }
+    },
+    "mixed_immersion": {
+      "portlandite_dissolution": {
+        "rate_constant": 0.00021006617779611585,
+        "half_life_days": 3299.6610298336263,
+        "initial_amount_mol": 4.2,
+        "final_amount_mol": 4.147395532174083,
+        "depletion_percent": 1.252487329188505,
+        "status": "calculated"
+      },
+      "CSH_decalcification": {
+        "rate_constant": 0.06262420103254168,
+        "initial_amount_mol": 12.5,
+        "final_amount_mol": 8.7425479380475,
+        "depletion_percent": 30.059616495620006,
+        "status": "calculated"
+      },
+      "pH_neutralization": {
+        "initial_pH": 13.72,
+        "final_pH": 13.499239949266178,
+        "pH_drop": 0.22076005073382277,
+        "neutralization_rate_per_day": 0.0036793341788970463,
+        "time_to_buffer_loss_days": null,
+        "status": "calculated"
+      },
+      "chloride_binding": {
+        "total_bound_mg_per_g": 33.473701372921184,
+        "max_friedel_mol": 0.4721255482781549,
+        "final_friedel_mol": 0.4721255482781549,
+        "binding_capacity_utilized_percent": 100.0,
+        "status": "calculated"
+      },
+      "sulfate_damage": {
+        "damage_index": 1.702702702702695,
+        "initial_ettringite_mol": 0.85,
+        "final_ettringite_mol": 0.8814999999999998,
+        "ettringite_increase_mol": 0.03149999999999986,
+        "damage_severity": "low",
+        "status": "calculated"
+      }
+    },
+    "mixed_pressure": {
+      "portlandite_dissolution": {
+        "rate_constant": 0.0006130634246760069,
+        "half_life_days": 1130.6288267421291,
+        "initial_amount_mol": 4.2,
+        "final_amount_mol": 4.048314897357353,
+        "depletion_percent": 3.6115500629201636,
+        "status": "calculated"
+      },
+      "CSH_decalcification": {
+        "rate_constant": 0.1366709600433909,
+        "initial_amount_mol": 12.5,
+        "final_amount_mol": 4.299742397396545,
+        "depletion_percent": 65.60206082082763,
+        "status": "calculated"
+      },
+      "pH_neutralization": {
+        "initial_pH": 13.72,
+        "final_pH": 13.168099873165444,
+        "pH_drop": 0.5519001268345569,
+        "neutralization_rate_per_day": 0.009198335447242615,
+        "time_to_buffer_loss_days": null,
+        "status": "calculated"
+      },
+      "chloride_binding": {
+        "total_bound_mg_per_g": 40.37996579693743,
+        "max_friedel_mol": 0.5695340732995405,
+        "final_friedel_mol": 0.5695340732995405,
+        "binding_capacity_utilized_percent": 100.0,
+        "status": "calculated"
+      },
+      "sulfate_damage": {
+        "damage_index": 4.540540540540521,
+        "initial_ettringite_mol": 0.85,
+        "final_ettringite_mol": 0.9339999999999996,
+        "ettringite_increase_mol": 0.08399999999999963,
+        "damage_severity": "low",
+        "status": "calculated"
+      }
+    }
+  },
+  "acceleration_factors": {
+    "PW": {
+      "acceleration_factor": 2.917673682046723,
+      "immersion_rate": 0.00012002160518536999,
+      "pressure_rate": 0.0003501838787263565,
+      "interpretation": "Pressure accelerates degradation by 2.9x",
+      "status": "calculated"
+    },
+    "NaCl": {
+      "acceleration_factor": 2.918026499472946,
+      "immersion_rate": 0.00016203937875922122,
+      "pressure_rate": 0.0004728352011775411,
+      "interpretation": "Pressure accelerates degradation by 2.9x",
+      "status": "calculated"
+    },
+    "mixed": {
+      "acceleration_factor": 2.918429949589641,
+      "immersion_rate": 0.00021006617779611585,
+      "pressure_rate": 0.0006130634246760069,
+      "interpretation": "Pressure accelerates degradation by 2.9x",
+      "status": "calculated"
+    }
+  }
+}

@@ -1,0 +1,1141 @@
+{
+  "metadata": {
+    "scenario": "mixed_pressure",
+    "solution_type": "mixed",
+    "condition": "pressure",
+    "duration_days": 60,
+    "timestep_days": 3.0,
+    "temperature_C": 20.0,
+    "specimen_mass_g": 5.0,
+    "solution_volume_L": 1.0,
+    "w_b_ratio": 0.3,
+    "fly_ash_replacement": 0.3,
+    "simulation_date": "2026-02-28T18:32:40.635020",
+    "model": "Thermodynamic kinetic model",
+    "database": "CEMDATA18 v1.1 principles",
+    "references": [
+      "Lothenbach et al. (2011) Cem Concr Res",
+      "Samson & Marchand (2007) Cem Concr Res",
+      "Phung et al. (2016) Cem Concr Res"
+    ]
+  },
+  "external_solution": {
+    "Ca": 0.0,
+    "Cl": 1.197,
+    "SO4": 0.07,
+    "Na": 1.337,
+    "pH": 7.3
+  },
+  "initial_phases": {
+    "portlandite": 4.2,
+    "CSH_gel": 12.5,
+    "ettringite": 0.85,
+    "monosulfate": 0.45,
+    "hydrotalcite": 0.25,
+    "AFm_CO3": 0.15,
+    "unhydrated_cement": 1.2,
+    "fly_ash_glass": 2.8
+  },
+  "time_series": [
+    {
+      "time_days": 0.0,
+      "timestep": 0,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.2,
+          "amount_kg": 0.3108,
+          "volume_cm3": 0.13874999999999998
+        },
+        "CSH_gel": {
+          "amount_mol": 12.5,
+          "Ca_Si_ratio": 1.7389999999999999,
+          "amount_kg": 2.25
+        },
+        "ettringite": {
+          "amount_mol": 0.85,
+          "amount_kg": 1.0667499999999999
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.0,
+          "amount_kg": 0.0,
+          "Cl_bound_mg_per_g": 0.0
+        }
+      },
+      "pore_solution": {
+        "pH": 13.72,
+        "Ca_mol_L": 1.9969293012355517e-05,
+        "OH_mol_L": 0.5248074602497733,
+        "ionic_strength": 0.9309037301248866
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 0.0,
+        "CSH_loss_percent": 0.0,
+        "pH_drop": 0.0
+      }
+    },
+    {
+      "time_days": 3.0,
+      "timestep": 1,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.1922825,
+          "amount_kg": 0.310228905,
+          "volume_cm3": 0.138495046875
+        },
+        "CSH_gel": {
+          "amount_mol": 11.916300079750535,
+          "Ca_Si_ratio": 1.745170431001964,
+          "amount_kg": 2.1449340143550963
+        },
+        "ettringite": {
+          "amount_mol": 0.8542,
+          "amount_kg": 1.072021
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.11641573125000003,
+          "amount_kg": 0.06530922523125002,
+          "Cl_bound_mg_per_g": 1.6507750691250007
+        }
+      },
+      "pore_solution": {
+        "pH": 13.596591379960719,
+        "Ca_mol_L": 3.5251688965097563e-05,
+        "OH_mol_L": 0.39499480151554894,
+        "ionic_strength": 0.8659974007577744
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 0.18375000000000102,
+        "CSH_loss_percent": 4.669599361995722,
+        "pH_drop": 0.12340862003928166
+      }
+    },
+    {
+      "time_days": 6.0,
+      "timestep": 2,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.18457918090625,
+          "amount_kg": 0.3096588593870625,
+          "volume_cm3": 0.1382405622263672
+        },
+        "CSH_gel": {
+          "amount_mol": 11.338869530142984,
+          "Ca_Si_ratio": 1.747726307208665,
+          "amount_kg": 2.040996515425737
+        },
+        "ettringite": {
+          "amount_mol": 0.8583999999999999,
+          "amount_kg": 1.077292
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.21018714757523438,
+          "amount_kg": 0.11791498978970649,
+          "Cl_bound_mg_per_g": 2.9804537526168238
+        }
+      },
+      "pore_solution": {
+        "pH": 13.5454738558267,
+        "Ca_mol_L": 4.4608228616557926e-05,
+        "OH_mol_L": 0.3511347858525514,
+        "ionic_strength": 0.8440673929262756
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 0.36716235937499825,
+        "CSH_loss_percent": 9.289043758856124,
+        "pH_drop": 0.17452614417330103
+      }
+    },
+    {
+      "time_days": 9.0,
+      "timestep": 3,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.176890016661335,
+          "amount_kg": 0.30908986123293875,
+          "volume_cm3": 0.13798654519327622
+        },
+        "CSH_gel": {
+          "amount_mol": 10.780928754920282,
+          "Ca_Si_ratio": 1.7496874999999998,
+          "amount_kg": 1.9405671758856506
+        },
+        "ettringite": {
+          "amount_mol": 0.8625999999999999,
+          "amount_kg": 1.0825629999999997
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.2857188512825066,
+          "amount_kg": 0.16028827556948624,
+          "Cl_bound_mg_per_g": 4.051493311185944
+        }
+      },
+      "pore_solution": {
+        "pH": 13.506250000000001,
+        "Ca_mol_L": 5.343953733674048e-05,
+        "OH_mol_L": 0.32081155328236466,
+        "ionic_strength": 0.8289057766411823
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 0.5502376985396531,
+        "CSH_loss_percent": 13.752569960637743,
+        "pH_drop": 0.21374999999999922
+      }
+    },
+    {
+      "time_days": 12.0,
+      "timestep": 4,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.1692149812557195,
+          "amount_kg": 0.3085219086129232,
+          "volume_cm3": 0.13773299491648358
+        },
+        "CSH_gel": {
+          "amount_mol": 10.244162839158015,
+          "Ca_Si_ratio": 1.7513408620039281,
+          "amount_kg": 1.8439493110484426
+        },
+        "ettringite": {
+          "amount_mol": 0.8667999999999999,
+          "amount_kg": 1.0878339999999997
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.34655869447241805,
+          "amount_kg": 0.19441942759902656,
+          "Cl_bound_mg_per_g": 4.914202287618888
+        }
+      },
+      "pore_solution": {
+        "pH": 13.473182759921436,
+        "Ca_mol_L": 6.222962295776383e-05,
+        "OH_mol_L": 0.2972916832204552,
+        "ionic_strength": 0.8171458416102275
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 0.7329766367685865,
+        "CSH_loss_percent": 18.046697286735878,
+        "pH_drop": 0.2468172400785651
+      }
+    },
+    {
+      "time_days": 15.0,
+      "timestep": 5,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.1615540487276625,
+          "amount_kg": 0.307954999605847,
+          "volume_cm3": 0.13747991053832453
+        },
+        "CSH_gel": {
+          "amount_mol": 9.729036799686323,
+          "Ca_Si_ratio": 1.7527975031708638,
+          "amount_kg": 1.7512266239435381
+        },
+        "ettringite": {
+          "amount_mol": 0.8709999999999999,
+          "amount_kg": 1.0931049999999998
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.39556442766385186,
+          "amount_kg": 0.22191164391942092,
+          "Cl_bound_mg_per_g": 5.60910358427342
+        }
+      },
+      "pore_solution": {
+        "pH": 13.444049936582722,
+        "Ca_mol_L": 7.116440397165781e-05,
+        "OH_mol_L": 0.2780032906548187,
+        "ionic_strength": 0.8075016453274093
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 0.915379792198515,
+        "CSH_loss_percent": 22.167705602509415,
+        "pH_drop": 0.27595006341727846
+      }
+    },
+    {
+      "time_days": 18.0,
+      "timestep": 6,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.153907193163126,
+          "amount_kg": 0.3073891322940713,
+          "volume_cm3": 0.13722729120271038
+        },
+        "CSH_gel": {
+          "amount_mol": 9.235519314729016,
+          "Ca_Si_ratio": 1.7541144074478625,
+          "amount_kg": 1.662393476651223
+        },
+        "ettringite": {
+          "amount_mol": 0.8751999999999999,
+          "amount_kg": 1.0983759999999998
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.43503793317788686,
+          "amount_kg": 0.24405628051279454,
+          "Cl_bound_mg_per_g": 6.168837892462436
+        }
+      },
+      "pore_solution": {
+        "pH": 13.417711851042752,
+        "Ca_mol_L": 8.034132453949408e-05,
+        "OH_mol_L": 0.2616446452692422,
+        "ionic_strength": 0.7993223226346211
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 1.0974477818303439,
+        "CSH_loss_percent": 26.11584548216787,
+        "pH_drop": 0.3022881489572491
+      }
+    },
+    {
+      "time_days": 21.0,
+      "timestep": 7,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.146274388695688,
+          "amount_kg": 0.3068243047634809,
+          "volume_cm3": 0.13697513605512537
+        },
+        "CSH_gel": {
+          "amount_mol": 8.763319769598995,
+          "Ca_Si_ratio": 1.7553254259132802,
+          "amount_kg": 1.577397558527819
+        },
+        "ettringite": {
+          "amount_mol": 0.8793999999999998,
+          "amount_kg": 1.1036469999999998
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.4668333484506232,
+          "amount_kg": 0.2618935084807996,
+          "Cl_bound_mg_per_g": 6.619696881029837
+        }
+      },
+      "pore_solution": {
+        "pH": 13.393491481734397,
+        "Ca_mol_L": 8.982138058383632e-05,
+        "OH_mol_L": 0.2474522925487469,
+        "ionic_strength": 0.7922261462743734
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 1.27918122153124,
+        "CSH_loss_percent": 29.893441843208034,
+        "pH_drop": 0.32650851826560334
+      }
+    },
+    {
+      "time_days": 24.0,
+      "timestep": 8,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.1386556095064595,
+          "amount_kg": 0.306260515103478,
+          "volume_cm3": 0.1367234442426241
+        },
+        "CSH_gel": {
+          "amount_mol": 8.31199565951215,
+          "Ca_Si_ratio": 1.75645261441733,
+          "amount_kg": 1.4961592187121868
+        },
+        "ettringite": {
+          "amount_mol": 0.8835999999999998,
+          "amount_kg": 1.1089179999999996
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.49244415801012137,
+          "amount_kg": 0.2762611726436781,
+          "Cl_bound_mg_per_g": 6.982858160583521
+        }
+      },
+      "pore_solution": {
+        "pH": 13.370947711653399,
+        "Ca_mol_L": 9.964769704545365e-05,
+        "OH_mol_L": 0.23493499459218178,
+        "ionic_strength": 0.7859674972960908
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 1.4605807260366828,
+        "CSH_loss_percent": 33.504034723902805,
+        "pH_drop": 0.34905228834660207
+      }
+    },
+    {
+      "time_days": 27.0,
+      "timestep": 9,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.131050829823991,
+          "amount_kg": 0.3056977614069753,
+          "volume_cm3": 0.13647221491382824
+        },
+        "CSH_gel": {
+          "amount_mol": 7.881010442871591,
+          "Ca_Si_ratio": 1.7575112930058923,
+          "amount_kg": 1.4185818797168863
+        },
+        "ettringite": {
+          "amount_mol": 0.8877999999999998,
+          "amount_kg": 1.1141889999999997
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5130733449751776,
+          "amount_kg": 0.2878341465310747,
+          "Cl_bound_mg_per_g": 7.2753800317480195
+        }
+      },
+      "pore_solution": {
+        "pH": 13.349774139882154,
+        "Ca_mol_L": 0.00010985362934807393,
+        "OH_mol_L": 0.22375571671561018,
+        "ionic_strength": 0.780377858357805
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 1.6416469089526,
+        "CSH_loss_percent": 36.951916457027274,
+        "pH_drop": 0.37022586011784675
+      }
+    },
+    {
+      "time_days": 30.0,
+      "timestep": 10,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.123460023924189,
+          "amount_kg": 0.30513604177039,
+          "volume_cm3": 0.1362214472189241
+        },
+        "CSH_gel": {
+          "amount_mol": 7.469768276423549,
+          "Ca_Si_ratio": 1.7585126161111215,
+          "amount_kg": 1.3445582897562387
+        },
+        "ettringite": {
+          "amount_mol": 0.8919999999999998,
+          "amount_kg": 1.1194599999999997
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5296898972106934,
+          "amount_kg": 0.297156032335199,
+          "Cl_bound_mg_per_g": 7.511002742447633
+        }
+      },
+      "pore_solution": {
+        "pH": 13.32974767777757,
+        "Ca_mol_L": 0.0001204667888363631,
+        "OH_mol_L": 0.21367203084326675,
+        "ionic_strength": 0.7753360154216333
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 1.8223803827573988,
+        "CSH_loss_percent": 40.24185378861161,
+        "pH_drop": 0.39025232222243034
+      }
+    },
+    {
+      "time_days": 33.0,
+      "timestep": 11,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.115883166130229,
+          "amount_kg": 0.3045753542936369,
+          "volume_cm3": 0.13597114030965932
+        },
+        "CSH_gel": {
+          "amount_mol": 7.0776364614151355,
+          "Ca_Si_ratio": 1.7594650044282916,
+          "amount_kg": 1.2739745630547243
+        },
+        "ettringite": {
+          "amount_mol": 0.8961999999999998,
+          "amount_kg": 1.1247309999999997
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5430743223294984,
+          "amount_kg": 0.3046646948268486,
+          "Cl_bound_mg_per_g": 7.700793890632288
+        }
+      },
+      "pore_solution": {
+        "pH": 13.310699911434167,
+        "Ca_mol_L": 0.00013151123816549246,
+        "OH_mol_L": 0.2045031073945884,
+        "ionic_strength": 0.7707515536972942
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 2.002781758804079,
+        "CSH_loss_percent": 43.378908308678916,
+        "pH_drop": 0.4093000885658338
+      }
+    },
+    {
+      "time_days": 36.0,
+      "timestep": 12,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.108320230812464,
+          "amount_kg": 0.3040156970801223,
+          "volume_cm3": 0.1357212933393403
+        },
+        "CSH_gel": {
+          "amount_mol": 6.703960721161417,
+          "Ca_Si_ratio": 1.760375,
+          "amount_kg": 1.206712929809055
+        },
+        "ettringite": {
+          "amount_mol": 0.9003999999999998,
+          "amount_kg": 1.1300019999999995
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5538553094573818,
+          "amount_kg": 0.31071282860559124,
+          "Cl_bound_mg_per_g": 7.853668288105675
+        }
+      },
+      "pore_solution": {
+        "pH": 13.2925,
+        "Ca_mol_L": 0.00014300877597408967,
+        "OH_mol_L": 0.19611011754760496,
+        "ionic_strength": 0.7665550587738025
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 2.1828516473222845,
+        "CSH_loss_percent": 46.36831423070866,
+        "pH_drop": 0.4275000000000002
+      }
+    },
+    {
+      "time_days": 39.0,
+      "timestep": 13,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.100771192388346,
+          "amount_kg": 0.30345706823673757,
+          "volume_cm3": 0.13547190546282925
+        },
+        "CSH_gel": {
+          "amount_mol": 6.348075995028364,
+          "Ca_Si_ratio": 1.7612478053692944,
+          "amount_kg": 1.1426536791051056
+        },
+        "ettringite": {
+          "amount_mol": 0.9045999999999997,
+          "amount_kg": 1.1352729999999995
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5625392598265528,
+          "amount_kg": 0.31558452476269616,
+          "Cl_bound_mg_per_g": 7.97680670434052
+        }
+      },
+      "pore_solution": {
+        "pH": 13.275043892614114,
+        "Ca_mol_L": 0.00015497973154171964,
+        "OH_mol_L": 0.1883839472891385,
+        "ionic_strength": 0.7626919736445692
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 2.3625906574203355,
+        "CSH_loss_percent": 49.215392039773086,
+        "pH_drop": 0.4449561073858863
+      }
+    },
+    {
+      "time_days": 42.0,
+      "timestep": 14,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.093236025322333,
+          "amount_kg": 0.30289946587385264,
+          "volume_cm3": 0.13522297583654133
+        },
+        "CSH_gel": {
+          "amount_mol": 6.009314272253708,
+          "Ca_Si_ratio": 1.762087638738078,
+          "amount_kg": 1.0816765690056676
+        },
+        "ettringite": {
+          "amount_mol": 0.9087999999999997,
+          "amount_kg": 1.1405439999999996
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5695340732995405,
+          "amount_kg": 0.3195086151210423,
+          "Cl_bound_mg_per_g": 8.075993159387485
+        }
+      },
+      "pore_solution": {
+        "pH": 13.25824722523844,
+        "Ca_mol_L": 0.00016744347907207333,
+        "OH_mol_L": 0.18123715044573807,
+        "ionic_strength": 0.7591185752228691
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 2.541999397087319,
+        "CSH_loss_percent": 51.92548582197033,
+        "pH_drop": 0.4617527747615604
+      }
+    },
+    {
+      "time_days": 45.0,
+      "timestep": 15,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.085714704125803,
+          "amount_kg": 0.3023428881053094,
+          "volume_cm3": 0.13497450361844168
+        },
+        "CSH_gel": {
+          "amount_mol": 5.687010385575259,
+          "Ca_Si_ratio": 1.762897976509529,
+          "amount_kg": 1.0236618694035466
+        },
+        "ettringite": {
+          "amount_mol": 0.9129999999999997,
+          "amount_kg": 1.1458149999999996
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5695340732995405,
+          "amount_kg": 0.3195086151210423,
+          "Cl_bound_mg_per_g": 8.075993159387485
+        }
+      },
+      "pore_solution": {
+        "pH": 13.242040469809421,
+        "Ca_mol_L": 0.00018041878336512934,
+        "OH_mol_L": 0.17459848452520174,
+        "ionic_strength": 0.7557992422626009
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 2.721078473195164,
+        "CSH_loss_percent": 54.50391691539793,
+        "pH_drop": 0.4779595301905797
+      }
+    },
+    {
+      "time_days": 48.0,
+      "timestep": 16,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.078207203356972,
+          "amount_kg": 0.30178733304841593,
+          "volume_cm3": 0.13472648796804282
+        },
+        "CSH_gel": {
+          "amount_mol": 5.380506349105567,
+          "Ca_Si_ratio": 1.7636817240078564,
+          "amount_kg": 0.9684911428390021
+        },
+        "ettringite": {
+          "amount_mol": 0.9171999999999997,
+          "amount_kg": 1.1510859999999996
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5695340732995405,
+          "amount_kg": 0.3195086151210423,
+          "Cl_bound_mg_per_g": 8.075993159387485
+        }
+      },
+      "pore_solution": {
+        "pH": 13.22636551984287,
+        "Ca_mol_L": 0.00019392403982802073,
+        "OH_mol_L": 0.1684090863913927,
+        "ionic_strength": 0.7527045431956964
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 2.899828491500669,
+        "CSH_loss_percent": 56.95594920715546,
+        "pH_drop": 0.4936344801571302
+      }
+    },
+    {
+      "time_days": 51.0,
+      "timestep": 17,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.070713497620804,
+          "amount_kg": 0.30123279882393944,
+          "volume_cm3": 0.13447892804640152
+        },
+        "CSH_gel": {
+          "amount_mol": 5.08915462768543,
+          "Ca_Si_ratio": 1.7644413387766837,
+          "amount_kg": 0.9160478329833773
+        },
+        "ettringite": {
+          "amount_mol": 0.9213999999999997,
+          "amount_kg": 1.1563569999999994
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5695340732995405,
+          "amount_kg": 0.3195086151210423,
+          "Cl_bound_mg_per_g": 8.075993159387485
+        }
+      },
+      "pore_solution": {
+        "pH": 13.211173224466323,
+        "Ca_mol_L": 0.00020797744593874487,
+        "OH_mol_L": 0.1626197258073064,
+        "ionic_strength": 0.7498098629036531
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 3.078250056647535,
+        "CSH_loss_percent": 59.28676297851656,
+        "pH_drop": 0.5088267755336773
+      }
+    },
+    {
+      "time_days": 54.0,
+      "timestep": 18,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.063233561568926,
+          "amount_kg": 0.3006792835561005,
+          "volume_cm3": 0.1342318230161163
+        },
+        "CSH_gel": {
+          "amount_mol": 4.812320603546393,
+          "Ca_Si_ratio": 1.7651789216259952,
+          "amount_kg": 0.8662177086383507
+        },
+        "ettringite": {
+          "amount_mol": 0.9255999999999996,
+          "amount_kg": 1.1616279999999994
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5695340732995405,
+          "amount_kg": 0.3195086151210423,
+          "Cl_bound_mg_per_g": 8.075993159387485
+        }
+      },
+      "pore_solution": {
+        "pH": 13.196421567480096,
+        "Ca_mol_L": 0.0002225971269071386,
+        "OH_mol_L": 0.15718878877242745,
+        "ionic_strength": 0.7470943943862137
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 3.256343772168435,
+        "CSH_loss_percent": 61.50143517162886,
+        "pH_drop": 0.5235784325199049
+      }
+    },
+    {
+      "time_days": 57.0,
+      "timestep": 19,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.055767369899543,
+          "amount_kg": 0.3001267853725662,
+          "volume_cm3": 0.13398517204132418
+        },
+        "CSH_gel": {
+          "amount_mol": 4.549384428376967,
+          "Ca_Si_ratio": 1.7658962851756521,
+          "amount_kg": 0.818889197107854
+        },
+        "ettringite": {
+          "amount_mol": 0.9297999999999996,
+          "amount_kg": 1.1668989999999995
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5695340732995405,
+          "amount_kg": 0.3195086151210423,
+          "Cl_bound_mg_per_g": 8.075993159387485
+        }
+      },
+      "pore_solution": {
+        "pH": 13.18207429648696,
+        "Ca_mol_L": 0.00023780122994124334,
+        "OH_mol_L": 0.15208076781069316,
+        "ionic_strength": 0.7445403839053466
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 3.4341102404870676,
+        "CSH_loss_percent": 63.60492457298427,
+        "pH_drop": 0.5379257035130411
+      }
+    },
+    {
+      "time_days": 60.0,
+      "timestep": 20,
+      "phase_assemblage": {
+        "portlandite": {
+          "amount_mol": 4.048314897357353,
+          "amount_kg": 0.29957530240444413,
+          "volume_cm3": 0.13373897428769826
+        },
+        "CSH_gel": {
+          "amount_mol": 4.299742397396545,
+          "Ca_Si_ratio": 1.7665950063417277,
+          "amount_kg": 0.7739536315313781
+        },
+        "ettringite": {
+          "amount_mol": 0.9339999999999996,
+          "amount_kg": 1.1721699999999995
+        },
+        "monosulfate": {
+          "amount_mol": 0.45,
+          "amount_kg": 0.2799
+        },
+        "hydrotalcite": {
+          "amount_mol": 0.25,
+          "amount_kg": 0.11075
+        },
+        "unhydrated_cement": {
+          "amount_mol": 1.2
+        },
+        "fly_ash_glass": {
+          "amount_mol": 2.8
+        },
+        "friedel_salt": {
+          "amount_mol": 0.5695340732995405,
+          "amount_kg": 0.3195086151210423,
+          "Cl_bound_mg_per_g": 8.075993159387485
+        }
+      },
+      "pore_solution": {
+        "pH": 13.168099873165444,
+        "Ca_mol_L": 0.0002536079965128383,
+        "OH_mol_L": 0.14726511238640685,
+        "ionic_strength": 0.7421325561932034
+      },
+      "degradation_metrics": {
+        "portlandite_loss_percent": 3.6115500629201636,
+        "CSH_loss_percent": 65.60206082082763,
+        "pH_drop": 0.5519001268345569
+      }
+    }
+  ],
+  "final_state": {
+    "time_days": 60.0,
+    "timestep": 20,
+    "phase_assemblage": {
+      "portlandite": {
+        "amount_mol": 4.048314897357353,
+        "amount_kg": 0.29957530240444413,
+        "volume_cm3": 0.13373897428769826
+      },
+      "CSH_gel": {
+        "amount_mol": 4.299742397396545,
+        "Ca_Si_ratio": 1.7665950063417277,
+        "amount_kg": 0.7739536315313781
+      },
+      "ettringite": {
+        "amount_mol": 0.9339999999999996,
+        "amount_kg": 1.1721699999999995
+      },
+      "monosulfate": {
+        "amount_mol": 0.45,
+        "amount_kg": 0.2799
+      },
+      "hydrotalcite": {
+        "amount_mol": 0.25,
+        "amount_kg": 0.11075
+      },
+      "unhydrated_cement": {
+        "amount_mol": 1.2
+      },
+      "fly_ash_glass": {
+        "amount_mol": 2.8
+      },
+      "friedel_salt": {
+        "amount_mol": 0.5695340732995405,
+        "amount_kg": 0.3195086151210423,
+        "Cl_bound_mg_per_g": 8.075993159387485
+      }
+    },
+    "pore_solution": {
+      "pH": 13.168099873165444,
+      "Ca_mol_L": 0.0002536079965128383,
+      "OH_mol_L": 0.14726511238640685,
+      "ionic_strength": 0.7421325561932034
+    },
+    "degradation_metrics": {
+      "portlandite_loss_percent": 3.6115500629201636,
+      "CSH_loss_percent": 65.60206082082763,
+      "pH_drop": 0.5519001268345569
+    }
+  }
+}

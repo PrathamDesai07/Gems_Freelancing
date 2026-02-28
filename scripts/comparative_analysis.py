@@ -83,37 +83,42 @@ def extract_final_metrics(sim_data: Dict, scenario_name: str) -> Dict:
         metrics['condition'] = 'Immersion'
         metrics['water_contact_kg'] = 10.0
     
-    # Extract degradation metrics if available
-    if 'degradation_metrics' in sim_data:
-        deg_metrics = sim_data['degradation_metrics']
+    # Extract degradation metrics from final_state
+    if 'final_state' in sim_data and 'degradation_metrics' in sim_data['final_state']:
+        deg_metrics = sim_data['final_state']['degradation_metrics']
         
         # Portlandite consumption
-        metrics['portlandite_consumed_mol'] = deg_metrics.get('portlandite_consumed_mol', 0)
-        metrics['portlandite_consumed_percent'] = deg_metrics.get('portlandite_consumed_percent', 0)
+        metrics['portlandite_consumed_percent'] = deg_metrics.get('portlandite_loss_percent', 0)
         
         # C-S-H decalcification
-        metrics['CSH_consumed_mol'] = deg_metrics.get('CSH_consumed_mol', 0)
-        metrics['CSH_consumed_percent'] = deg_metrics.get('CSH_consumed_percent', 0)
+        metrics['CSH_consumed_percent'] = deg_metrics.get('CSH_loss_percent', 0)
         
         # pH evolution
-        metrics['initial_pH'] = deg_metrics.get('initial_pH', 13.7)
-        metrics['final_pH'] = deg_metrics.get('final_pH', 12.0)
-        metrics['pH_drop'] = deg_metrics.get('pH_drop', 1.7)
+        metrics['initial_pH'] = 13.72  # From client data
+        if 'pore_solution' in sim_data['final_state']:
+            metrics['final_pH'] = sim_data['final_state']['pore_solution'].get('pH', 12.0)
+        else:
+            metrics['final_pH'] = 13.72 - deg_metrics.get('pH_drop', 0)
+        metrics['pH_drop'] = deg_metrics.get('pH_drop', 0)
         
-        # Porosity
-        metrics['initial_porosity'] = deg_metrics.get('initial_porosity', 0.28)
-        metrics['final_porosity'] = deg_metrics.get('final_porosity', 0.30)
-        metrics['porosity_increase'] = deg_metrics.get('porosity_increase', 0.02)
+        # Porosity (estimate from phase loss)
+        initial_porosity = 0.28 + 0.02 * 0.30  # w/b=0.3 with FA
+        porosity_increase = (deg_metrics.get('portlandite_loss_percent', 0) * 0.0015 +
+                            deg_metrics.get('CSH_loss_percent', 0) * 0.0020)
+        metrics['initial_porosity'] = initial_porosity
+        metrics['final_porosity'] = initial_porosity + porosity_increase
+        metrics['porosity_increase'] = porosity_increase
         
         # Chloride binding (NaCl scenarios)
-        if 'chloride_bound_mg_per_g' in deg_metrics:
-            metrics['chloride_bound_mg_per_g'] = deg_metrics['chloride_bound_mg_per_g']
-            metrics['Friedel_salt_formed_mol'] = deg_metrics.get('Friedel_salt_formed_mol', 0)
+        if 'friedel_salt' in sim_data['final_state']['phase_assemblage']:
+            friedel = sim_data['final_state']['phase_assemblage']['friedel_salt']
+            metrics['Friedel_salt_formed_mol'] = friedel.get('amount_mol', 0)
+            metrics['chloride_bound_mg_per_g'] = friedel.get('Cl_bound_mg_per_g', 0)
         
-        # Sulfate phases (mixed salt scenarios)
-        if 'ettringite_formed_mol' in deg_metrics:
-            metrics['ettringite_formed_mol'] = deg_metrics['ettringite_formed_mol']
-            metrics['gypsum_formed_mol'] = deg_metrics.get('gypsum_formed_mol', 0)
+        # Ettringite (sulfate scenarios)
+        if 'ettringite' in sim_data['final_state']['phase_assemblage']:
+            ett = sim_data['final_state']['phase_assemblage']['ettringite']
+            metrics['ettringite_amount_mol'] = ett.get('amount_mol', 0)
     
     else:
         # Use placeholder values based on expected degradation

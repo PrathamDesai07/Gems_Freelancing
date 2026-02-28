@@ -1,0 +1,380 @@
+{
+  "comparative_analysis_info": {
+    "description": "Phase 6: Comparative analysis of 6 degradation scenarios",
+    "analysis_date": "2026-02-28",
+    "total_scenarios": 6,
+    "scenarios_with_data": 6
+  },
+  "scenario_metrics": [
+    {
+      "scenario": "PW_immersion",
+      "solution": "Pure Water",
+      "condition": "Immersion",
+      "simulation_status": "available",
+      "water_contact_kg": 10.0,
+      "portlandite_consumed_percent": 0.7175429106555902,
+      "CSH_consumed_percent": 19.60624744264858,
+      "initial_pH": 13.72,
+      "final_pH": 13.603810499613779,
+      "pH_drop": 0.11618950038622167,
+      "initial_porosity": 0.28600000000000003,
+      "final_porosity": 0.32628880925128056,
+      "porosity_increase": 0.04028880925128055,
+      "ettringite_amount_mol": 0.85,
+      "severity_score": 0.2499542392027951
+    },
+    {
+      "scenario": "PW_pressure",
+      "solution": "Pure Water",
+      "condition": "Pressure (1.2 MPa)",
+      "simulation_status": "available",
+      "water_contact_kg": 40.0,
+      "portlandite_consumed_percent": 2.07918388231077,
+      "CSH_consumed_percent": 46.582663144421325,
+      "initial_pH": 13.72,
+      "final_pH": 13.429526249034444,
+      "pH_drop": 0.29047375096555683,
+      "initial_porosity": 0.28600000000000003,
+      "final_porosity": 0.38228410211230884,
+      "porosity_increase": 0.09628410211230881,
+      "ettringite_amount_mol": 0.85,
+      "severity_score": 0.6346841685277036
+    },
+    {
+      "scenario": "NaCl_immersion",
+      "solution": "NaCl (70 g/L)",
+      "condition": "Immersion",
+      "simulation_status": "available",
+      "water_contact_kg": 10.0,
+      "portlandite_consumed_percent": 0.9675253352155968,
+      "CSH_consumed_percent": 24.091413207137933,
+      "initial_pH": 13.72,
+      "final_pH": 13.55733469945929,
+      "pH_drop": 0.16266530054071104,
+      "initial_porosity": 0.28600000000000003,
+      "final_porosity": 0.3356341144170993,
+      "porosity_increase": 0.049634114417099265,
+      "Friedel_salt_formed_mol": 0.4721255482781549,
+      "chloride_bound_mg_per_g": 6.694740274584237,
+      "ettringite_amount_mol": 0.85,
+      "severity_score": 0.32100162482269545
+    },
+    {
+      "scenario": "NaCl_pressure",
+      "solution": "NaCl (70 g/L)",
+      "condition": "Pressure (1.2 MPa)",
+      "simulation_status": "available",
+      "water_contact_kg": 40.0,
+      "portlandite_consumed_percent": 2.7971459278574082,
+      "CSH_consumed_percent": 55.300953411639,
+      "initial_pH": 13.72,
+      "final_pH": 13.313336748648222,
+      "pH_drop": 0.4066632513517785,
+      "initial_porosity": 0.28600000000000003,
+      "final_porosity": 0.40079762571506417,
+      "porosity_increase": 0.11479762571506412,
+      "Friedel_salt_formed_mol": 0.5695340732995405,
+      "chloride_bound_mg_per_g": 8.075993159387485,
+      "ettringite_amount_mol": 0.85,
+      "severity_score": 0.8026820023292385
+    },
+    {
+      "scenario": "mixed_immersion",
+      "solution": "Mixed Salts (NaCl+Na2SO4)",
+      "condition": "Immersion",
+      "simulation_status": "available",
+      "water_contact_kg": 10.0,
+      "portlandite_consumed_percent": 1.252487329188505,
+      "CSH_consumed_percent": 30.059616495620006,
+      "initial_pH": 13.72,
+      "final_pH": 13.499239949266178,
+      "pH_drop": 0.22076005073382277,
+      "initial_porosity": 0.28600000000000003,
+      "final_porosity": 0.3479979639850228,
+      "porosity_increase": 0.061997963985022775,
+      "Friedel_salt_formed_mol": 0.4721255482781549,
+      "chloride_bound_mg_per_g": 6.694740274584237,
+      "ettringite_amount_mol": 0.8814999999999998,
+      "severity_score": 0.40982325292402694
+    },
+    {
+      "scenario": "mixed_pressure",
+      "solution": "Mixed Salts (NaCl+Na2SO4)",
+      "condition": "Pressure (1.2 MPa)",
+      "simulation_status": "available",
+      "water_contact_kg": 40.0,
+      "portlandite_consumed_percent": 3.6115500629201636,
+      "CSH_consumed_percent": 65.60206082082763,
+      "initial_pH": 13.72,
+      "final_pH": 13.168099873165444,
+      "pH_drop": 0.5519001268345569,
+      "initial_porosity": 0.28600000000000003,
+      "final_porosity": 0.4226214467360355,
+      "porosity_increase": 0.13662144673603552,
+      "Friedel_salt_formed_mol": 0.5695340732995405,
+      "chloride_bound_mg_per_g": 8.075993159387485,
+      "ettringite_amount_mol": 0.9339999999999996,
+      "severity_score": 1.0
+    }
+  ],
+  "degradation_ranking": {
+    "ranking_by_portlandite_loss": [
+      {
+        "rank": 1,
+        "scenario": "mixed_pressure",
+        "portlandite_consumed_percent": 3.6115500629201636
+      },
+      {
+        "rank": 2,
+        "scenario": "NaCl_pressure",
+        "portlandite_consumed_percent": 2.7971459278574082
+      },
+      {
+        "rank": 3,
+        "scenario": "PW_pressure",
+        "portlandite_consumed_percent": 2.07918388231077
+      },
+      {
+        "rank": 4,
+        "scenario": "mixed_immersion",
+        "portlandite_consumed_percent": 1.252487329188505
+      },
+      {
+        "rank": 5,
+        "scenario": "NaCl_immersion",
+        "portlandite_consumed_percent": 0.9675253352155968
+      },
+      {
+        "rank": 6,
+        "scenario": "PW_immersion",
+        "portlandite_consumed_percent": 0.7175429106555902
+      }
+    ],
+    "ranking_by_CSH_loss": [
+      {
+        "rank": 1,
+        "scenario": "mixed_pressure",
+        "CSH_consumed_percent": 65.60206082082763
+      },
+      {
+        "rank": 2,
+        "scenario": "NaCl_pressure",
+        "CSH_consumed_percent": 55.300953411639
+      },
+      {
+        "rank": 3,
+        "scenario": "PW_pressure",
+        "CSH_consumed_percent": 46.582663144421325
+      },
+      {
+        "rank": 4,
+        "scenario": "mixed_immersion",
+        "CSH_consumed_percent": 30.059616495620006
+      },
+      {
+        "rank": 5,
+        "scenario": "NaCl_immersion",
+        "CSH_consumed_percent": 24.091413207137933
+      },
+      {
+        "rank": 6,
+        "scenario": "PW_immersion",
+        "CSH_consumed_percent": 19.60624744264858
+      }
+    ],
+    "ranking_by_pH_drop": [
+      {
+        "rank": 1,
+        "scenario": "mixed_pressure",
+        "pH_drop": 0.5519001268345569,
+        "final_pH": 13.168099873165444
+      },
+      {
+        "rank": 2,
+        "scenario": "NaCl_pressure",
+        "pH_drop": 0.4066632513517785,
+        "final_pH": 13.313336748648222
+      },
+      {
+        "rank": 3,
+        "scenario": "PW_pressure",
+        "pH_drop": 0.29047375096555683,
+        "final_pH": 13.429526249034444
+      },
+      {
+        "rank": 4,
+        "scenario": "mixed_immersion",
+        "pH_drop": 0.22076005073382277,
+        "final_pH": 13.499239949266178
+      },
+      {
+        "rank": 5,
+        "scenario": "NaCl_immersion",
+        "pH_drop": 0.16266530054071104,
+        "final_pH": 13.55733469945929
+      },
+      {
+        "rank": 6,
+        "scenario": "PW_immersion",
+        "pH_drop": 0.11618950038622167,
+        "final_pH": 13.603810499613779
+      }
+    ],
+    "ranking_by_porosity_increase": [
+      {
+        "rank": 1,
+        "scenario": "mixed_pressure",
+        "porosity_increase": 0.13662144673603552,
+        "final_porosity": 0.4226214467360355
+      },
+      {
+        "rank": 2,
+        "scenario": "NaCl_pressure",
+        "porosity_increase": 0.11479762571506412,
+        "final_porosity": 0.40079762571506417
+      },
+      {
+        "rank": 3,
+        "scenario": "PW_pressure",
+        "porosity_increase": 0.09628410211230881,
+        "final_porosity": 0.38228410211230884
+      },
+      {
+        "rank": 4,
+        "scenario": "mixed_immersion",
+        "porosity_increase": 0.061997963985022775,
+        "final_porosity": 0.3479979639850228
+      },
+      {
+        "rank": 5,
+        "scenario": "NaCl_immersion",
+        "porosity_increase": 0.049634114417099265,
+        "final_porosity": 0.3356341144170993
+      },
+      {
+        "rank": 6,
+        "scenario": "PW_immersion",
+        "porosity_increase": 0.04028880925128055,
+        "final_porosity": 0.32628880925128056
+      }
+    ],
+    "overall_severity_ranking": [
+      {
+        "rank": 1,
+        "scenario": "mixed_pressure",
+        "severity_score": 1.0,
+        "degradation_level": "Very Severe"
+      },
+      {
+        "rank": 2,
+        "scenario": "NaCl_pressure",
+        "severity_score": 0.8026820023292385,
+        "degradation_level": "Very Severe"
+      },
+      {
+        "rank": 3,
+        "scenario": "PW_pressure",
+        "severity_score": 0.6346841685277036,
+        "degradation_level": "Severe"
+      },
+      {
+        "rank": 4,
+        "scenario": "mixed_immersion",
+        "severity_score": 0.40982325292402694,
+        "degradation_level": "Moderate"
+      },
+      {
+        "rank": 5,
+        "scenario": "NaCl_immersion",
+        "severity_score": 0.32100162482269545,
+        "degradation_level": "Mild"
+      },
+      {
+        "rank": 6,
+        "scenario": "PW_immersion",
+        "severity_score": 0.2499542392027951,
+        "degradation_level": "Mild"
+      }
+    ]
+  },
+  "solution_effect_analysis": {
+    "pure_water": {
+      "scenarios": [
+        "PW_immersion",
+        "PW_pressure"
+      ],
+      "avg_severity": 0.44231920386524937
+    },
+    "NaCl": {
+      "scenarios": [
+        "NaCl_immersion",
+        "NaCl_pressure"
+      ],
+      "avg_severity": 0.561841813575967
+    },
+    "mixed_salts": {
+      "scenarios": [
+        "mixed_immersion",
+        "mixed_pressure"
+      ],
+      "avg_severity": 0.7049116264620134
+    },
+    "solution_ranking": [
+      {
+        "rank": 1,
+        "solution": "Mixed Salts",
+        "avg_severity_score": 0.7049116264620134
+      },
+      {
+        "rank": 2,
+        "solution": "NaCl",
+        "avg_severity_score": 0.561841813575967
+      },
+      {
+        "rank": 3,
+        "solution": "Pure Water",
+        "avg_severity_score": 0.44231920386524937
+      }
+    ]
+  },
+  "pressure_effect_analysis": {
+    "immersion": {
+      "scenarios": [
+        "PW_immersion",
+        "NaCl_immersion",
+        "mixed_immersion"
+      ],
+      "avg_severity": 0.32692637231650584
+    },
+    "pressure": {
+      "scenarios": [
+        "PW_pressure",
+        "NaCl_pressure",
+        "mixed_pressure"
+      ],
+      "avg_severity": 0.8124553902856473
+    },
+    "acceleration_factor": 2.4851326141994083,
+    "pressure_effect_summary": "Significant acceleration: 2.49\u00d7 more severe degradation under pressure"
+  },
+  "key_findings": {
+    "most_severe_scenario": {
+      "rank": 1,
+      "scenario": "mixed_pressure",
+      "severity_score": 1.0,
+      "degradation_level": "Very Severe"
+    },
+    "least_severe_scenario": {
+      "rank": 6,
+      "scenario": "PW_immersion",
+      "severity_score": 0.2499542392027951,
+      "degradation_level": "Mild"
+    },
+    "most_aggressive_solution": {
+      "rank": 1,
+      "solution": "Mixed Salts",
+      "avg_severity_score": 0.7049116264620134
+    },
+    "pressure_acceleration_factor": 2.4851326141994083
+  }
+}

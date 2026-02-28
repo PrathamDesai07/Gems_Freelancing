@@ -309,26 +309,28 @@ def plot_chloride_binding(scenarios: List[str], outputs_dir: str, figures_dir: s
             time_series = data['time_series']
             times = [step.get('time_days', i*3) for i, step in enumerate(time_series)]
             
-            # Extract Friedel's salt
+            # Extract Friedel's salt and chloride binding
             friedel_values = []
-            for step in time_series:
-                phases = step.get('phase_assemblage', {})
-                friedel = phases.get('friedel_salt', {}).get('amount_mol', 0)
-                friedel_values.append(friedel)
-            
-            # Extract total chloride bound (if available)
             cl_bound = []
             for step in time_series:
-                if 'chloride_binding' in step:
-                    cl_bound.append(step['chloride_binding'].get('total_bound_mg_per_g', 0))
+                phases = step.get('phase_assemblage', {})
+                friedel_data = phases.get('friedel_salt', {})
+                friedel_mol = friedel_data.get('amount_mol', 0)
+                friedel_values.append(friedel_mol)
+                
+                # Calculate chloride bound from Friedel's salt
+                # 1 mol Friedel binds 2 mol Cl (from CaCl2)
+                # Cl_bound (mg/g) = Friedel (mol) × 2 × 35.45 (MW Cl) × 1000 / paste_mass (g)
+                cl_mg_per_g = friedel_data.get('Cl_bound_mg_per_g', 0)
+                cl_bound.append(cl_mg_per_g)
             
             # Plot Friedel's salt formation
             ls = '--' if 'pressure' in scenario else '-'
             ax1.plot(times, friedel_values, color=colors.get(scenario, 'black'),
                     linestyle=ls, linewidth=2, label=scenario.replace('_', ' '))
             
-            # Plot total chloride binding if available
-            if cl_bound:
+            # Plot total chloride binding
+            if max(cl_bound) > 0:
                 ax2.plot(times, cl_bound, color=colors.get(scenario, 'black'),
                         linestyle=ls, linewidth=2, label=scenario.replace('_', ' '))
     
@@ -381,12 +383,13 @@ def plot_degradation_comparison(comparative_report: str, figures_dir: str):
     fig.suptitle('Degradation Metrics Comparison', fontsize=14, fontweight='bold')
     
     scenarios = [m['scenario'] for m in available]
-    colors_list = ['blue' if 'PW' in s else ('green' if 'NaCl' in s else 'red') for s in scenarios]
-    alphas = [0.7 if 'immersion' in s else 1.0 for s in scenarios]
     
     # Portlandite consumption
     CH_consumed = [m.get('portlandite_consumed_percent', 0) for m in available]
-    bars1 = ax1.bar(range(len(scenarios)), CH_consumed, color=colors_list, alpha=alphas, edgecolor='black')
+    for i, (scenario, value) in enumerate(zip(scenarios, CH_consumed)):
+        color = 'blue' if 'PW' in scenario else ('green' if 'NaCl' in scenario else 'red')
+        alpha = 0.7 if 'immersion' in scenario else 1.0
+        ax1.bar(i, value, color=color, alpha=alpha, edgecolor='black')
     ax1.set_ylabel('Portlandite Consumed (%)', fontweight='bold')
     ax1.set_title('Portlandite Consumption', fontweight='bold')
     ax1.grid(True, axis='y', alpha=0.3)
@@ -395,7 +398,10 @@ def plot_degradation_comparison(comparative_report: str, figures_dir: str):
     
     # C-S-H decalcification
     CSH_consumed = [m.get('CSH_consumed_percent', 0) for m in available]
-    bars2 = ax2.bar(range(len(scenarios)), CSH_consumed, color=colors_list, alpha=alphas, edgecolor='black')
+    for i, (scenario, value) in enumerate(zip(scenarios, CSH_consumed)):
+        color = 'blue' if 'PW' in scenario else ('green' if 'NaCl' in scenario else 'red')
+        alpha = 0.7 if 'immersion' in scenario else 1.0
+        ax2.bar(i, value, color=color, alpha=alpha, edgecolor='black')
     ax2.set_ylabel('C-S-H Consumed (%)', fontweight='bold')
     ax2.set_title('C-S-H Decalcification', fontweight='bold')
     ax2.grid(True, axis='y', alpha=0.3)
@@ -404,7 +410,10 @@ def plot_degradation_comparison(comparative_report: str, figures_dir: str):
     
     # pH drop
     pH_drop = [m.get('pH_drop', 0) for m in available]
-    bars3 = ax3.bar(range(len(scenarios)), pH_drop, color=colors_list, alpha=alphas, edgecolor='black')
+    for i, (scenario, value) in enumerate(zip(scenarios, pH_drop)):
+        color = 'blue' if 'PW' in scenario else ('green' if 'NaCl' in scenario else 'red')
+        alpha = 0.7 if 'immersion' in scenario else 1.0
+        ax3.bar(i, value, color=color, alpha=alpha, edgecolor='black')
     ax3.set_ylabel('pH Drop', fontweight='bold')
     ax3.set_title('pH Decrease', fontweight='bold')
     ax3.grid(True, axis='y', alpha=0.3)
@@ -413,7 +422,10 @@ def plot_degradation_comparison(comparative_report: str, figures_dir: str):
     
     # Porosity increase
     por_increase = [m.get('porosity_increase', 0) for m in available]
-    bars4 = ax4.bar(range(len(scenarios)), por_increase, color=colors_list, alpha=alphas, edgecolor='black')
+    for i, (scenario, value) in enumerate(zip(scenarios, por_increase)):
+        color = 'blue' if 'PW' in scenario else ('green' if 'NaCl' in scenario else 'red')
+        alpha = 0.7 if 'immersion' in scenario else 1.0
+        ax4.bar(i, value, color=color, alpha=alpha, edgecolor='black')
     ax4.set_ylabel('Porosity Increase', fontweight='bold')
     ax4.set_title('Porosity Change', fontweight='bold')
     ax4.grid(True, axis='y', alpha=0.3)
